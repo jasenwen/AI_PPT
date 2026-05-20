@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  
+  <rect x="80" y="145" width="1120" height="1" fill="#E0E5EC" />
+  
+  
+  <g id="header">
+    <text x="80" y="100" font-family="Arial, Microsoft YaHei, sans-serif" font-size="32" font-weight="bold" fill="#1A3A5C">关键技术深度解析</text>
+    <text x="80" y="125" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">聚焦核心技术架构与业务赋能价值</text>
+  </g>
+
+  
+  <g id="card-1">
+    <path fill="#F5F7FA" stroke="#E0E5EC" stroke-width="1" d="M92,180 H588 A12,12 0 0 1 600,192 V388 A12,12 0 0 1 588,400 H92 A12,12 0 0 1 80,388 V192 A12,12 0 0 1 92,180 Z" />
+    
+    <g id="icon-1">
+      <circle cx="110" cy="210" r="6" fill="#2B7FC3" />
+      <circle cx="130" cy="195" r="6" fill="#2B7FC3" />
+      <circle cx="130" cy="225" r="6" fill="#2B7FC3" />
+      <line x1="110" y1="210" x2="130" y2="195" stroke="#2B7FC3" stroke-width="2" />
+      <line x1="110" y1="210" x2="130" y2="225" stroke="#2B7FC3" stroke-width="2" />
+      <line x1="130" y1="195" x2="130" y2="225" stroke="#2B7FC3" stroke-width="2" />
+    </g>
+    
+    <text x="130" y="230" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识表示学习</text>
+    
+    <text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="130" y="265">将非结构化业务数据转化为高维向量，</text><text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="130" y="289">支撑智能检索、个性化推荐与语义理解。</text><path fill="#2B7FC3" opacity="0.1" d="M143,305 H257 A13,13 0 0 1 270,318 V318 A13,13 0 0 1 257,331 H143 A13,13 0 0 1 130,318 V318 A13,13 0 0 1 143,305 Z" />
+    <text x="200" y="322" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12" font-weight="bold" fill="#2B7FC3" text-anchor="middle">业务价值：数据资产化</text>
+  </g>
+
+  
+  <g id="card-2">
+    <path fill="#F5F7FA" stroke="#E0E5EC" stroke-width="1" d="M692,180 H1188 A12,12 0 0 1 1200,192 V388 A12,12 0 0 1 1188,400 H692 A12,12 0 0 1 680,388 V192 A12,12 0 0 1 692,180 Z" />
+    
+    <g id="icon-2">
+      <circle cx="110" cy="210" r="5" fill="#2B7FC3" />
+      <circle cx="125" cy="200" r="5" fill="#2B7FC3" />
+      <circle cx="125" cy="220" r="5" fill="#2B7FC3" />
+      <circle cx="140" cy="210" r="5" fill="#2B7FC3" />
+      <line x1="110" y1="210" x2="125" y2="200" stroke="#2B7FC3" stroke-width="1.5" />
+      <line x1="110" y1="210" x2="125" y2="220" stroke="#2B7FC3" stroke-width="1.5" />
+      <line x1="125" y1="200" x2="140" y2="210" stroke="#2B7FC3" stroke-width="1.5" />
+      <line x1="125" y1="220" x2="140" y2="210" stroke="#2B7FC3" stroke-width="1.5" />
+    </g>
+    <text x="700" y="230" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">图神经网络</text>
+    <text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="700" y="265">基于GCN/GAT算法挖掘实体深层拓扑</text><text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="700" y="289">关联，精准识别欺诈网络与用户画像。</text><path fill="#2B7FC3" opacity="0.1" d="M713,305 H827 A13,13 0 0 1 840,318 V318 A13,13 0 0 1 827,331 H713 A13,13 0 0 1 700,318 V318 A13,13 0 0 1 713,305 Z" />
+    <text x="770" y="322" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12" font-weight="bold" fill="#2B7FC3" text-anchor="middle">业务价值：风险洞察</text>
+  </g>
+
+  
+  <g id="card-3">
+    <path fill="#F5F7FA" stroke="#E0E5EC" stroke-width="1" d="M92,440 H588 A12,12 0 0 1 600,452 V648 A12,12 0 0 1 588,660 H92 A12,12 0 0 1 80,648 V452 A12,12 0 0 1 92,440 Z" />
+    
+    <g id="icon-3">
+      <path d="M105,205 h10 v5 h5 v10 h-5 v5 h-10 v-5 h-5 v-10 h5 z" fill="none" stroke="#2B7FC3" stroke-width="2" />
+      <path d="M120,205 h10 v5 h5 v10 h-5 v5 h-10 v-5 h-5 v-10 h5 z" fill="none" stroke="#2B7FC3" stroke-width="2" />
+      <line x1="115" y1="210" x2="120" y2="210" stroke="#2B7FC3" stroke-width="2" />
+    </g>
+    <text x="130" y="490" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识图谱补全</text>
+    <text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="130" y="525">利用链接预测自动推断缺失关系，</text><text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="130" y="549">修复数据断层，保障决策数据可靠性。</text><path fill="#2B7FC3" opacity="0.1" d="M143,565 H257 A13,13 0 0 1 270,578 V578 A13,13 0 0 1 257,591 H143 A13,13 0 0 1 130,578 V578 A13,13 0 0 1 143,565 Z" />
+    <text x="200" y="582" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12" font-weight="bold" fill="#2B7FC3" text-anchor="middle">业务价值：数据完整性</text>
+  </g>
+
+  
+  <g id="card-4">
+    <path fill="#F5F7FA" stroke="#E0E5EC" stroke-width="1" d="M692,440 H1188 A12,12 0 0 1 1200,452 V648 A12,12 0 0 1 1188,660 H692 A12,12 0 0 1 680,648 V452 A12,12 0 0 1 692,440 Z" />
+    
+    <g id="icon-4">
+      <path d="M110,205 c-2,-5 5,-8 8,-3 c3,-5 10,-2 8,3 c5,2 2,9 -3,8 c-2,5 -9,2 -8,-3 c-5,-2 -2,-9 3,-8 z" fill="none" stroke="#2B7FC3" stroke-width="2" />
+      <path d="M125,215 l5,-5 l5,5 l-5,5 z" fill="#2B7FC3" opacity="0.3" />
+      <line x1="115" y1="215" x2="130" y2="215" stroke="#2B7FC3" stroke-width="2" />
+    </g>
+    <text x="700" y="490" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">大模型融合</text>
+    <text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="700" y="525">RAG架构结合图谱事实约束，有效</text><text font-size="16" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" x="700" y="549">抑制AI“幻觉”，确保输出专业可溯源。</text><path fill="#2B7FC3" opacity="0.1" d="M713,565 H827 A13,13 0 0 1 840,578 V578 A13,13 0 0 1 827,591 H713 A13,13 0 0 1 700,578 V578 A13,13 0 0 1 713,565 Z" />
+    <text x="770" y="582" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12" font-weight="bold" fill="#2B7FC3" text-anchor="middle">业务价值：可信AI生成</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2563EB"/>
+  
+  <g id="title">
+    <text x="640" y="90" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#0F172A" text-anchor="middle">关键技术深度解析</text>
+    <line x1="520" y1="115" x2="760" y2="115" stroke="#94A3B8" stroke-width="3"/>
+  </g>
+
+  <g id="content">
+    <g id="item_1_ner">
+      <rect x="100" y="280" width="560" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="140" cy="325" r="22" fill="#2563EB"/>
+      <text x="140" y="331" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">01</text>
+      <text x="180" y="315" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#1E293B">命名实体识别 (NER)</text>
+      <text x="180" y="345" font-family="system-ui, sans-serif" font-size="16" fill="#475569">BiLSTM-CRF / BERT 等深度学习模型架构</text>
+    </g>
+
+    <g id="item_2_relation">
+      <rect x="100" y="390" width="560" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="140" cy="435" r="22" fill="#2563EB"/>
+      <text x="140" y="441" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">02</text>
+      <text x="180" y="425" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#1E293B">关系抽取</text>
+      <text x="180" y="455" font-family="system-ui, sans-serif" font-size="16" fill="#475569">远程监督、Prompt-tuning 高效微调方法</text>
+    </g>
+
+    <g id="item_3_representation">
+      <rect x="100" y="500" width="560" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="140" cy="545" r="22" fill="#2563EB"/>
+      <text x="140" y="551" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">03</text>
+      <text x="180" y="535" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#1E293B">知识表示学习</text>
+      <text x="180" y="565" font-family="system-ui, sans-serif" font-size="16" fill="#475569">TransE, TransR, RotatE 等向量空间映射</text>
+    </g>
+
+    <g id="item_4_gnn">
+      <rect x="680" y="280" width="500" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="720" cy="325" r="22" fill="#2563EB"/>
+      <text x="720" y="331" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">04</text>
+      <text x="760" y="315" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#1E293B">图神经网络</text>
+      <text x="760" y="345" font-family="system-ui, sans-serif" font-size="16" fill="#475569">GCN, GAT 在知识图谱节点分类与链接预测</text>
+    </g>
+
+    <g id="item_5_completion">
+      <rect x="680" y="390" width="500" height="90" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="720" cy="435" r="22" fill="#2563EB"/>
+      <text x="720" y="441" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">05</text>
+      <text x="760" y="425" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#1E293B">知识图谱补全</text>
+      <text x="760" y="455" font-family="system-ui, sans-serif" font-size="16" fill="#475569">链接预测、逻辑推理与缺失边补全技术</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <line x1="580" y1="680" x2="700" y2="680" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="640" y="705" font-family="system-ui, sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">Slide 7 / 12</text>
+  </g>
+</svg>

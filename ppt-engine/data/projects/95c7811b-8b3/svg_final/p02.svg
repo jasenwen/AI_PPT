@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  <rect x="0" y="0" width="1280" height="6" fill="#2563EB" />
+  
+  <g id="header">
+    <text x="100" y="110" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#0F172A">目录</text>
+    <rect x="100" y="130" width="120" height="4" fill="#2563EB" />
+  </g>
+
+  <g id="toc-item-1">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M92,210 H1188 A12,12 0 0 1 1200,222 V288 A12,12 0 0 1 1188,300 H92 A12,12 0 0 1 80,288 V222 A12,12 0 0 1 92,210 Z" />
+    <text x="130" y="265" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">01</text>
+    <text x="220" y="265" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">什么是知识图谱</text>
+  </g>
+
+  <g id="toc-item-2">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M92,320 H1188 A12,12 0 0 1 1200,332 V398 A12,12 0 0 1 1188,410 H92 A12,12 0 0 1 80,398 V332 A12,12 0 0 1 92,320 Z" />
+    <text x="130" y="375" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">02</text>
+    <text x="220" y="375" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">核心技术架构</text>
+  </g>
+
+  <g id="toc-item-3">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M92,430 H1188 A12,12 0 0 1 1200,442 V508 A12,12 0 0 1 1188,520 H92 A12,12 0 0 1 80,508 V442 A12,12 0 0 1 92,430 Z" />
+    <text x="130" y="485" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">03</text>
+    <text x="220" y="485" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">应用落地场景</text>
+  </g>
+
+  <g id="toc-item-4">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M92,540 H1188 A12,12 0 0 1 1200,552 V618 A12,12 0 0 1 1188,630 H92 A12,12 0 0 1 80,618 V552 A12,12 0 0 1 92,540 Z" />
+    <text x="130" y="595" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">04</text>
+    <text x="220" y="595" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">总结与展望</text>
+  </g>
+
+  <g id="decoration">
+    <circle cx="1100" cy="360" r="180" fill="#EFF6FF" opacity="0.6" />
+    <circle cx="1100" cy="360" r="120" fill="#DBEAFE" opacity="0.4" />
+    <path d="M 1050 300 L 1150 300 M 1050 360 L 1150 360 M 1050 420 L 1150 420" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" opacity="0.5" />
+  </g>
+</svg>

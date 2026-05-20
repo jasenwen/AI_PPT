@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg-gradient)" />
+
+  <!-- Decorative Background Elements -->
+  <g id="decorations">
+    <!-- Large subtle circle -->
+    <circle cx="640" cy="360" r="280" fill="#334155" opacity="0.1" />
+    <circle cx="640" cy="360" r="200" fill="#334155" opacity="0.1" />
+    
+    <!-- Corner accents -->
+    <path d="M 0 0 L 150 0 L 150 10 L 10 10 L 10 150 L 0 150 Z" fill="#38BDF8" opacity="0.8" />
+    <path d="M 1280 720 L 1130 720 L 1130 710 L 1270 710 L 1270 570 L 1280 570 Z" fill="#38BDF8" opacity="0.8" />
+    
+    <!-- Floating particles -->
+    <circle cx="200" cy="150" r="4" fill="#38BDF8" opacity="0.5" />
+    <circle cx="1050" cy="550" r="6" fill="#818CF8" opacity="0.4" />
+    <circle cx="1100" cy="180" r="3" fill="#38BDF8" opacity="0.6" />
+    <circle cx="180" cy="580" r="5" fill="#818CF8" opacity="0.5" />
+  </g>
+
+  <!-- Main Content Group -->
+  <g id="content">
+    <!-- Title: 谢谢！ -->
+    <text x="640" y="300" font-family="'Microsoft YaHei', 'SimHei', 'PingFang SC', sans-serif" font-size="130" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="5">谢谢！</text>
+    
+    <!-- Decorative Line -->
+    <line x1="540" y1="350" x2="740" y2="350" stroke="url(#accent-gradient)" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Subtitle: Q & A -->
+    <text x="640" y="440" font-family="'Arial', sans-serif" font-size="64" font-weight="bold" fill="#38BDF8" text-anchor="middle" letter-spacing="8">Q &amp; A</text>
+    
+    <!-- Description: 欢迎交流讨论 -->
+    <text x="640" y="530" font-family="'Microsoft YaHei', 'SimHei', 'PingFang SC', sans-serif" font-size="38" font-weight="normal" fill="#94A3B8" text-anchor="middle">欢迎交流讨论</text>
+    
+    <!-- Bottom Contact/Info Placeholder (Optional visual balance) -->
+    <text x="640" y="650" font-family="'Arial', sans-serif" font-size="20" fill="#475569" text-anchor="middle" letter-spacing="2">THANK YOU FOR YOUR ATTENTION</text>
+  </g>
+</svg>

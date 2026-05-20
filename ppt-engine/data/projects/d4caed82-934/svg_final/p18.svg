@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  <rect width="1280" height="720" fill="#f5f8fe" />
+  
+  
+  <g id="header">
+    <text x="80" y="85" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="700" fill="#1a73e8">GraphRAG — 知识图谱 + RAG</text>
+    <line x1="80" y1="105" x2="260" y2="105" stroke="#1a73e8" stroke-width="4" stroke-linecap="round" />
+    <text x="1200" y="85" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#94a3b8" text-anchor="end">18 / 21</text>
+  </g>
+
+  
+  <g id="left-column">
+    <path fill="#ffffff" stroke="#e2e8f0" stroke-width="1" d="M76,140 H604 A16,16 0 0 1 620,156 V644 A16,16 0 0 1 604,660 H76 A16,16 0 0 1 60,644 V156 A16,16 0 0 1 76,140 Z" />
+    
+    
+    <g id="item-graphrag">
+      <circle cx="100" cy="200" r="28" fill="#e0f2fe" />
+      <path d="M90 200 L110 200 M100 190 L100 210 M95 195 L105 205 M95 205 L105 195" stroke="#1a73e8" stroke-width="2" stroke-linecap="round" />
+      <text x="145" y="195" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#1e293b">微软 GraphRAG</text>
+      <text x="145" y="225" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#64748b">自动构建知识图谱进行 RAG 增强</text>
+    </g>
+
+    
+    <g id="item-lightrag">
+      <circle cx="100" cy="320" r="28" fill="#e0f2fe" />
+      <path d="M92 320 L108 320 M100 312 L100 328" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" />
+      <text x="145" y="315" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#1e293b">LightRAG</text>
+      <text x="145" y="345" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#64748b">轻量级图结构实现高效检索</text>
+    </g>
+
+    
+    <g id="item-advantage">
+      <circle cx="100" cy="440" r="28" fill="#e0f2fe" />
+      <path d="M90 440 Q100 430 110 440 Q100 450 90 440 Z" fill="none" stroke="#1a73e8" stroke-width="2" />
+      <text x="145" y="435" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#1e293b">核心优势</text>
+      <text x="145" y="465" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#64748b">社区检测 + 多 hop 推理 + 全局理解</text>
+    </g>
+  </g>
+
+  
+  <g id="right-column">
+    <path fill="#ffffff" stroke="#e2e8f0" stroke-width="1" d="M676,140 H1204 A16,16 0 0 1 1220,156 V644 A16,16 0 0 1 1204,660 H676 A16,16 0 0 1 660,644 V156 A16,16 0 0 1 676,140 Z" />
+    
+    
+    <g id="item-problem">
+      <circle cx="700" cy="220" r="28" fill="#e0f2fe" />
+      <path d="M690 220 L710 220 M695 215 L705 225 M695 225 L705 215" stroke="#1a73e8" stroke-width="2" stroke-linecap="round" />
+      <text x="745" y="215" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#1e293b">痛点解决</text>
+      <text x="745" y="245" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#64748b">解决 RAG 缺乏关系理解、KG 缺乏灵活性的问题</text>
+    </g>
+
+    
+    <g id="item-future">
+      <circle cx="700" cy="340" r="28" fill="#e0f2fe" />
+      <path d="M690 340 L710 340 M700 330 L700 350" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" />
+      <text x="745" y="335" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="600" fill="#1e293b">未来趋势</text>
+      <text x="745" y="365" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#64748b">Agent + Graph + RAG 三位一体</text>
+    </g>
+
+    
+    <g id="rating-table">
+      <path fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" d="M712,420 H1168 A12,12 0 0 1 1180,432 V588 A12,12 0 0 1 1168,600 H712 A12,12 0 0 1 700,588 V432 A12,12 0 0 1 712,420 Z" />
+      <text x="730" y="455" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#1a73e8">能力维度对比</text>
+      
+      
+      <text x="730" y="495" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#475569">关系推理深度</text>
+      <circle cx="980" cy="490" r="6" fill="#1a73e8" />
+      <circle cx="1005" cy="490" r="6" fill="#1a73e8" />
+      <circle cx="1030" cy="490" r="6" fill="#1a73e8" />
+      <circle cx="1055" cy="490" r="6" fill="#1a73e8" />
+      <circle cx="1080" cy="490" r="6" fill="#e2e8f0" />
+      
+      
+      <text x="730" y="535" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#475569">全局上下文理解</text>
+      <circle cx="980" cy="530" r="6" fill="#1a73e8" />
+      <circle cx="1005" cy="530" r="6" fill="#1a73e8" />
+      <circle cx="1030" cy="530" r="6" fill="#1a73e8" />
+      <circle cx="1055" cy="530" r="6" fill="#1a73e8" />
+      <circle cx="1080" cy="530" r="6" fill="#1a73e8" />
+      
+      
+      <text x="730" y="575" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#475569">检索响应延迟</text>
+      <circle cx="980" cy="570" r="6" fill="#4fc3f7" />
+      <circle cx="1005" cy="570" r="6" fill="#4fc3f7" />
+      <circle cx="1030" cy="570" r="6" fill="#4fc3f7" />
+      <circle cx="1055" cy="570" r="6" fill="#e2e8f0" />
+      <circle cx="1080" cy="570" r="6" fill="#e2e8f0" />
+      
+      <text x="980" y="605" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">★★★★☆</text>
+      <text x="1030" y="605" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">★★★★★</text>
+      <text x="1080" y="605" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">★★★☆☆</text>
+    </g>
+  </g>
+
+  
+  <g id="footer">
+    <rect x="0" y="680" width="1280" height="40" fill="#ffffff" opacity="0.6" />
+    <text x="640" y="705" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">© 2024 AI Architecture Series | Slide 18</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="background-decor">
+    <path d="M 850 0 L 1280 0 L 1280 720 Z" fill="#EEF2FF" opacity="0.5" />
+    <circle cx="1080" cy="360" r="220" fill="#DBEAFE" opacity="0.4" />
+    <circle cx="1150" cy="260" r="150" fill="#BFDBFE" opacity="0.3" />
+    <circle cx="980" cy="480" r="100" fill="#93C5FD" opacity="0.2" />
+  </g>
+
+  <g id="header">
+    <text x="100" y="130" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="52" font-weight="800" fill="#0F172A">目录</text>
+    <path fill="#3B82F6" d="M103,155 H237 A3,3 0 0 1 240,158 V158 A3,3 0 0 1 237,161 H103 A3,3 0 0 1 100,158 V158 A3,3 0 0 1 103,155 Z" />
+    <text x="100" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="400" fill="#64748B">CONTENTS</text>
+  </g>
+
+  <g id="toc-list">
+    <line x1="122" y1="232" x2="122" y2="652" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6,6" />
+    
+    <g id="item-01">
+      <path fill="#EFF6FF" d="M112,210 H132 A12,12 0 0 1 144,222 V242 A12,12 0 0 1 132,254 H112 A12,12 0 0 1 100,242 V222 A12,12 0 0 1 112,210 Z" />
+      <text x="122" y="238" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">01</text>
+      <text x="175" y="238" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">背景与问题</text>
+    </g>
+
+    <g id="item-02">
+      <path fill="#EFF6FF" d="M112,280 H132 A12,12 0 0 1 144,292 V312 A12,12 0 0 1 132,324 H112 A12,12 0 0 1 100,312 V292 A12,12 0 0 1 112,280 Z" />
+      <text x="122" y="308" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">02</text>
+      <text x="175" y="308" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">什么是知识图谱？</text>
+    </g>
+
+    <g id="item-03">
+      <path fill="#EFF6FF" d="M112,350 H132 A12,12 0 0 1 144,362 V382 A12,12 0 0 1 132,394 H112 A12,12 0 0 1 100,382 V362 A12,12 0 0 1 112,350 Z" />
+      <text x="122" y="378" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">03</text>
+      <text x="175" y="378" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">什么是 RAG？</text>
+    </g>
+
+    <g id="item-04">
+      <path fill="#EFF6FF" d="M112,420 H132 A12,12 0 0 1 144,432 V452 A12,12 0 0 1 132,464 H112 A12,12 0 0 1 100,452 V432 A12,12 0 0 1 112,420 Z" />
+      <text x="122" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">04</text>
+      <text x="175" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">核心维度对比</text>
+    </g>
+
+    <g id="item-05">
+      <path fill="#EFF6FF" d="M112,490 H132 A12,12 0 0 1 144,502 V522 A12,12 0 0 1 132,534 H112 A12,12 0 0 1 100,522 V502 A12,12 0 0 1 112,490 Z" />
+      <text x="122" y="518" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">05</text>
+      <text x="175" y="518" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">应用场景与选型指南</text>
+    </g>
+
+    <g id="item-06">
+      <path fill="#EFF6FF" d="M112,560 H132 A12,12 0 0 1 144,572 V592 A12,12 0 0 1 132,604 H112 A12,12 0 0 1 100,592 V572 A12,12 0 0 1 112,560 Z" />
+      <text x="122" y="588" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">06</text>
+      <text x="175" y="588" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">GraphRAG：融合之道</text>
+    </g>
+
+    <g id="item-07">
+      <path fill="#EFF6FF" d="M112,630 H132 A12,12 0 0 1 144,642 V662 A12,12 0 0 1 132,674 H112 A12,12 0 0 1 100,662 V642 A12,12 0 0 1 112,630 Z" />
+      <text x="122" y="658" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#2563EB" text-anchor="middle">07</text>
+      <text x="175" y="658" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" font-weight="500" fill="#1E293B">总结与展望</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <text x="1180" y="680" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="400" fill="#94A3B8" text-anchor="end">2 / 13</text>
+    <line x1="100" y1="680" x2="1150" y2="680" stroke="#E2E8F0" stroke-width="1" />
+  </g>
+</svg>

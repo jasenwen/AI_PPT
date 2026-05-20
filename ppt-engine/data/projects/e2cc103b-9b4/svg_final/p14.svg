@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0f1923" />
+  
+  <g id="tech-background">
+    <line x1="0" y1="100" x2="1280" y2="100" stroke="#00d4ff" stroke-width="1" opacity="0.15" />
+    <line x1="0" y1="620" x2="1280" y2="620" stroke="#00d4ff" stroke-width="1" opacity="0.15" />
+    <circle cx="640" cy="360" r="280" fill="none" stroke="#00d4ff" stroke-width="1" stroke-dasharray="6 12" opacity="0.08" />
+    <circle cx="640" cy="360" r="200" fill="none" stroke="#00d4ff" stroke-width="1" stroke-dasharray="3 9" opacity="0.06" />
+  </g>
+
+  <g id="title-area">
+    <text x="80" y="75" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#ffffff">🔹 核心能力对比表</text>
+    <line x1="80" y1="95" x2="1200" y2="95" stroke="#00d4ff" stroke-width="2" opacity="0.8" />
+  </g>
+
+  <g id="comparison-table">
+    <path fill="#1a2332" d="M86,110 H1194 A6,6 0 0 1 1200,116 V154 A6,6 0 0 1 1194,160 H86 A6,6 0 0 1 80,154 V116 A6,6 0 0 1 86,110 Z" />
+    <text x="230" y="135" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">评估维度</text>
+    <text x="635" y="135" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">知识图谱</text>
+    <text x="1040" y="135" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">RAG</text>
+
+    <g id="row-1">
+      <path fill="#131c27" d="M84,170 H1196 A4,4 0 0 1 1200,174 V226 A4,4 0 0 1 1196,230 H84 A4,4 0 0 1 80,226 V174 A4,4 0 0 1 84,170 Z" />
+      <text x="230" y="200" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">精确性</text>
+      <text x="635" y="200" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐⭐⭐</text>
+      <text x="1040" y="200" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐</text>
+      <line x1="80" y1="230" x2="1200" y2="230" stroke="#1a2332" stroke-width="1" />
+    </g>
+
+    <g id="row-2">
+      <path fill="#131c27" d="M84,240 H1196 A4,4 0 0 1 1200,244 V296 A4,4 0 0 1 1196,300 H84 A4,4 0 0 1 80,296 V244 A4,4 0 0 1 84,240 Z" />
+      <text x="230" y="270" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">召回率</text>
+      <text x="635" y="270" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐</text>
+      <text x="1040" y="270" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐⭐</text>
+      <line x1="80" y1="300" x2="1200" y2="300" stroke="#1a2332" stroke-width="1" />
+    </g>
+
+    <g id="row-3">
+      <path fill="#131c27" d="M84,310 H1196 A4,4 0 0 1 1200,314 V366 A4,4 0 0 1 1196,370 H84 A4,4 0 0 1 80,366 V314 A4,4 0 0 1 84,310 Z" />
+      <text x="230" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">构建成本</text>
+      <text x="635" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="middle" dominant-baseline="middle">⭐⭐</text>
+      <text x="1040" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐⭐</text>
+      <line x1="80" y1="370" x2="1200" y2="370" stroke="#1a2332" stroke-width="1" />
+    </g>
+
+    <g id="row-4">
+      <path fill="#131c27" d="M84,380 H1196 A4,4 0 0 1 1200,384 V436 A4,4 0 0 1 1196,440 H84 A4,4 0 0 1 80,436 V384 A4,4 0 0 1 84,380 Z" />
+      <text x="230" y="410" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">可解释性</text>
+      <text x="635" y="410" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐⭐⭐</text>
+      <text x="1040" y="410" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐</text>
+      <line x1="80" y1="440" x2="1200" y2="440" stroke="#1a2332" stroke-width="1" />
+    </g>
+
+    <g id="row-5">
+      <path fill="#131c27" d="M84,450 H1196 A4,4 0 0 1 1200,454 V506 A4,4 0 0 1 1196,510 H84 A4,4 0 0 1 80,506 V454 A4,4 0 0 1 84,450 Z" />
+      <text x="230" y="480" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">实时性</text>
+      <text x="635" y="480" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="middle" dominant-baseline="middle">⭐⭐</text>
+      <text x="1040" y="480" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐⭐⭐</text>
+      <line x1="80" y1="510" x2="1200" y2="510" stroke="#1a2332" stroke-width="1" />
+    </g>
+
+    <g id="row-6">
+      <path fill="#131c27" d="M84,520 H1196 A4,4 0 0 1 1200,524 V576 A4,4 0 0 1 1196,580 H84 A4,4 0 0 1 80,576 V524 A4,4 0 0 1 84,520 Z" />
+      <text x="230" y="550" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">扩展性</text>
+      <text x="635" y="550" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐</text>
+      <text x="1040" y="550" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#00d4ff" text-anchor="middle" dominant-baseline="middle">⭐⭐⭐⭐⭐</text>
+      <line x1="80" y1="580" x2="1200" y2="580" stroke="#1a2332" stroke-width="1" />
+    </g>
+  </g>
+
+  <g id="footer">
+    <line x1="80" y1="670" x2="1200" y2="670" stroke="#1a2332" stroke-width="1" />
+    <text x="1200" y="695" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#8e9eab" text-anchor="end">14 / 21</text>
+  </g>
+</svg>

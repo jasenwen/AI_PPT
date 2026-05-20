@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect x="0" y="0" width="1280" height="8" fill="#F5F7FA" />
+  <rect x="100" y="8" width="56" height="4" fill="#2B7FC3" />
+
+  <g id="title-section">
+    <text x="100" y="115" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#1A3A5C">什么是知识图谱</text>
+    <text x="100" y="155" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333">从数据孤岛到智能决策的核心基础设施</text>
+  </g>
+
+  <g id="card-definition">
+    <path fill="#F5F7FA" d="M112,200 H1168 A12,12 0 0 1 1180,212 V328 A12,12 0 0 1 1168,340 H112 A12,12 0 0 1 100,328 V212 A12,12 0 0 1 112,200 Z" />
+    <path fill="#2B7FC3" d="M103,200 H103 A3,3 0 0 1 106,203 V337 A3,3 0 0 1 103,340 H103 A3,3 0 0 1 100,337 V203 A3,3 0 0 1 103,200 Z" />
+    <circle cx="160" cy="270" r="24" fill="#2B7FC3" />
+    <path d="M184 270 L215 245 M184 270 L215 295" stroke="#1A3A5C" stroke-width="3" fill="none" stroke-linecap="round" />
+    <circle cx="225" cy="245" r="15" fill="#1A3A5C" />
+    <circle cx="225" cy="295" r="15" fill="#1A3A5C" />
+    <text x="270" y="260" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1A3A5C">核心定义</text>
+    <text x="270" y="295" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333">用图结构描述实体及其语义关系的知识库，突破传统表格存储局限。</text>
+  </g>
+
+  <g id="card-triple">
+    <path fill="#F5F7FA" d="M112,360 H1168 A12,12 0 0 1 1180,372 V488 A12,12 0 0 1 1168,500 H112 A12,12 0 0 1 100,488 V372 A12,12 0 0 1 112,360 Z" />
+    <path fill="#2B7FC3" d="M103,360 H103 A3,3 0 0 1 106,363 V497 A3,3 0 0 1 103,500 H103 A3,3 0 0 1 100,497 V363 A3,3 0 0 1 103,360 Z" />
+    <circle cx="160" cy="430" r="18" fill="#2B7FC3" />
+    <line x1="178" y1="430" x2="196" y2="430" stroke="#1A3A5C" stroke-width="3" stroke-linecap="round" />
+    <circle cx="206" cy="430" r="18" fill="#1A3A5C" />
+    <line x1="224" y1="430" x2="242" y2="430" stroke="#1A3A5C" stroke-width="3" stroke-linecap="round" />
+    <circle cx="252" cy="430" r="18" fill="#2B7FC3" />
+    <text x="270" y="420" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1A3A5C">基本单元</text>
+    <text x="270" y="455" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333"><tspan fill="#2B7FC3" font-weight="bold">&lt;实体, 关系, 实体&gt;</tspan> 三元组，精准刻画业务对象间的逻辑关联。</text>
+  </g>
+
+  <g id="card-essence">
+    <path fill="#F5F7FA" d="M112,520 H1168 A12,12 0 0 1 1180,532 V648 A12,12 0 0 1 1168,660 H112 A12,12 0 0 1 100,648 V532 A12,12 0 0 1 112,520 Z" />
+    <path fill="#2B7FC3" d="M103,520 H103 A3,3 0 0 1 106,523 V657 A3,3 0 0 1 103,660 H103 A3,3 0 0 1 100,657 V523 A3,3 0 0 1 103,520 Z" />
+    <circle cx="160" cy="590" r="20" fill="#1A3A5C" />
+    <path d="M180 590 L200 565 M180 590 L200 615 M160 570 L180 550 M160 610 L180 630" stroke="#2B7FC3" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <circle cx="210" cy="565" r="12" fill="#2B7FC3" />
+    <circle cx="210" cy="615" r="12" fill="#2B7FC3" />
+    <circle cx="190" cy="550" r="12" fill="#2B7FC3" />
+    <circle cx="190" cy="630" r="12" fill="#2B7FC3" />
+    <text x="270" y="580" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1A3A5C">业务本质</text>
+    <text x="270" y="615" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#333333">将碎片化信息组织成<tspan fill="#2B7FC3" font-weight="bold">结构化知识网络</tspan>，赋能智能搜索与决策分析。</text>
+  </g>
+
+  <text x="1180" y="695" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#999999" text-anchor="end">3 / 9</text>
+</svg>

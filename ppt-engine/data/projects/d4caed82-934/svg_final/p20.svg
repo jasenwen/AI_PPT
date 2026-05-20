@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#f5f8fe" />
+    <path d="M 0 110 L 1280 110" stroke="#e0e8f5" stroke-width="1" />
+    <path d="M 0 690 L 1280 690" stroke="#e0e8f5" stroke-width="1" />
+    <circle cx="1220" cy="70" r="45" fill="#1a73e8" opacity="0.04" />
+    <circle cx="1220" cy="70" r="25" fill="#4fc3f7" opacity="0.04" />
+    <path d="M 60 60 L 100 60 L 100 100" fill="none" stroke="#4fc3f7" stroke-width="2" opacity="0.3" />
+  </g>
+
+  <g id="header">
+    <text x="80" y="85" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#1a73e8">关键结论</text>
+    <line x1="80" y1="105" x2="190" y2="105" stroke="#4fc3f7" stroke-width="4" stroke-linecap="round" />
+    <text x="1200" y="85" font-family="Arial, sans-serif" font-size="16" fill="#888888" text-anchor="end">20 / 21</text>
+  </g>
+
+  <g id="point1-complementary">
+    <path fill="#ffffff" stroke="#1a73e8" stroke-width="2" d="M96,140 H1184 A16,16 0 0 1 1200,156 V188 A16,16 0 0 1 1184,204 H96 A16,16 0 0 1 80,188 V156 A16,16 0 0 1 96,140 Z" />
+    <text x="640" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a73e8" text-anchor="middle">知识图谱 vs RAG 并非替代关系，而是互补关系</text>
+  </g>
+
+  <g id="point2-comparison">
+    
+    <path fill="#ffffff" stroke="#d0dce8" stroke-width="1" d="M92,230 H568 A12,12 0 0 1 580,242 V428 A12,12 0 0 1 568,440 H92 A12,12 0 0 1 80,428 V242 A12,12 0 0 1 92,230 Z" />
+    <text x="330" y="265" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a73e8" text-anchor="middle">知识图谱 (Knowledge Graph)</text>
+    <text x="330" y="290" font-family="Arial, sans-serif" font-size="15" fill="#555555" text-anchor="middle">精准 + 可解释 + 推理</text>
+    <line x1="120" y1="305" x2="540" y2="305" stroke="#e8eef6" stroke-width="2" />
+    <text x="120" y="340" font-family="Arial, sans-serif" font-size="18" fill="#333333">精准性</text>
+    <text x="480" y="340" font-family="Arial, sans-serif" font-size="18" fill="#1a73e8" text-anchor="end">★★★★★</text>
+    <text x="120" y="375" font-family="Arial, sans-serif" font-size="18" fill="#333333">可解释性</text>
+    <text x="480" y="375" font-family="Arial, sans-serif" font-size="18" fill="#1a73e8" text-anchor="end">★★★★★</text>
+    <text x="120" y="410" font-family="Arial, sans-serif" font-size="18" fill="#333333">逻辑推理</text>
+    <text x="480" y="410" font-family="Arial, sans-serif" font-size="18" fill="#1a73e8" text-anchor="end">★★★★☆</text>
+
+    
+    <path fill="#ffffff" stroke="#d0e8f5" stroke-width="1" d="M712,230 H1188 A12,12 0 0 1 1200,242 V428 A12,12 0 0 1 1188,440 H712 A12,12 0 0 1 700,428 V242 A12,12 0 0 1 712,230 Z" />
+    <text x="950" y="265" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7" text-anchor="middle">检索增强生成 (RAG)</text>
+    <text x="950" y="290" font-family="Arial, sans-serif" font-size="15" fill="#555555" text-anchor="middle">灵活 + 实时 + 低门槛</text>
+    <line x1="740" y1="305" x2="1160" y2="305" stroke="#e8f4fa" stroke-width="2" />
+    <text x="740" y="340" font-family="Arial, sans-serif" font-size="18" fill="#333333">灵活扩展</text>
+    <text x="1100" y="340" font-family="Arial, sans-serif" font-size="18" fill="#4fc3f7" text-anchor="end">★★★★★</text>
+    <text x="740" y="375" font-family="Arial, sans-serif" font-size="18" fill="#333333">实时更新</text>
+    <text x="1100" y="375" font-family="Arial, sans-serif" font-size="18" fill="#4fc3f7" text-anchor="end">★★★★★</text>
+    <text x="740" y="410" font-family="Arial, sans-serif" font-size="18" fill="#333333">低门槛部署</text>
+    <text x="1100" y="410" font-family="Arial, sans-serif" font-size="18" fill="#4fc3f7" text-anchor="end">★★★★★</text>
+  </g>
+
+  <g id="point3-4-conclusions">
+    
+    <path fill="#ffffff" stroke="#1a73e8" stroke-width="2" d="M92,470 H568 A12,12 0 0 1 580,482 V638 A12,12 0 0 1 568,650 H92 A12,12 0 0 1 80,638 V482 A12,12 0 0 1 92,470 Z" />
+    <path fill="#1a73e8" d="M84,470 H84 A4,4 0 0 1 88,474 V646 A4,4 0 0 1 84,650 H84 A4,4 0 0 1 80,646 V474 A4,4 0 0 1 84,470 Z" />
+    <text x="120" y="510" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8">当前最佳实践</text>
+    <text x="120" y="550" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222">GraphRAG 深度融合</text>
+    <text x="120" y="585" font-family="Arial, sans-serif" font-size="16" fill="#666666">结合结构化知识与向量检索优势，</text>
+    <text x="120" y="610" font-family="Arial, sans-serif" font-size="16" fill="#666666">实现高精度与上下文感知的统一。</text>
+
+    
+    <path fill="#ffffff" stroke="#4fc3f7" stroke-width="2" d="M712,470 H1188 A12,12 0 0 1 1200,482 V638 A12,12 0 0 1 1188,650 H712 A12,12 0 0 1 700,638 V482 A12,12 0 0 1 712,470 Z" />
+    <path fill="#4fc3f7" d="M704,470 H704 A4,4 0 0 1 708,474 V646 A4,4 0 0 1 704,650 H704 A4,4 0 0 1 700,646 V474 A4,4 0 0 1 704,470 Z" />
+    <text x="740" y="510" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#4fc3f7">未来演进方向</text>
+    <text x="740" y="550" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#222222">多模态 KG + Agentic RAG</text>
+    <text x="740" y="585" font-family="Arial, sans-serif" font-size="16" fill="#666666">突破文本限制，引入自主智能体规划，</text>
+    <text x="740" y="610" font-family="Arial, sans-serif" font-size="16" fill="#666666">构建动态演化的认知引擎。</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="690" font-family="Arial, sans-serif" font-size="14" fill="#999999">© 2024 AI Architecture Review | Slide 20</text>
+  </g>
+</svg>

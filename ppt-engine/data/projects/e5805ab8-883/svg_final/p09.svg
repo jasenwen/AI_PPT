@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <!-- Accent Gradient -->
+    <linearGradient id="accent-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg-gradient)" />
+
+  <!-- Decorative Elements -->
+  <g id="decorations">
+    <!-- Top Right Circle -->
+    <circle cx="1100" cy="100" r="250" fill="#38bdf8" opacity="0.05" />
+    <!-- Bottom Left Circle -->
+    <circle cx="180" cy="620" r="300" fill="#818cf8" opacity="0.05" />
+    <!-- Abstract Lines -->
+    <path d="M 0 600 L 200 600" stroke="#334155" stroke-width="2" />
+    <path d="M 1080 120 L 1280 120" stroke="#334155" stroke-width="2" />
+  </g>
+
+  <!-- Main Content Group -->
+  <g id="content" transform="translate(640, 360)">
+    
+    <!-- Title: 谢谢！ -->
+    <text x="0" y="-80" 
+          font-family="'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif" 
+          font-size="100" 
+          font-weight="bold" 
+          fill="#ffffff" 
+          text-anchor="middle" 
+          letter-spacing="4">
+      谢谢！
+    </text>
+
+    <!-- Decorative Divider -->
+    <line x1="-80" y1="-10" x2="80" y2="-10" 
+          stroke="url(#accent-gradient)" 
+          stroke-width="4" 
+          stroke-linecap="round" />
+
+    <!-- Subtitle: Q & A -->
+    <text x="0" y="50" 
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" 
+          font-size="52" 
+          font-weight="bold" 
+          fill="#38bdf8" 
+          text-anchor="middle" 
+          letter-spacing="6">
+      Q &amp; A
+    </text>
+
+    <!-- Body Text: 欢迎交流讨论 -->
+    <text x="0" y="120" 
+          font-family="'Microsoft YaHei', 'PingFang SC', 'SimHei', sans-serif" 
+          font-size="36" 
+          font-weight="normal" 
+          fill="#cbd5e1" 
+          text-anchor="middle">
+      欢迎交流讨论
+    </text>
+
+  </g>
+
+  <!-- Footer / Branding Area -->
+  <g id="footer" transform="translate(640, 660)">
+    <text x="0" y="0" 
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" 
+          font-size="14" 
+          fill="#64748b" 
+          text-anchor="middle" 
+          letter-spacing="2">
+      PRESENTATION END
+    </text>
+  </g>
+</svg>

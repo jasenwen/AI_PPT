@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#1A233A"/>
+    </linearGradient>
+    <linearGradient id="accentLineGrad" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <g id="background-graphics">
+    <circle cx="180" cy="160" r="5" fill="#38BDF8" opacity="0.5"/>
+    <circle cx="1080" cy="540" r="7" fill="#38BDF8" opacity="0.3"/>
+    <circle cx="1120" cy="200" r="4" fill="#38BDF8" opacity="0.4"/>
+    <circle cx="160" cy="560" r="6" fill="#38BDF8" opacity="0.25"/>
+    <line x1="180" y1="160" x2="320" y2="210" stroke="#38BDF8" stroke-width="1.5" opacity="0.2"/>
+    <line x1="1080" y1="540" x2="920" y2="490" stroke="#38BDF8" stroke-width="1.5" opacity="0.2"/>
+    <line x1="1120" y1="200" x2="960" y2="240" stroke="#38BDF8" stroke-width="1" opacity="0.15"/>
+    <line x1="160" y1="560" x2="280" y2="500" stroke="#38BDF8" stroke-width="1" opacity="0.15"/>
+    <path d="M 0 360 L 1280 360" stroke="#1E293B" stroke-width="1" opacity="0.5"/>
+  </g>
+  <g id="title-section">
+    <text x="640" y="300" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">知识图谱</text>
+    <line x1="420" y1="355" x2="860" y2="355" stroke="url(#accentLineGrad)" stroke-width="2"/>
+    <text x="640" y="410" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#94A3B8" text-anchor="middle" letter-spacing="3">核心技术架构 · 应用落地场景</text>
+  </g>
+  <g id="year-section">
+    <text x="640" y="515" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#38BDF8" text-anchor="middle">2025</text>
+  </g>
+  <g id="footer-section">
+    <text x="60" y="680" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#475569" text-anchor="start">01 / 09</text>
+    <text x="1220" y="680" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" fill="#475569" text-anchor="end">INTERNAL USE</text>
+  </g>
+</svg>

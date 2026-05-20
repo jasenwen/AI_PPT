@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  
+  <rect width="1280" height="720" fill="#f5f8fe" />
+
+  
+  <g id="header">
+    <text x="80" y="80" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#1a73e8">大模型的知识困境</text>
+    <line x1="80" y1="100" x2="180" y2="100" stroke="#4fc3f7" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="content-grid">
+    
+    <g id="card-1">
+      <path fill="#ffffff" d="M92,160 H588 A12,12 0 0 1 600,172 V328 A12,12 0 0 1 588,340 H92 A12,12 0 0 1 80,328 V172 A12,12 0 0 1 92,160 Z" />
+      <path fill="#1a73e8" d="M82,180 H82 A2,2 0 0 1 84,182 V218 A2,2 0 0 1 82,220 H82 A2,2 0 0 1 80,218 V182 A2,2 0 0 1 82,180 Z" />
+      <text x="560" y="210" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#4fc3f7" opacity="0.2" text-anchor="end">01</text>
+      <text x="110" y="215" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a73e8">幻觉问题</text>
+      <text x="110" y="250" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#555555">模型可能生成与事实不符的内容</text>
+    </g>
+
+    
+    <g id="card-2">
+      <path fill="#ffffff" d="M652,160 H1148 A12,12 0 0 1 1160,172 V328 A12,12 0 0 1 1148,340 H652 A12,12 0 0 1 640,328 V172 A12,12 0 0 1 652,160 Z" />
+      <path fill="#1a73e8" d="M642,180 H642 A2,2 0 0 1 644,182 V218 A2,2 0 0 1 642,220 H642 A2,2 0 0 1 640,218 V182 A2,2 0 0 1 642,180 Z" />
+      <text x="1120" y="210" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#4fc3f7" opacity="0.2" text-anchor="end">02</text>
+      <text x="670" y="215" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a73e8">知识时效性</text>
+      <text x="670" y="250" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#555555">训练数据截止后无法感知新信息</text>
+    </g>
+
+    
+    <g id="card-3">
+      <path fill="#ffffff" d="M92,380 H588 A12,12 0 0 1 600,392 V548 A12,12 0 0 1 588,560 H92 A12,12 0 0 1 80,548 V392 A12,12 0 0 1 92,380 Z" />
+      <path fill="#1a73e8" d="M82,400 H82 A2,2 0 0 1 84,402 V438 A2,2 0 0 1 82,440 H82 A2,2 0 0 1 80,438 V402 A2,2 0 0 1 82,400 Z" />
+      <text x="560" y="430" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#4fc3f7" opacity="0.2" text-anchor="end">03</text>
+      <text x="110" y="435" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a73e8">领域专业性</text>
+      <text x="110" y="470" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#555555">通用模型在垂直领域表现不足</text>
+    </g>
+
+    
+    <g id="card-4">
+      <path fill="#ffffff" d="M652,380 H1148 A12,12 0 0 1 1160,392 V548 A12,12 0 0 1 1148,560 H652 A12,12 0 0 1 640,548 V392 A12,12 0 0 1 652,380 Z" />
+      <path fill="#1a73e8" d="M642,400 H642 A2,2 0 0 1 644,402 V438 A2,2 0 0 1 642,440 H642 A2,2 0 0 1 640,438 V402 A2,2 0 0 1 642,400 Z" />
+      <text x="1120" y="430" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#4fc3f7" opacity="0.2" text-anchor="end">04</text>
+      <text x="670" y="435" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a73e8">可解释性</text>
+      <text x="670" y="470" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#555555">黑盒推理，难以追溯知识来源</text>
+    </g>
+  </g>
+
+  
+  <g id="solution-banner">
+    <path fill="#1a73e8" d="M92,600 H1188 A12,12 0 0 1 1200,612 V668 A12,12 0 0 1 1188,680 H92 A12,12 0 0 1 80,668 V612 A12,12 0 0 1 92,600 Z" />
+    <text x="120" y="650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">→ 两种主流解决方案：知识图谱 &amp; RAG</text>
+    <path d="M 1180 640 L 1200 640 L 1200 630 L 1210 640 L 1200 650 L 1200 640 L 1180 640 Z" fill="#4fc3f7" />
+  </g>
+
+  
+  <g id="page-indicator">
+    <text x="1200" y="700" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#999999" text-anchor="end">4 / 21</text>
+  </g>
+</svg>

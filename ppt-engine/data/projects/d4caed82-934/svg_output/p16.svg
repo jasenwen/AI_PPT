@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f5f8fe"/>
+  
+  <!-- Background Tech Accents -->
+  <circle cx="1180" cy="80" r="180" fill="#e8f0fe" opacity="0.5"/>
+  <circle cx="100" cy="640" r="120" fill="#e8f0fe" opacity="0.5"/>
+  <path d="M 1080 620 L 1180 520 L 1280 620 Z" fill="#4fc3f7" opacity="0.08"/>
+  <path d="M 20 100 L 120 200 L 20 300 Z" fill="#1a73e8" opacity="0.05"/>
+
+  <!-- Header -->
+  <text x="80" y="65" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#1a73e8">场景推荐矩阵</text>
+  <rect x="80" y="90" width="140" height="5" fill="#4fc3f7" rx="2.5"/>
+
+  <!-- Card 1: 知识图谱优先 -->
+  <g id="card-kg">
+    <rect x="80" y="120" width="560" height="260" fill="#ffffff" rx="16" stroke="#e0e7ef" stroke-width="1"/>
+    <rect x="80" y="120" width="560" height="6" fill="#1a73e8" rx="3"/>
+    <circle cx="130" cy="240" r="28" fill="#e8f0fe"/>
+    <path d="M 120 240 L 127 247 L 140 233" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="175" y="235" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1d2b44">知识图谱优先</text>
+    <text x="175" y="280" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 金融风控</text>
+    <text x="175" y="315" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 医疗诊断</text>
+    <text x="175" y="350" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 反欺诈</text>
+    <text x="175" y="385" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 法规合规</text>
+  </g>
+
+  <!-- Card 2: RAG 优先 -->
+  <g id="card-rag">
+    <rect x="680" y="120" width="560" height="260" fill="#ffffff" rx="16" stroke="#e0e7ef" stroke-width="1"/>
+    <rect x="680" y="120" width="560" height="6" fill="#4fc3f7" rx="3"/>
+    <circle cx="730" cy="240" r="28" fill="#e8f0fe"/>
+    <path d="M 720 240 L 727 247 L 740 233" fill="none" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="775" y="235" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1d2b44">RAG 优先</text>
+    <text x="775" y="280" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 企业知识库问答</text>
+    <text x="775" y="315" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 客服系统</text>
+    <text x="775" y="350" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 文档摘要</text>
+  </g>
+
+  <!-- Card 3: 两者结合 -->
+  <g id="card-combined">
+    <rect x="80" y="420" width="560" height="260" fill="#ffffff" rx="16" stroke="#e0e7ef" stroke-width="1"/>
+    <rect x="80" y="420" width="560" height="6" fill="#1a73e8" rx="3"/>
+    <circle cx="130" cy="540" r="28" fill="#e8f0fe"/>
+    <path d="M 120 540 L 127 547 L 140 533" fill="none" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="175" y="535" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1d2b44">两者结合</text>
+    <text x="175" y="580" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 智能问答 + 复杂推理</text>
+    <text x="175" y="615" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 典型架构：GraphRAG</text>
+  </g>
+
+  <!-- Card 4: 选型三要素 -->
+  <g id="card-criteria">
+    <rect x="680" y="420" width="560" height="260" fill="#ffffff" rx="16" stroke="#e0e7ef" stroke-width="1"/>
+    <rect x="680" y="420" width="560" height="6" fill="#4fc3f7" rx="3"/>
+    <circle cx="730" cy="540" r="28" fill="#e8f0fe"/>
+    <path d="M 720 540 L 727 547 L 740 533" fill="none" stroke="#4fc3f7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="775" y="535" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1d2b44">选型三要素</text>
+    <text x="775" y="580" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 数据质量</text>
+    <text x="775" y="615" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 推理深度</text>
+    <text x="775" y="650" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4a5568">• 更新频率</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="80" y1="690" x2="1200" y2="690" stroke="#e0e7ef" stroke-width="1"/>
+  <text x="1180" y="690" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#8c9bb5" text-anchor="end">16 / 21</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="header">
+    <text x="640" y="75" font-family="'Microsoft YaHei', 'PingFang SC', sans-serif" font-size="42" font-weight="bold" fill="#0F172A" text-anchor="middle">关键技术深度解析</text>
+    <line x1="460" y1="100" x2="820" y2="100" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="card-1">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M92,120 H608 A12,12 0 0 1 620,132 V348 A12,12 0 0 1 608,360 H92 A12,12 0 0 1 80,348 V132 A12,12 0 0 1 92,120 Z" />
+    <circle cx="120" cy="160" r="24" fill="#3B82F6" />
+    <text x="120" y="166" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="160" y="165" font-family="'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#1E293B">知识表示学习</text>
+    <text x="160" y="195" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#475569">TransE / RotatE / 图嵌入</text>
+    <line x1="160" y1="220" x2="240" y2="220" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <text x="160" y="250" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#64748B">将离散符号映射为连续向量，保留语义与拓扑结构</text>
+  </g>
+
+  <g id="card-2">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M672,120 H1188 A12,12 0 0 1 1200,132 V348 A12,12 0 0 1 1188,360 H672 A12,12 0 0 1 660,348 V132 A12,12 0 0 1 672,120 Z" />
+    <circle cx="700" cy="160" r="24" fill="#8B5CF6" />
+    <text x="700" y="166" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="740" y="165" font-family="'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#1E293B">图神经网络</text>
+    <text x="740" y="195" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#475569">GCN、GAT 在图结构上的应用</text>
+    <line x1="740" y1="220" x2="820" y2="220" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <text x="740" y="250" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#64748B">通过消息传递聚合邻居信息，处理非欧几里得数据</text>
+  </g>
+
+  <g id="card-3">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M92,380 H608 A12,12 0 0 1 620,392 V608 A12,12 0 0 1 608,620 H92 A12,12 0 0 1 80,608 V392 A12,12 0 0 1 92,380 Z" />
+    <circle cx="120" cy="420" r="24" fill="#10B981" />
+    <text x="120" y="426" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="160" y="425" font-family="'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#1E293B">知识图谱补全</text>
+    <text x="160" y="455" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#475569">链接预测与缺失关系补全</text>
+    <line x1="160" y1="480" x2="240" y2="480" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <text x="160" y="510" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#64748B">基于现有三元组推断潜在连接，提升图谱完整性</text>
+  </g>
+
+  <g id="card-4">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M672,380 H1188 A12,12 0 0 1 1200,392 V608 A12,12 0 0 1 1188,620 H672 A12,12 0 0 1 660,608 V392 A12,12 0 0 1 672,380 Z" />
+    <circle cx="700" cy="420" r="24" fill="#F59E0B" />
+    <text x="700" y="426" font-family="sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="740" y="425" font-family="'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#1E293B">大模型融合</text>
+    <text x="740" y="455" font-family="'Microsoft YaHei', sans-serif" font-size="16" fill="#475569">RAG + KG 增强生成式AI的准确性</text>
+    <line x1="740" y1="480" x2="820" y2="480" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <text x="740" y="510" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#64748B">结合检索增强与结构化知识，有效抑制幻觉并支持可解释输出</text>
+  </g>
+
+  <g id="footer">
+    <text x="640" y="695" font-family="'Microsoft YaHei', sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">第 5 页 / 共 9 页</text>
+  </g>
+</svg>

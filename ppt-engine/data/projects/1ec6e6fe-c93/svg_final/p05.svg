@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="header">
+    <text x="640" y="90" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#0F172A" text-anchor="middle">知识图谱技术栈</text>
+    <text x="640" y="130" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="20" fill="#64748B" text-anchor="middle">第 5 / 13 页</text>
+  </g>
+
+  <g id="stack-container">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M324,160 H956 A24,24 0 0 1 980,184 V596 A24,24 0 0 1 956,620 H324 A24,24 0 0 1 300,596 V184 A24,24 0 0 1 324,160 Z" />
+  </g>
+
+  <g id="layer-storage">
+    <path fill="#2563EB" d="M352,180 H928 A12,12 0 0 1 940,192 V248 A12,12 0 0 1 928,260 H352 A12,12 0 0 1 340,248 V192 A12,12 0 0 1 352,180 Z" />
+    <text x="640" y="215" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">存储层</text>
+    <text x="640" y="240" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="22" fill="#DBEAFE" text-anchor="middle">Neo4j</text>
+    <polygon points="635,255 645,255 640,265" fill="#94A3B8" />
+  </g>
+
+  <g id="layer-construction">
+    <path fill="#7C3AED" d="M352,280 H928 A12,12 0 0 1 940,292 V348 A12,12 0 0 1 928,360 H352 A12,12 0 0 1 340,348 V292 A12,12 0 0 1 352,280 Z" />
+    <text x="640" y="315" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">构建层</text>
+    <text x="640" y="340" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="22" fill="#EDE9FE" text-anchor="middle">NLP 抽取</text>
+    <polygon points="635,355 645,355 640,365" fill="#94A3B8" />
+  </g>
+
+  <g id="layer-query">
+    <path fill="#0891B2" d="M352,380 H928 A12,12 0 0 1 940,392 V448 A12,12 0 0 1 928,460 H352 A12,12 0 0 1 340,448 V392 A12,12 0 0 1 352,380 Z" />
+    <text x="640" y="415" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">查询层</text>
+    <text x="640" y="440" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="22" fill="#CFFAFE" text-anchor="middle">SPARQL / Cypher</text>
+    <polygon points="635,455 645,455 640,465" fill="#94A3B8" />
+  </g>
+
+  <g id="layer-reasoning">
+    <path fill="#059669" d="M352,480 H928 A12,12 0 0 1 940,492 V548 A12,12 0 0 1 928,560 H352 A12,12 0 0 1 340,548 V492 A12,12 0 0 1 352,480 Z" />
+    <text x="640" y="515" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">推理层</text>
+    <text x="640" y="540" font-family="'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif" font-size="22" fill="#D1FAE5" text-anchor="middle">规则引擎 / GNN</text>
+  </g>
+</svg>

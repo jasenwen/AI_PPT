@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0f1923" />
+  
+  <g id="tech-grid">
+    <line x1="0" y1="130" x2="1280" y2="130" stroke="#00d4ff" stroke-width="1" opacity="0.06" />
+    <line x1="0" y1="590" x2="1280" y2="590" stroke="#00d4ff" stroke-width="1" opacity="0.06" />
+    <line x1="640" y1="0" x2="640" y2="720" stroke="#00d4ff" stroke-width="1" opacity="0.04" />
+    <circle cx="120" cy="100" r="30" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.15" />
+    <circle cx="1160" cy="620" r="45" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12" />
+    <path d="M 100 680 L 120 660 L 140 680" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2" />
+    <path d="M 1140 60 L 1160 80 L 1180 60" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.2" />
+  </g>
+
+  <g id="header">
+    <text x="80" y="85" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" fill="#ffffff">🔹 知识表示方式</text>
+    <line x1="80" y1="105" x2="340" y2="105" stroke="#00d4ff" stroke-width="3" />
+    <text x="80" y="135" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#8e9eab">Knowledge Representation Paradigms</text>
+  </g>
+
+  <g id="kg-column">
+    <path fill="#1a2332" stroke="#00d4ff" stroke-width="1" opacity="0.85" d="M90,160 H570 A10,10 0 0 1 580,170 V560 A10,10 0 0 1 570,570 H90 A10,10 0 0 1 80,560 V170 A10,10 0 0 1 90,160 Z" />
+    <text x="120" y="215" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#00d4ff">1. 知识图谱</text>
+    <text x="120" y="260" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#8e9eab">显式符号化表示，结构化三元组</text>
+    
+    <g id="kg-graph">
+      <circle cx="220" cy="360" r="18" fill="#00d4ff" opacity="0.9" />
+      <circle cx="320" cy="320" r="14" fill="#00d4ff" opacity="0.7" />
+      <circle cx="270" cy="430" r="12" fill="#00d4ff" opacity="0.6" />
+      <circle cx="380" cy="390" r="10" fill="#00d4ff" opacity="0.5" />
+      <line x1="220" y1="360" x2="320" y2="320" stroke="#00d4ff" stroke-width="2" opacity="0.8" />
+      <line x1="220" y1="360" x2="270" y2="430" stroke="#00d4ff" stroke-width="2" opacity="0.8" />
+      <line x1="320" y1="320" x2="380" y2="390" stroke="#00d4ff" stroke-width="2" opacity="0.8" />
+      <line x1="270" y1="430" x2="380" y2="390" stroke="#00d4ff" stroke-width="2" opacity="0.8" />
+      <text x="245" y="365" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">实体</text>
+      <text x="335" y="325" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">关系</text>
+      <text x="285" y="435" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">属性</text>
+      <text x="395" y="395" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">事件</text>
+    </g>
+  </g>
+
+  <g id="rag-column">
+    <path fill="#1a2332" stroke="#00d4ff" stroke-width="1" opacity="0.85" d="M710,160 H1190 A10,10 0 0 1 1200,170 V560 A10,10 0 0 1 1190,570 H710 A10,10 0 0 1 700,560 V170 A10,10 0 0 1 710,160 Z" />
+    <text x="740" y="215" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#00d4ff">2. RAG</text>
+    <text x="740" y="260" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#8e9eab">隐式语义表示，非结构化文档向量化</text>
+    
+    <g id="rag-vectors">
+      <rect x="780" y="340" width="10" height="110" fill="#00d4ff" opacity="0.9" />
+      <rect x="805" y="360" width="10" height="90" fill="#00d4ff" opacity="0.75" />
+      <rect x="830" y="330" width="10" height="120" fill="#00d4ff" opacity="0.85" />
+      <rect x="855" y="370" width="10" height="80" fill="#00d4ff" opacity="0.65" />
+      <rect x="880" y="350" width="10" height="100" fill="#00d4ff" opacity="0.8" />
+      <rect x="905" y="345" width="10" height="105" fill="#00d4ff" opacity="0.88" />
+      <rect x="930" y="365" width="10" height="85" fill="#00d4ff" opacity="0.7" />
+      <rect x="955" y="335" width="10" height="115" fill="#00d4ff" opacity="0.92" />
+      <line x1="770" y1="460" x2="970" y2="460" stroke="#00d4ff" stroke-width="1" opacity="0.3" />
+      <text x="780" y="485" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#8e9eab">高维向量嵌入空间</text>
+    </g>
+  </g>
+
+  <g id="center-divider">
+    <line x1="640" y1="160" x2="640" y2="570" stroke="#00d4ff" stroke-width="2" stroke-dasharray="6,4" opacity="0.5" />
+    <circle cx="640" cy="365" r="6" fill="#00d4ff" opacity="0.8" />
+    <circle cx="640" cy="365" r="12" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.4" />
+  </g>
+
+  <g id="essence-bottom">
+    <text x="640" y="635" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">3. 本质区别：符号主义 vs 连接主义</text>
+    <line x1="460" y1="655" x2="820" y2="655" stroke="#00d4ff" stroke-width="2" opacity="0.4" />
+    <polygon points="635,650 645,650 640,660" fill="#00d4ff" opacity="0.6" />
+  </g>
+
+  <g id="page-info">
+    <text x="1200" y="700" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8e9eab" text-anchor="end">12 / 21</text>
+    <line x1="1000" y1="695" x2="1180" y2="695" stroke="#8e9eab" stroke-width="1" opacity="0.3" />
+  </g>
+</svg>

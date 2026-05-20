@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f5f8fe" />
+    </linearGradient>
+    
+    <linearGradient id="card-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f7ff" />
+    </linearGradient>
+
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a73e8" />
+      <stop offset="100%" stop-color="#4fc3f7" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#bg-gradient)" />
+
+  
+  <g id="background-decorations" opacity="0.15">
+    
+    <path d="M 100 100 L 300 150 L 250 300 L 100 100" fill="none" stroke="#1a73e8" stroke-width="2" />
+    <path d="M 1180 600 L 980 550 L 1030 400 L 1180 600" fill="none" stroke="#1a73e8" stroke-width="2" />
+    <path d="M 640 50 L 800 150 L 640 250 L 480 150 Z" fill="none" stroke="#4fc3f7" stroke-width="2" />
+    
+    
+    <circle cx="100" cy="100" r="6" fill="#1a73e8" />
+    <circle cx="300" cy="150" r="4" fill="#4fc3f7" />
+    <circle cx="250" cy="300" r="5" fill="#1a73e8" />
+    
+    <circle cx="1180" cy="600" r="6" fill="#1a73e8" />
+    <circle cx="980" cy="550" r="4" fill="#4fc3f7" />
+    <circle cx="1030" cy="400" r="5" fill="#1a73e8" />
+
+    <circle cx="640" cy="50" r="5" fill="#4fc3f7" />
+    <circle cx="800" cy="150" r="4" fill="#1a73e8" />
+    <circle cx="640" cy="250" r="5" fill="#4fc3f7" />
+    <circle cx="480" cy="150" r="4" fill="#1a73e8" />
+  </g>
+
+  
+  <g id="central-graphic" transform="translate(640, 320)">
+    <circle cx="0" cy="0" r="80" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.5" />
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#1a73e8" stroke-width="2" stroke-dasharray="10 5" opacity="0.8" />
+    <circle cx="0" cy="0" r="40" fill="#1a73e8" opacity="0.1" />
+    <circle cx="0" cy="0" r="15" fill="#1a73e8" />
+    
+    
+    <circle cx="-100" cy="-60" r="8" fill="#4fc3f7" />
+    <circle cx="100" cy="-60" r="8" fill="#4fc3f7" />
+    <circle cx="-100" cy="60" r="8" fill="#4fc3f7" />
+    <circle cx="100" cy="60" r="8" fill="#4fc3f7" />
+    
+    
+    <line x1="-15" y1="-10" x2="-90" y2="-55" stroke="#1a73e8" stroke-width="2" />
+    <line x1="15" y1="-10" x2="90" y2="-55" stroke="#1a73e8" stroke-width="2" />
+    <line x1="-15" y1="10" x2="-90" y2="55" stroke="#1a73e8" stroke-width="2" />
+    <line x1="15" y1="10" x2="90" y2="55" stroke="#1a73e8" stroke-width="2" />
+  </g>
+
+  
+  <g id="title-section" text-anchor="middle">
+    <text x="640" y="180" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#1a73e8" letter-spacing="4">THANK YOU</text>
+    <text x="640" y="240" font-family="Arial, sans-serif" font-size="36" font-weight="normal" fill="#333333">谢谢！Q&amp;A</text>
+    
+    
+    <line x1="540" y1="270" x2="740" y2="270" stroke="url(#accent-line)" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="content-cards">
+    
+    <g transform="translate(340, 460)">
+      <path fill="url(#card-gradient)" stroke="#e1e8f0" stroke-width="1" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.05))" d="M12,0 H228 A12,12 0 0 1 240,12 V128 A12,12 0 0 1 228,140 H12 A12,12 0 0 1 0,128 V12 A12,12 0 0 1 12,0 Z" />
+      
+      <path d="M 40 40 C 40 30 50 20 60 20 C 70 20 80 30 80 40 C 80 50 70 60 60 60 L 40 70 L 45 60 C 42 55 40 50 40 40 Z" fill="#1a73e8" transform="translate(20, 20) scale(0.8)" />
+      <text x="120" y="55" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle">交流探讨</text>
+      <text x="120" y="85" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">欢迎随时提问与交流</text>
+    </g>
+
+    
+    <g transform="translate(700, 460)">
+      <path fill="url(#card-gradient)" stroke="#e1e8f0" stroke-width="1" filter="drop-shadow(0px 4px 6px rgba(0,0,0,0.05))" d="M12,0 H228 A12,12 0 0 1 240,12 V128 A12,12 0 0 1 228,140 H12 A12,12 0 0 1 0,128 V12 A12,12 0 0 1 12,0 Z" />
+      
+      <path fill="none" stroke="#1a73e8" stroke-width="3" d="M49,35 H71 A4,4 0 0 1 75,39 V61 A4,4 0 0 1 71,65 H49 A4,4 0 0 1 45,61 V39 A4,4 0 0 1 49,35 Z" />
+      <line x1="40" y1="45" x2="45" y2="45" stroke="#1a73e8" stroke-width="3" />
+      <line x1="40" y1="55" x2="45" y2="55" stroke="#1a73e8" stroke-width="3" />
+      <line x1="75" y1="45" x2="80" y2="45" stroke="#1a73e8" stroke-width="3" />
+      <line x1="75" y1="55" x2="80" y2="55" stroke="#1a73e8" stroke-width="3" />
+      <line x1="55" y1="30" x2="55" y2="35" stroke="#1a73e8" stroke-width="3" />
+      <line x1="65" y1="30" x2="65" y2="35" stroke="#1a73e8" stroke-width="3" />
+      <line x1="55" y1="65" x2="55" y2="70" stroke="#1a73e8" stroke-width="3" />
+      <line x1="65" y1="65" x2="65" y2="70" stroke="#1a73e8" stroke-width="3" />
+      
+      <text x="120" y="55" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle">技术咨询</text>
+      <text x="120" y="85" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">KG / RAG / GraphRAG</text>
+    </g>
+  </g>
+
+  
+  <g id="footer">
+    <line x1="100" y1="680" x2="1180" y2="680" stroke="#e1e8f0" stroke-width="1" />
+    <text x="640" y="705" font-family="Arial, sans-serif" font-size="14" fill="#9aa0a6" text-anchor="middle">Knowledge Graph &amp; RAG Technology Presentation</text>
+    <text x="1180" y="705" font-family="Arial, sans-serif" font-size="14" fill="#9aa0a6" text-anchor="end">21 / 21</text>
+  </g>
+</svg>

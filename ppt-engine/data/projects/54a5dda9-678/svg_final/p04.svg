@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  <g id="header">
+    <rect x="0" y="0" width="1280" height="5" fill="#2B7FC3" />
+    <rect x="0" y="5" width="1280" height="75" fill="#F5F7FA" />
+    <text x="80" y="55" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#1A3A5C">核心技术架构</text>
+    <line x1="80" y1="75" x2="1200" y2="75" stroke="#E8ECEF" stroke-width="2" />
+  </g>
+
+  <g id="pipeline-line">
+    <line x1="120" y1="110" x2="120" y2="590" stroke="#2B7FC3" stroke-width="2" stroke-dasharray="6 6" opacity="0.25" />
+  </g>
+
+  <g id="row-1">
+    <path fill="#F5F7FA" d="M86,110 H1194 A6,6 0 0 1 1200,116 V184 A6,6 0 0 1 1194,190 H86 A6,6 0 0 1 80,184 V116 A6,6 0 0 1 86,110 Z" />
+    <circle cx="120" cy="150" r="18" fill="#2B7FC3" />
+    <text x="120" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">1</text>
+    <text x="155" y="135" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识抽取</text>
+    <text x="155" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">NER实体识别 · 关系抽取 · 属性抽取</text>
+    <path fill="#FFFFFF" stroke="#2B7FC3" stroke-width="1.5" d="M970,130 H1160 A20,20 0 0 1 1180,150 V150 A20,20 0 0 1 1160,170 H970 A20,20 0 0 1 950,150 V150 A20,20 0 0 1 970,130 Z" />
+    <text x="1065" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2B7FC3" text-anchor="middle" dominant-baseline="central">▸ 夯实数据底座</text>
+  </g>
+
+  <g id="row-2">
+    <path fill="#F5F7FA" d="M86,210 H1194 A6,6 0 0 1 1200,216 V284 A6,6 0 0 1 1194,290 H86 A6,6 0 0 1 80,284 V216 A6,6 0 0 1 86,210 Z" />
+    <circle cx="120" cy="150" r="18" fill="#2B7FC3" />
+    <text x="120" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">2</text>
+    <text x="155" y="135" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识融合</text>
+    <text x="155" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">实体对齐 · 共指消解 · 冲突消解</text>
+    <path fill="#FFFFFF" stroke="#2B7FC3" stroke-width="1.5" d="M970,130 H1160 A20,20 0 0 1 1180,150 V150 A20,20 0 0 1 1160,170 H970 A20,20 0 0 1 950,150 V150 A20,20 0 0 1 970,130 Z" />
+    <text x="1065" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2B7FC3" text-anchor="middle" dominant-baseline="central">▸ 打破数据孤岛</text>
+  </g>
+
+  <g id="row-3">
+    <path fill="#F5F7FA" d="M86,310 H1194 A6,6 0 0 1 1200,316 V384 A6,6 0 0 1 1194,390 H86 A6,6 0 0 1 80,384 V316 A6,6 0 0 1 86,310 Z" />
+    <circle cx="120" cy="150" r="18" fill="#2B7FC3" />
+    <text x="120" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">3</text>
+    <text x="155" y="135" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识存储</text>
+    <text x="155" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">图数据库 (Neo4j / JanusGraph) 建模</text>
+    <path fill="#FFFFFF" stroke="#2B7FC3" stroke-width="1.5" d="M970,130 H1160 A20,20 0 0 1 1180,150 V150 A20,20 0 0 1 1160,170 H970 A20,20 0 0 1 950,150 V150 A20,20 0 0 1 970,130 Z" />
+    <text x="1065" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2B7FC3" text-anchor="middle" dominant-baseline="central">▸ 高效管理关联</text>
+  </g>
+
+  <g id="row-4">
+    <path fill="#F5F7FA" d="M86,410 H1194 A6,6 0 0 1 1200,416 V484 A6,6 0 0 1 1194,490 H86 A6,6 0 0 1 80,484 V416 A6,6 0 0 1 86,410 Z" />
+    <circle cx="120" cy="150" r="18" fill="#2B7FC3" />
+    <text x="120" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">4</text>
+    <text x="155" y="135" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识推理</text>
+    <text x="155" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">规则推理 · 图神经网络推理 · 链接预测</text>
+    <path fill="#FFFFFF" stroke="#2B7FC3" stroke-width="1.5" d="M970,130 H1160 A20,20 0 0 1 1180,150 V150 A20,20 0 0 1 1160,170 H970 A20,20 0 0 1 950,150 V150 A20,20 0 0 1 970,130 Z" />
+    <text x="1065" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2B7FC3" text-anchor="middle" dominant-baseline="central">▸ 赋能智能决策</text>
+  </g>
+
+  <g id="row-5">
+    <path fill="#F5F7FA" d="M86,510 H1194 A6,6 0 0 1 1200,516 V584 A6,6 0 0 1 1194,590 H86 A6,6 0 0 1 80,584 V516 A6,6 0 0 1 86,510 Z" />
+    <circle cx="120" cy="150" r="18" fill="#2B7FC3" />
+    <text x="120" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">5</text>
+    <text x="155" y="135" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">知识更新</text>
+    <text x="155" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">增量学习 · 动态维护机制</text>
+    <path fill="#FFFFFF" stroke="#2B7FC3" stroke-width="1.5" d="M970,130 H1160 A20,20 0 0 1 1180,150 V150 A20,20 0 0 1 1160,170 H970 A20,20 0 0 1 950,150 V150 A20,20 0 0 1 970,130 Z" />
+    <text x="1065" y="150" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#2B7FC3" text-anchor="middle" dominant-baseline="central">▸ 保持系统鲜活</text>
+  </g>
+
+  <g id="footer-decoration">
+    <rect x="80" y="680" width="1120" height="2" fill="#E8ECEF" />
+    <text x="80" y="705" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#999999">第 4 页 / 共 9 页</text>
+    <text x="1200" y="705" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#999999" text-anchor="end">核心技术架构</text>
+  </g>
+</svg>

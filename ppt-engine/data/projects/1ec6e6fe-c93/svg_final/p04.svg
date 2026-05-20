@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="header">
+    <rect x="0" y="0" width="1280" height="80" fill="#1E3A8A" />
+    <text x="60" y="50" font-size="32" font-weight="bold" fill="#FFFFFF" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">知识图谱（KG）核心原理</text>
+    <text x="1220" y="50" font-size="20" fill="#93C5FD" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" text-anchor="end">4 / 13</text>
+  </g>
+
+  <g id="card-1-triplet">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M132,120 H608 A12,12 0 0 1 620,132 V348 A12,12 0 0 1 608,360 H132 A12,12 0 0 1 120,348 V132 A12,12 0 0 1 132,120 Z" />
+    <path fill="#3B82F6" d="M123,120 H123 A3,3 0 0 1 126,123 V357 A3,3 0 0 1 123,360 H123 A3,3 0 0 1 120,357 V123 A3,3 0 0 1 123,120 Z" />
+    <circle cx="160" cy="160" r="6" fill="#3B82F6" />
+    <circle cx="190" cy="160" r="6" fill="#3B82F6" />
+    <circle cx="175" cy="185" r="6" fill="#3B82F6" />
+    <line x1="160" y1="160" x2="190" y2="160" stroke="#3B82F6" stroke-width="2" />
+    <line x1="160" y1="160" x2="175" y2="185" stroke="#3B82F6" stroke-width="2" />
+    <line x1="190" y1="160" x2="175" y2="185" stroke="#3B82F6" stroke-width="2" />
+    <text x="210" y="165" font-size="22" font-weight="bold" fill="#1F2937" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">实体-关系-实体 三元组</text>
+    <text x="210" y="200" font-size="16" fill="#4B5563" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">知识表示的基本单元，通过节点与有向边构建结构化数据网络。</text>
+  </g>
+
+  <g id="card-2-schema">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M712,120 H1188 A12,12 0 0 1 1200,132 V348 A12,12 0 0 1 1188,360 H712 A12,12 0 0 1 700,348 V132 A12,12 0 0 1 712,120 Z" />
+    <path fill="#F59E0B" d="M703,120 H703 A3,3 0 0 1 706,123 V357 A3,3 0 0 1 703,360 H703 A3,3 0 0 1 700,357 V123 A3,3 0 0 1 703,120 Z" />
+    <path fill="#FEF3C7" d="M746,140 H774 A6,6 0 0 1 780,146 V174 A6,6 0 0 1 774,180 H746 A6,6 0 0 1 740,174 V146 A6,6 0 0 1 746,140 Z" />
+    <path d="M750 150 h20 M750 160 h20 M750 170 h20" stroke="#D97706" stroke-width="2" stroke-linecap="round" />
+    <text x="800" y="165" font-size="22" font-weight="bold" fill="#1F2937" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">Schema 先行</text>
+    <text x="800" y="200" font-size="16" fill="#4B5563" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">预先定义本体与约束规则，确保数据一致性、可扩展性与标准化入库。</text>
+  </g>
+
+  <g id="card-3-reasoning">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M132,380 H608 A12,12 0 0 1 620,392 V608 A12,12 0 0 1 608,620 H132 A12,12 0 0 1 120,608 V392 A12,12 0 0 1 132,380 Z" />
+    <path fill="#10B981" d="M123,380 H123 A3,3 0 0 1 126,383 V617 A3,3 0 0 1 123,620 H123 A3,3 0 0 1 120,617 V383 A3,3 0 0 1 123,380 Z" />
+    <path fill="#D1FAE5" d="M166,400 H194 A6,6 0 0 1 200,406 V434 A6,6 0 0 1 194,440 H166 A6,6 0 0 1 160,434 V406 A6,6 0 0 1 166,400 Z" />
+    <path d="M170 415 l10 -10 l10 10 M180 405 v15" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="210" y="425" font-size="22" font-weight="bold" fill="#1F2937" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">推理机制</text>
+    <text x="210" y="460" font-size="16" fill="#4B5563" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">基于逻辑规则或图算法挖掘隐含关系，实现知识发现与智能决策支持。</text>
+  </g>
+
+  <g id="card-4-features">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M712,380 H1188 A12,12 0 0 1 1200,392 V608 A12,12 0 0 1 1188,620 H712 A12,12 0 0 1 700,608 V392 A12,12 0 0 1 712,380 Z" />
+    <path fill="#8B5CF6" d="M703,380 H703 A3,3 0 0 1 706,383 V617 A3,3 0 0 1 703,620 H703 A3,3 0 0 1 700,617 V383 A3,3 0 0 1 703,380 Z" />
+    <path fill="#EDE9FE" d="M746,400 H774 A6,6 0 0 1 780,406 V434 A6,6 0 0 1 774,440 H746 A6,6 0 0 1 740,434 V406 A6,6 0 0 1 746,400 Z" />
+    <path d="M755 420 l5 5 l10 -10" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="800" y="425" font-size="22" font-weight="bold" fill="#1F2937" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">特点：高精度、可解释</text>
+    <text x="800" y="460" font-size="16" fill="#4B5563" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">结果透明可追溯，避免黑盒模型缺陷，适用于医疗、金融等强合规场景。</text>
+  </g>
+
+  <g id="footer">
+    <line x1="120" y1="680" x2="1160" y2="680" stroke="#E2E8F0" stroke-width="2" />
+    <text x="60" y="700" font-size="14" fill="#9CA3AF" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif">AI &amp; Data Architecture Series</text>
+    <text x="1220" y="700" font-size="14" fill="#9CA3AF" font-family="'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif" text-anchor="end">© 2024 Presentation Template</text>
+  </g>
+</svg>

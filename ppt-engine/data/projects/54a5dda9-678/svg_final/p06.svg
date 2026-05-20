@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  <g id="header">
+    <text x="140" y="85" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="32" font-weight="bold" fill="#1A3A5C">应用落地场景总览</text>
+    <line x1="140" y1="110" x2="1140" y2="110" stroke="#F5F7FA" stroke-width="4" />
+    <text x="140" y="140" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">聚焦核心业务价值，驱动智能化决策与运营效率升级</text>
+  </g>
+
+  <g id="card-1">
+    <path fill="#FFFFFF" stroke="#E8ECF0" stroke-width="1" d="M152,170 H608 A12,12 0 0 1 620,182 V298 A12,12 0 0 1 608,310 H152 A12,12 0 0 1 140,298 V182 A12,12 0 0 1 152,170 Z" />
+    <circle cx="180" cy="210" r="24" fill="#F5F7FA" />
+    <text x="180" y="216" font-family="sans-serif" font-size="24" text-anchor="middle">🔍</text>
+    <text x="220" y="205" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">智能搜索</text>
+    <text x="220" y="235" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">语义理解与实体卡片，精准匹配意图降低检索成本</text>
+    <path fill="#2B7FC3" d="M222,250 H258 A2,2 0 0 1 260,252 V252 A2,2 0 0 1 258,254 H222 A2,2 0 0 1 220,252 V252 A2,2 0 0 1 222,250 Z" />
+  </g>
+
+  <g id="card-2">
+    <path fill="#FFFFFF" stroke="#E8ECF0" stroke-width="1" d="M672,170 H1128 A12,12 0 0 1 1140,182 V298 A12,12 0 0 1 1128,310 H672 A12,12 0 0 1 660,298 V182 A12,12 0 0 1 672,170 Z" />
+    <circle cx="700" cy="210" r="24" fill="#F5F7FA" />
+    <text x="700" y="216" font-family="sans-serif" font-size="24" text-anchor="middle">💬</text>
+    <text x="740" y="205" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">智能问答</text>
+    <text x="740" y="235" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">自然语言交互直达权威答案，大幅提升决策效率</text>
+    <path fill="#2B7FC3" d="M742,250 H778 A2,2 0 0 1 780,252 V252 A2,2 0 0 1 778,254 H742 A2,2 0 0 1 740,252 V252 A2,2 0 0 1 742,250 Z" />
+  </g>
+
+  <g id="card-3">
+    <path fill="#FFFFFF" stroke="#E8ECF0" stroke-width="1" d="M152,340 H608 A12,12 0 0 1 620,352 V468 A12,12 0 0 1 608,480 H152 A12,12 0 0 1 140,468 V352 A12,12 0 0 1 152,340 Z" />
+    <circle cx="180" cy="380" r="24" fill="#F5F7FA" />
+    <text x="180" y="386" font-family="sans-serif" font-size="24" text-anchor="middle">📈</text>
+    <text x="220" y="375" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">推荐系统</text>
+    <text x="220" y="405" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">基于关系网络优化分发策略，显著提升转化与留存</text>
+    <path fill="#2B7FC3" d="M222,420 H258 A2,2 0 0 1 260,422 V422 A2,2 0 0 1 258,424 H222 A2,2 0 0 1 220,422 V422 A2,2 0 0 1 222,420 Z" />
+  </g>
+
+  <g id="card-4">
+    <path fill="#FFFFFF" stroke="#E8ECF0" stroke-width="1" d="M672,340 H1128 A12,12 0 0 1 1140,352 V468 A12,12 0 0 1 1128,480 H672 A12,12 0 0 1 660,468 V352 A12,12 0 0 1 672,340 Z" />
+    <circle cx="700" cy="380" r="24" fill="#F5F7FA" />
+    <text x="700" y="386" font-family="sans-serif" font-size="24" text-anchor="middle">🛡</text>
+    <text x="740" y="375" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">风险控制</text>
+    <text x="740" y="405" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">实时识别隐蔽资金链路，有效拦截异常保障资产安全</text>
+    <path fill="#2B7FC3" d="M742,420 H778 A2,2 0 0 1 780,422 V422 A2,2 0 0 1 778,424 H742 A2,2 0 0 1 740,422 V422 A2,2 0 0 1 742,420 Z" />
+  </g>
+
+  <g id="card-5">
+    <path fill="#FFFFFF" stroke="#E8ECF0" stroke-width="1" d="M152,510 H1128 A12,12 0 0 1 1140,522 V638 A12,12 0 0 1 1128,650 H152 A12,12 0 0 1 140,638 V522 A12,12 0 0 1 152,510 Z" />
+    <circle cx="180" cy="550" r="24" fill="#F5F7FA" />
+    <text x="180" y="556" font-family="sans-serif" font-size="24" text-anchor="middle">🏥</text>
+    <text x="220" y="545" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">行业应用</text>
+    <text x="220" y="575" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#333333">覆盖医疗、金融与法律领域，沉淀跨域知识资产赋能转型</text>
+    <path fill="#2B7FC3" d="M222,590 H258 A2,2 0 0 1 260,592 V592 A2,2 0 0 1 258,594 H222 A2,2 0 0 1 220,592 V592 A2,2 0 0 1 222,590 Z" />
+  </g>
+
+  <g id="footer">
+    <text x="1180" y="690" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#999999" text-anchor="end">6 / 9</text>
+  </g>
+</svg>

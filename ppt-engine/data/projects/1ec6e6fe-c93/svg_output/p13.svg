@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1120"/>
+  <g id="background-accents">
+    <circle cx="140" cy="140" r="110" fill="#1E293B" opacity="0.5"/>
+    <circle cx="1140" cy="600" r="160" fill="#1E293B" opacity="0.5"/>
+    <path d="M 0 680 L 1280 680" stroke="#38BDF8" stroke-width="4"/>
+    <rect x="590" y="270" width="100" height="4" fill="#38BDF8" rx="2"/>
+    <path d="M 640 200 L 640 260" stroke="#38BDF8" stroke-width="2" opacity="0.4"/>
+  </g>
+  <g id="main-title">
+    <text x="640" y="350" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="bold" fill="#FFFFFF" text-anchor="middle">谢谢！</text>
+  </g>
+  <g id="subtitle">
+    <text x="640" y="430" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="normal" fill="#38BDF8" text-anchor="middle">Q&amp;A</text>
+  </g>
+  <g id="content">
+    <text x="640" y="510" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#94A3B8" text-anchor="middle">欢迎交流与探讨</text>
+  </g>
+  <g id="footer-dots">
+    <circle cx="610" cy="570" r="6" fill="#38BDF8"/>
+    <circle cx="640" cy="570" r="6" fill="#38BDF8"/>
+    <circle cx="670" cy="570" r="6" fill="#38BDF8"/>
+  </g>
+</svg>

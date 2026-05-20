@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+
+  <rect width="1280" height="100" fill="#0F172A"/>
+  <text x="80" y="62" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF">应用落地场景总览</text>
+  <line x1="80" y1="82" x2="280" y2="82" stroke="#3B82F6" stroke-width="4"/>
+  <text x="1200" y="62" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#94A3B8" text-anchor="end">6 / 9</text>
+
+  <g id="card-search">
+    <rect x="100" y="140" width="340" height="200" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <rect x="100" y="140" width="340" height="6" rx="3" fill="#3B82F6"/>
+    <circle cx="140" cy="190" r="22" fill="#DBEAFE"/>
+    <text x="140" y="198" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle" fill="#1E40AF">🔍</text>
+    <text x="180" y="190" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">智能搜索</text>
+    <text x="120" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">语义理解与实体卡片</text>
+    <text x="120" y="265" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#64748B">（如 Google KG）</text>
+  </g>
+
+  <g id="card-qa">
+    <rect x="470" y="140" width="340" height="200" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <rect x="470" y="140" width="340" height="6" rx="3" fill="#14B8A6"/>
+    <circle cx="510" cy="190" r="22" fill="#CCFBF1"/>
+    <text x="510" y="198" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle" fill="#0F766E">💬</text>
+    <text x="550" y="190" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">智能问答</text>
+    <text x="490" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">KBQA 与对话系统</text>
+    <text x="490" y="265" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#64748B">自然语言交互与知识检索</text>
+  </g>
+
+  <g id="card-recsys">
+    <rect x="840" y="140" width="340" height="200" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <rect x="840" y="140" width="340" height="6" rx="3" fill="#8B5CF6"/>
+    <circle cx="880" cy="190" r="22" fill="#EDE9FE"/>
+    <text x="880" y="198" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle" fill="#6D28D9">📈</text>
+    <text x="920" y="190" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">推荐系统</text>
+    <text x="860" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">增强推荐的可解释性</text>
+    <text x="860" y="265" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#64748B">与精准度</text>
+  </g>
+
+  <g id="card-risk">
+    <rect x="285" y="390" width="340" height="200" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <rect x="285" y="390" width="340" height="6" rx="3" fill="#F59E0B"/>
+    <circle cx="325" cy="440" r="22" fill="#FEF3C7"/>
+    <text x="325" y="448" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle" fill="#92400E">🛡</text>
+    <text x="365" y="440" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">风险控制</text>
+    <text x="305" y="490" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">关联挖掘与反欺诈检测</text>
+    <text x="305" y="515" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#64748B">实时风险图谱构建</text>
+  </g>
+
+  <g id="card-industry">
+    <rect x="655" y="390" width="340" height="200" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <rect x="655" y="390" width="340" height="6" rx="3" fill="#E11D48"/>
+    <circle cx="695" cy="440" r="22" fill="#FFE4E6"/>
+    <text x="695" y="448" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle" fill="#9F1239">🏥</text>
+    <text x="735" y="440" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">行业应用</text>
+    <text x="675" y="490" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">医疗/金融/法律</text>
+    <text x="675" y="515" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#64748B">知识图谱深度赋能</text>
+  </g>
+
+  <line x1="100" y1="640" x2="1180" y2="640" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="640" y="670" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">Knowledge Graph Application Scenarios Overview</text>
+</svg>

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <!-- Soft Shadow for Cards -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.05"/>
+    </filter>
+    
+    <!-- Gradient for Header -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+
+  <!-- Header Section -->
+  <g id="header">
+    <rect width="1280" height="110" fill="url(#headerGrad)"/>
+    <line x1="0" y1="110" x2="1280" y2="110" stroke="#3B82F6" stroke-width="4"/>
+    
+    <!-- Title -->
+    <text x="80" y="70" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">RAG 技术栈</text>
+    
+    <!-- Page Number -->
+    <text x="1200" y="65" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#94A3B8" text-anchor="end">7 / 13</text>
+  </g>
+
+  <!-- Content Area -->
+  <g id="content" transform="translate(0, 20)">
+    
+    <!-- Card 1: Embedding 模型 -->
+    <g id="card-embedding" transform="translate(80, 140)">
+      <rect width="540" height="260" rx="16" fill="#FFFFFF" filter="url(#shadow)" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <!-- Icon Background -->
+      <circle cx="60" cy="60" r="32" fill="#EFF6FF"/>
+      <!-- Icon: Document to Vector -->
+      <path d="M50 45 L70 45 M50 55 L70 55 M50 65 L60 65" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+      <path d="M75 50 L85 50 L85 70 L75 70 Z" fill="none" stroke="#3B82F6" stroke-width="2"/>
+      <path d="M85 60 L95 60" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Text -->
+      <text x="110" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">Embedding 模型</text>
+      <text x="110" y="90" font-family="Arial, sans-serif" font-size="18" fill="#64748B">将非结构化数据转化为高维向量</text>
+      
+      <!-- Details List -->
+      <g transform="translate(110, 120)">
+        <circle cx="0" cy="0" r="4" fill="#3B82F6"/>
+        <text x="15" y="5" font-family="Arial, sans-serif" font-size="16" fill="#475569">语义理解与上下文感知</text>
+        
+        <circle cx="0" cy="30" r="4" fill="#3B82F6"/>
+        <text x="15" y="35" font-family="Arial, sans-serif" font-size="16" fill="#475569">常用模型: BGE, text-embedding-ada-002</text>
+        
+        <circle cx="0" cy="60" r="4" fill="#3B82F6"/>
+        <text x="15" y="65" font-family="Arial, sans-serif" font-size="16" fill="#475569">多语言支持与长文本处理</text>
+      </g>
+    </g>
+
+    <!-- Card 2: 向量数据库 -->
+    <g id="card-vectordb" transform="translate(660, 140)">
+      <rect width="540" height="260" rx="16" fill="#FFFFFF" filter="url(#shadow)" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <!-- Icon Background -->
+      <circle cx="60" cy="60" r="32" fill="#ECFDF5"/>
+      <!-- Icon: Database -->
+      <ellipse cx="60" cy="50" rx="15" ry="5" fill="none" stroke="#10B981" stroke-width="2"/>
+      <path d="M45 50 L45 70 C45 73 52 75 60 75 C68 75 75 73 75 70 L75 50" fill="none" stroke="#10B981" stroke-width="2"/>
+      <path d="M45 60 C45 63 52 65 60 65 C68 65 75 63 75 60" fill="none" stroke="#10B981" stroke-width="2"/>
+      
+      <!-- Text -->
+      <text x="110" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">向量数据库</text>
+      <text x="110" y="90" font-family="Arial, sans-serif" font-size="18" fill="#64748B">高效存储与检索海量向量数据</text>
+      
+      <!-- Details List -->
+      <g transform="translate(110, 120)">
+        <circle cx="0" cy="0" r="4" fill="#10B981"/>
+        <text x="15" y="5" font-family="Arial, sans-serif" font-size="16" fill="#475569">近似最近邻搜索 (ANN)</text>
+        
+        <circle cx="0" cy="30" r="4" fill="#10B981"/>
+        <text x="15" y="35" font-family="Arial, sans-serif" font-size="16" fill="#475569">主流方案: Milvus, Pinecone, Chroma</text>
+        
+        <circle cx="0" cy="60" r="4" fill="#10B981"/>
+        <text x="15" y="65" font-family="Arial, sans-serif" font-size="16" fill="#475569">支持标量过滤与混合检索</text>
+      </g>
+    </g>
+
+    <!-- Card 3: 优化技术 -->
+    <g id="card-optimize" transform="translate(80, 440)">
+      <rect width="540" height="260" rx="16" fill="#FFFFFF" filter="url(#shadow)" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <!-- Icon Background -->
+      <circle cx="60" cy="60" r="32" fill="#FFFBEB"/>
+      <!-- Icon: Optimization/Gear -->
+      <path d="M60 45 L60 50 M60 70 L60 75 M45 60 L50 60 M70 60 L75 60" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="60" cy="60" r="10" fill="none" stroke="#F59E0B" stroke-width="2"/>
+      <path d="M52 52 L55 55 M65 65 L68 68 M68 52 L65 55 M55 65 L52 68" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Text -->
+      <text x="110" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">优化技术</text>
+      <text x="110" y="90" font-family="Arial, sans-serif" font-size="18" fill="#64748B">提升检索精度与生成质量</text>
+      
+      <!-- Details List -->
+      <g transform="translate(110, 120)">
+        <circle cx="0" cy="0" r="4" fill="#F59E0B"/>
+        <text x="15" y="5" font-family="Arial, sans-serif" font-size="16" fill="#475569">分块策略 (Chunking) 与元数据管理</text>
+        
+        <circle cx="0" cy="30" r="4" fill="#F59E0B"/>
+        <text x="15" y="35" font-family="Arial, sans-serif" font-size="16" fill="#475569">重排序 (Reranking) 模型应用</text>
+        
+        <circle cx="0" cy="60" r="4" fill="#F59E0B"/>
+        <text x="15" y="65" font-family="Arial, sans-serif" font-size="16" fill="#475569">查询改写与多路召回</text>
+      </g>
+    </g>
+
+    <!-- Card 4: 框架：LangChain -->
+    <g id="card-langchain" transform="translate(660, 440)">
+      <rect width="540" height="260" rx="16" fill="#FFFFFF" filter="url(#shadow)" stroke="#E2E8F0" stroke-width="1"/>
+      
+      <!-- Icon Background -->
+      <circle cx="60" cy="60" r="32" fill="#F5F3FF"/>
+      <!-- Icon: Chain Links -->
+      <path d="M50 55 C50 50 55 50 55 55 C55 60 50 60 50 55" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+      <path d="M65 55 C65 50 70 50 70 55 C70 60 65 60 65 55" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+      <line x1="55" y1="55" x2="65" y2="55" stroke="#8B5CF6" stroke-width="2"/>
+      <path d="M50 65 C50 60 55 60 55 65 C55 70 50 70 50 65" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+      <path d="M65 65 C65 60 70 60 70 65 C70 70 65 70 65 65" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+      <line x1="55" y1="65" x2="65" y2="65" stroke="#8B5CF6" stroke-width="2"/>
+      
+      <!-- Text -->
+      <text x="110" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">框架：LangChain</text>
+      <text x="110" y="90" font-family="Arial, sans-serif" font-size="18" fill="#64748B">构建基于 LLM 的应用程序核心骨架</text>
+      
+      <!-- Details List -->
+      <g transform="translate(110, 120)">
+        <circle cx="0" cy="0" r="4" fill="#8B5CF6"/>
+        <text x="15" y="5" font-family="Arial, sans-serif" font-size="16" fill="#475569">链式调用 (Chains) 与 Agent 编排</text>
+        
+        <circle cx="0" cy="30" r="4" fill="#8B5CF6"/>
+        <text x="15" y="35" font-family="Arial, sans-serif" font-size="16" fill="#475569">内置丰富的 Prompt 模板库</text>
+        
+        <circle cx="0" cy="60" r="4" fill="#8B5CF6"/>
+        <text x="15" y="65" font-family="Arial, sans-serif" font-size="16" fill="#475569">生态集成：工具调用、记忆模块</text>
+      </g>
+    </g>
+
+  </g>
+</svg>

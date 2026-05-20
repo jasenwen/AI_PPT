@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  
+  <g id="header">
+    <text x="100" y="68" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#0F172A">典型应用案例解析</text>
+    <line x1="100" y1="92" x2="190" y2="92" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g id="card-1">
+    <rect x="100" y="130" width="520" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="150" width="4" height="40" rx="2" fill="#3B82F6"/>
+    <text x="560" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#3B82F6" opacity="0.15">01</text>
+    
+    <circle cx="140" cy="170" r="22" fill="none" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="155" y1="185" x2="168" y2="198" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="132" cy="162" r="3" fill="#3B82F6"/>
+    <circle cx="148" cy="158" r="3" fill="#3B82F6"/>
+    <circle cx="140" cy="175" r="3" fill="#3B82F6"/>
+    <line x1="132" y1="162" x2="148" y2="158" stroke="#3B82F6" stroke-width="1.5"/>
+    <line x1="148" y1="158" x2="140" y2="175" stroke="#3B82F6" stroke-width="1.5"/>
+    <line x1="140" y1="175" x2="132" y2="162" stroke="#3B82F6" stroke-width="1.5"/>
+    
+    <text x="140" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1E293B">Google 搜索</text>
+    <text x="140" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">Knowledge Graph 赋能语义搜索</text>
+  </g>
+
+  <g id="card-2">
+    <rect x="660" y="130" width="520" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="660" y="150" width="4" height="40" rx="2" fill="#10B981"/>
+    <text x="1120" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#10B981" opacity="0.15">02</text>
+    
+    <rect x="690" y="160" width="20" height="20" rx="4" fill="none" stroke="#10B981" stroke-width="2"/>
+    <line x1="700" y1="150" x2="700" y2="190" stroke="#10B981" stroke-width="2"/>
+    <line x1="690" y1="170" x2="710" y2="170" stroke="#10B981" stroke-width="2"/>
+    <circle cx="670" cy="155" r="4" fill="#10B981"/>
+    <circle cx="730" cy="155" r="4" fill="#10B981"/>
+    <circle cx="700" cy="195" r="4" fill="#10B981"/>
+    <line x1="690" y1="170" x2="670" y2="155" stroke="#10B981" stroke-width="1.5"/>
+    <line x1="710" y1="170" x2="730" y2="155" stroke="#10B981" stroke-width="1.5"/>
+    <line x1="700" y1="180" x2="700" y2="191" stroke="#10B981" stroke-width="1.5"/>
+    
+    <text x="700" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1E293B">医疗辅助诊断</text>
+    <text x="700" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">症状-疾病-药物知识推理</text>
+  </g>
+
+  <g id="card-3">
+    <rect x="100" y="410" width="520" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="430" width="4" height="40" rx="2" fill="#F59E0B"/>
+    <text x="560" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#F59E0B" opacity="0.15">03</text>
+    
+    <path d="M140,390 L155,398 L155,415 C155,425 140,435 140,435 C140,435 125,425 125,415 L125,398 Z" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="140" cy="405" r="3" fill="#F59E0B"/>
+    <circle cx="132" cy="415" r="3" fill="#F59E0B"/>
+    <circle cx="148" cy="415" r="3" fill="#F59E0B"/>
+    <line x1="140" y1="405" x2="132" y2="415" stroke="#F59E0B" stroke-width="1.5"/>
+    <line x1="140" y1="405" x2="148" y2="415" stroke="#F59E0B" stroke-width="1.5"/>
+    <line x1="132" y1="415" x2="148" y2="415" stroke="#F59E0B" stroke-width="1.5"/>
+    
+    <text x="140" y="515" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1E293B">金融风控</text>
+    <text x="140" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">企业关联关系挖掘与反团伙欺诈</text>
+  </g>
+
+  <g id="card-4">
+    <rect x="660" y="410" width="520" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="660" y="430" width="4" height="40" rx="2" fill="#8B5CF6"/>
+    <text x="1120" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#8B5CF6" opacity="0.15">04</text>
+    
+    <polygon points="700,392 715,400 715,420 700,428 685,420 685,400" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="700" cy="410" r="4" fill="#8B5CF6"/>
+    <circle cx="690" cy="402" r="3" fill="#8B5CF6"/>
+    <circle cx="710" cy="402" r="3" fill="#8B5CF6"/>
+    <circle cx="700" cy="420" r="3" fill="#8B5CF6"/>
+    <line x1="700" y1="410" x2="690" y2="402" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="700" y1="410" x2="710" y2="402" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="700" y1="410" x2="700" y2="420" stroke="#8B5CF6" stroke-width="1.5"/>
+    
+    <text x="700" y="515" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#1E293B">大模型+RAG</text>
+    <text x="700" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">利用知识图谱减少 LLM 幻觉</text>
+  </g>
+
+  <g id="footer">
+    <text x="1180" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">7 / 9</text>
+  </g>
+</svg>

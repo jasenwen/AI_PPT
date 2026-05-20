@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <marker id="arrow-down" viewBox="0 0 10 10" refX="5" refY="10" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 0 L 5 10 z" fill="#475569" />
+    </marker>
+    <marker id="arrow-right" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569" />
+    </marker>
+  </defs>
+
+  <rect width="1280" height="720" fill="#0B1120" />
+  
+  <g id="slide-header">
+    <text x="640" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="bold" fill="#F8FAFC" text-anchor="middle">核心技术架构</text>
+    <line x1="520" y1="95" x2="760" y2="95" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="architecture-flow">
+    <path d="M 360 330 L 360 400" stroke="#334155" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrow-down)" />
+    <path d="M 640 330 L 640 400" stroke="#334155" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrow-down)" />
+    <path d="M 920 330 L 920 400" stroke="#334155" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrow-down)" />
+    <path d="M 500 475 L 660 475" stroke="#334155" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrow-right)" />
+  </g>
+
+  <g id="card-1-extraction">
+    <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M252,180 H468 A12,12 0 0 1 480,192 V318 A12,12 0 0 1 468,330 H252 A12,12 0 0 1 240,318 V192 A12,12 0 0 1 252,180 Z" />
+    <path fill="#3B82F6" d="M243,180 H477 A3,3 0 0 1 480,183 V183 A3,3 0 0 1 477,186 H243 A3,3 0 0 1 240,183 V183 A3,3 0 0 1 243,180 Z" />
+    <circle cx="270" cy="215" r="16" fill="#3B82F6" opacity="0.15" />
+    <text x="270" y="220" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#3B82F6" text-anchor="middle">1</text>
+    <text x="295" y="218" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#F8FAFC">知识抽取</text>
+    <text x="260" y="250" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• NER实体识别</text>
+    <text x="260" y="270" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 关系抽取</text>
+    <text x="260" y="290" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 属性抽取</text>
+  </g>
+
+  <g id="card-2-fusion">
+    <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M532,180 H748 A12,12 0 0 1 760,192 V318 A12,12 0 0 1 748,330 H532 A12,12 0 0 1 520,318 V192 A12,12 0 0 1 532,180 Z" />
+    <path fill="#06B6D4" d="M523,180 H757 A3,3 0 0 1 760,183 V183 A3,3 0 0 1 757,186 H523 A3,3 0 0 1 520,183 V183 A3,3 0 0 1 523,180 Z" />
+    <circle cx="550" cy="215" r="16" fill="#06B6D4" opacity="0.15" />
+    <text x="550" y="220" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#06B6D4" text-anchor="middle">2</text>
+    <text x="575" y="218" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#F8FAFC">知识融合</text>
+    <text x="540" y="250" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 实体对齐</text>
+    <text x="540" y="270" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 共指消解</text>
+    <text x="540" y="290" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 冲突消解</text>
+  </g>
+
+  <g id="card-3-storage">
+    <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M812,180 H1028 A12,12 0 0 1 1040,192 V318 A12,12 0 0 1 1028,330 H812 A12,12 0 0 1 800,318 V192 A12,12 0 0 1 812,180 Z" />
+    <path fill="#8B5CF6" d="M803,180 H1037 A3,3 0 0 1 1040,183 V183 A3,3 0 0 1 1037,186 H803 A3,3 0 0 1 800,183 V183 A3,3 0 0 1 803,180 Z" />
+    <circle cx="830" cy="215" r="16" fill="#8B5CF6" opacity="0.15" />
+    <text x="830" y="220" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#8B5CF6" text-anchor="middle">3</text>
+    <text x="855" y="218" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#F8FAFC">知识存储</text>
+    <text x="820" y="250" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 图数据库建模</text>
+    <text x="820" y="270" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• Neo4j / JanusGraph</text>
+    <text x="820" y="290" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 高性能索引优化</text>
+  </g>
+
+  <g id="card-4-reasoning">
+    <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M392,400 H608 A12,12 0 0 1 620,412 V538 A12,12 0 0 1 608,550 H392 A12,12 0 0 1 380,538 V412 A12,12 0 0 1 392,400 Z" />
+    <path fill="#10B981" d="M383,400 H617 A3,3 0 0 1 620,403 V403 A3,3 0 0 1 617,406 H383 A3,3 0 0 1 380,403 V403 A3,3 0 0 1 383,400 Z" />
+    <circle cx="410" cy="435" r="16" fill="#10B981" opacity="0.15" />
+    <text x="410" y="440" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#10B981" text-anchor="middle">4</text>
+    <text x="435" y="438" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#F8FAFC">知识推理</text>
+    <text x="400" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 规则推理引擎</text>
+    <text x="400" y="490" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 图神经网络推理</text>
+    <text x="400" y="510" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 链接预测</text>
+  </g>
+
+  <g id="card-5-update">
+    <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M672,400 H888 A12,12 0 0 1 900,412 V538 A12,12 0 0 1 888,550 H672 A12,12 0 0 1 660,538 V412 A12,12 0 0 1 672,400 Z" />
+    <path fill="#F59E0B" d="M663,400 H897 A3,3 0 0 1 900,403 V403 A3,3 0 0 1 897,406 H663 A3,3 0 0 1 660,403 V403 A3,3 0 0 1 663,400 Z" />
+    <circle cx="690" cy="435" r="16" fill="#F59E0B" opacity="0.15" />
+    <text x="690" y="440" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#F59E0B" text-anchor="middle">5</text>
+    <text x="715" y="438" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#F8FAFC">知识更新</text>
+    <text x="680" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 增量学习机制</text>
+    <text x="680" y="490" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 动态维护策略</text>
+    <text x="680" y="510" font-family="system-ui, sans-serif" font-size="13" fill="#CBD5E1">• 实时数据同步</text>
+  </g>
+
+  <g id="slide-footer">
+    <line x1="100" y1="680" x2="1180" y2="680" stroke="#1E293B" stroke-width="2" />
+    <text x="1240" y="670" font-family="system-ui, sans-serif" font-size="14" font-weight="medium" fill="#64748B" text-anchor="end">4 / 9</text>
+  </g>
+</svg>

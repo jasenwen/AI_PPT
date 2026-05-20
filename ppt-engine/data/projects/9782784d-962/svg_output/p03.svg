@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="#FFF8F0"/>
+
+  <!-- 有机装饰元素 -->
+  <g id="organic-decorations">
+    <circle cx="90" cy="90" r="140" fill="#FF6B35" opacity="0.06"/>
+    <circle cx="1180" cy="640" r="200" fill="#FFA500" opacity="0.05"/>
+    <path d="M 0 280 C 250 220, 450 320, 700 280 S 1050 180, 1280 240" stroke="#FF8C42" stroke-width="3" fill="none" opacity="0.25"/>
+    <path d="M 0 480 C 300 530, 500 430, 850 480 S 1150 380, 1280 420" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.15"/>
+    <circle cx="1160" cy="160" r="45" fill="#FFA500" opacity="0.12"/>
+    <circle cx="140" cy="610" r="70" fill="#FF8C42" opacity="0.08"/>
+    <circle cx="640" cy="360" r="250" fill="#FF6B35" opacity="0.03"/>
+  </g>
+
+  <!-- 左上角橙色装饰条 -->
+  <g id="top-left-bar">
+    <rect x="0" y="0" width="180" height="16" fill="#FF6B35" rx="8"/>
+    <circle cx="200" cy="8" r="7" fill="#FFA500"/>
+    <circle cx="225" cy="8" r="5" fill="#FF8C42"/>
+    <circle cx="245" cy="8" r="3" fill="#FF6B35"/>
+  </g>
+
+  <!-- 标题区域 -->
+  <g id="title-section">
+    <text x="100" y="115" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="bold" fill="#FF6B35">FDE 的核心职责</text>
+    <text x="100" y="150" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#636E72">Frontline Delivery Engineer | 连接客户价值与产品迭代的关键枢纽</text>
+    <line x1="100" y1="170" x2="220" y2="170" stroke="#FF6B35" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- 内容卡片组 -->
+  <g id="content-cards">
+    <!-- 卡片 1 -->
+    <g id="card-1">
+      <rect x="100" y="190" width="520" height="220" rx="16" fill="#FFFFFF" stroke="#FFE5D9" stroke-width="2"/>
+      <circle cx="150" cy="300" r="38" fill="#FF6B35"/>
+      <text x="150" y="308" font-size="28" text-anchor="middle">🔍</text>
+      <text x="210" y="290" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#2D3436">需求挖掘</text>
+      <text x="210" y="325" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#636E72">深入客户业务场景，识别真正痛点</text>
+    </g>
+
+    <!-- 卡片 2 -->
+    <g id="card-2">
+      <rect x="660" y="190" width="520" height="220" rx="16" fill="#FFFFFF" stroke="#FFE5D9" stroke-width="2"/>
+      <circle cx="710" cy="300" r="38" fill="#FFA500"/>
+      <text x="710" y="308" font-size="28" text-anchor="middle">⚡</text>
+      <text x="770" y="290" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#2D3436">快速部署</text>
+      <text x="770" y="325" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#636E72">在客户环境中落地解决方案</text>
+    </g>
+
+    <!-- 卡片 3 -->
+    <g id="card-3">
+      <rect x="100" y="450" width="520" height="220" rx="16" fill="#FFFFFF" stroke="#FFE5D9" stroke-width="2"/>
+      <circle cx="150" cy="560" r="38" fill="#FF8C42"/>
+      <text x="150" y="568" font-size="28" text-anchor="middle">🛠️</text>
+      <text x="210" y="550" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#2D3436">定制开发</text>
+      <text x="210" y="585" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#636E72">灵活适配，解决最后一公里问题</text>
+    </g>
+
+    <!-- 卡片 4 -->
+    <g id="card-4">
+      <rect x="660" y="450" width="520" height="220" rx="16" fill="#FFFFFF" stroke="#FFE5D9" stroke-width="2"/>
+      <circle cx="710" cy="560" r="38" fill="#FF6B35"/>
+      <text x="710" y="568" font-size="28" text-anchor="middle">🔄</text>
+      <text x="770" y="550" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#2D3436">反馈闭环</text>
+      <text x="770" y="585" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#636E72">将一线经验反哺产品团队</text>
+    </g>
+  </g>
+
+  <!-- 底部页码与分割线 -->
+  <g id="footer">
+    <line x1="100" y1="690" x2="1180" y2="690" stroke="#E8E8E8" stroke-width="1"/>
+    <text x="1180" y="710" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#999999" text-anchor="end">3 / 9</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <g id="background">
+    <rect width="1280" height="720" fill="#0B1120"/>
+    <circle cx="640" cy="360" r="320" fill="#1E293B" opacity="0.4"/>
+    <circle cx="640" cy="360" r="220" fill="#1E293B" opacity="0.3"/>
+  </g>
+  <g id="decorations">
+    <line x1="420" y1="230" x2="860" y2="230" stroke="#3B82F6" stroke-width="12" stroke-linecap="round"/>
+    <line x1="500" y1="510" x2="780" y2="510" stroke="#3B82F6" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="100,100 160,100 100,160" fill="#3B82F6" opacity="0.7"/>
+    <polygon points="1180,620 1120,620 1180,560" fill="#3B82F6" opacity="0.7"/>
+    <circle cx="200" cy="600" r="8" fill="#FFFFFF" opacity="0.3"/>
+    <circle cx="270" cy="660" r="8" fill="#FFFFFF" opacity="0.3"/>
+    <circle cx="1080" cy="100" r="8" fill="#FFFFFF" opacity="0.3"/>
+    <rect x="600" y="170" width="80" height="4" fill="#3B82F6" opacity="0.6"/>
+    <rect x="600" y="550" width="80" height="4" fill="#3B82F6" opacity="0.6"/>
+  </g>
+  <g id="content">
+    <text x="640" y="350" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">Test Cover</text>
+    <text x="640" y="430" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="normal" fill="#3B82F6" text-anchor="middle" letter-spacing="14">2024</text>
+  </g>
+</svg>

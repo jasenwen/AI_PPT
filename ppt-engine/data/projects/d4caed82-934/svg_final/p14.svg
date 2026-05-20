@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f5f8fe"/>
+  
+  <g id="header">
+    <text x="640" y="85" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="bold" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">核心能力对比表</text>
+    <line x1="240" y1="115" x2="1040" y2="115" stroke="#4fc3f7" stroke-width="4"/>
+  </g>
+  
+  <g id="comparison-table">
+    <rect x="240" y="130" width="800" height="60" fill="#e8f0fe"/>
+    <text x="260" y="160" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" dominant-baseline="central">评估维度</text>
+    <text x="590" y="160" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">知识图谱</text>
+    <text x="890" y="160" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">RAG</text>
+    
+    <rect x="240" y="190" width="800" height="80" fill="#ffffff"/>
+    <rect x="240" y="190" width="6" height="80" fill="#1a73e8"/>
+    <text x="260" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333333" dominant-baseline="central">精确性</text>
+    <text x="590" y="230" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★★★</text>
+    <text x="890" y="230" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★☆☆</text>
+    
+    <rect x="240" y="270" width="800" height="80" fill="#f0f5ff"/>
+    <rect x="240" y="270" width="6" height="80" fill="#4fc3f7"/>
+    <text x="260" y="310" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333333" dominant-baseline="central">召回率</text>
+    <text x="590" y="310" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★☆☆</text>
+    <text x="890" y="310" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★★☆</text>
+    
+    <rect x="240" y="350" width="800" height="80" fill="#ffffff"/>
+    <rect x="240" y="350" width="6" height="80" fill="#1a73e8"/>
+    <text x="260" y="390" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333333" dominant-baseline="central">构建成本</text>
+    <text x="590" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★☆☆☆</text>
+    <text x="890" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★★☆</text>
+    
+    <rect x="240" y="430" width="800" height="80" fill="#f0f5ff"/>
+    <rect x="240" y="430" width="6" height="80" fill="#4fc3f7"/>
+    <text x="260" y="470" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333333" dominant-baseline="central">可解释性</text>
+    <text x="590" y="470" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★★★</text>
+    <text x="890" y="470" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★☆☆</text>
+    
+    <rect x="240" y="510" width="800" height="80" fill="#ffffff"/>
+    <rect x="240" y="510" width="6" height="80" fill="#1a73e8"/>
+    <text x="260" y="550" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333333" dominant-baseline="central">实时性</text>
+    <text x="590" y="550" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★☆☆☆</text>
+    <text x="890" y="550" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★★★</text>
+    
+    <rect x="240" y="590" width="800" height="80" fill="#f0f5ff"/>
+    <rect x="240" y="590" width="6" height="80" fill="#4fc3f7"/>
+    <text x="260" y="630" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#333333" dominant-baseline="central">扩展性</text>
+    <text x="590" y="630" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★☆☆</text>
+    <text x="890" y="630" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" text-anchor="middle" dominant-baseline="central">★★★★★</text>
+    
+    <line x1="240" y1="190" x2="1040" y2="190" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="240" y1="270" x2="1040" y2="270" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="240" y1="350" x2="1040" y2="350" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="240" y1="430" x2="1040" y2="430" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="240" y1="510" x2="1040" y2="510" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="240" y1="590" x2="1040" y2="590" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="440" y1="130" x2="440" y2="670" stroke="#e0e6ed" stroke-width="1"/>
+    <line x1="740" y1="130" x2="740" y2="670" stroke="#e0e6ed" stroke-width="1"/>
+  </g>
+  
+  <text x="1200" y="700" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9aa0a6" text-anchor="end">14 / 21</text>
+</svg>

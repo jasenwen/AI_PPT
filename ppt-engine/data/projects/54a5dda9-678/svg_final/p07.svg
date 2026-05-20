@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  
+  <rect x="80" y="100" width="1120" height="4" fill="#F5F7FA" />
+  <rect x="80" y="100" width="60" height="4" fill="#2B7FC3" />
+  
+  
+  <text x="80" y="80" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#1A3A5C">典型应用案例解析</text>
+  
+  
+  <g id="case-google-search">
+    <path fill="#F5F7FA" d="M92,120 H568 A12,12 0 0 1 580,132 V308 A12,12 0 0 1 568,320 H92 A12,12 0 0 1 80,308 V132 A12,12 0 0 1 92,120 Z" />
+    <circle cx="120" cy="220" r="24" fill="#2B7FC3" />
+    <text x="120" y="226" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="160" y="205" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">Google 搜索：Knowledge Graph 赋能语义搜索</text>
+    <text x="160" y="235" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">提升信息检索精准度，直接呈现结构化答案，优化用户体验</text>
+  </g>
+  
+  
+  <g id="case-medical-diagnosis">
+    <path fill="#F5F7FA" d="M652,120 H1128 A12,12 0 0 1 1140,132 V308 A12,12 0 0 1 1128,320 H652 A12,12 0 0 1 640,308 V132 A12,12 0 0 1 652,120 Z" />
+    <circle cx="680" cy="220" r="24" fill="#2B7FC3" />
+    <text x="680" y="226" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="720" y="205" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">医疗辅助诊断：症状-疾病-药物知识推理</text>
+    <text x="720" y="235" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">辅助医生快速定位病因，缩短诊疗路径，降低误诊风险</text>
+  </g>
+  
+  
+  <g id="case-financial-risk">
+    <path fill="#F5F7FA" d="M92,380 H568 A12,12 0 0 1 580,392 V568 A12,12 0 0 1 568,580 H92 A12,12 0 0 1 80,568 V392 A12,12 0 0 1 92,380 Z" />
+    <circle cx="120" cy="480" r="24" fill="#2B7FC3" />
+    <text x="120" y="486" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="160" y="465" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">金融风控：企业关联关系挖掘与反团伙欺诈</text>
+    <text x="160" y="495" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">穿透复杂股权穿透网络，实时预警隐性关联交易，保障资金安全</text>
+  </g>
+  
+  
+  <g id="case-llm-rag">
+    <path fill="#F5F7FA" d="M652,380 H1128 A12,12 0 0 1 1140,392 V568 A12,12 0 0 1 1128,580 H652 A12,12 0 0 1 640,568 V392 A12,12 0 0 1 652,380 Z" />
+    <circle cx="680" cy="480" r="24" fill="#2B7FC3" />
+    <text x="680" y="486" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="720" y="465" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#1A3A5C">大模型+RAG：利用知识图谱减少 LLM 幻觉</text>
+    <text x="720" y="495" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">为生成式AI提供权威事实锚点，显著提升回答可信度与业务可用性</text>
+  </g>
+  
+  
+  <text x="1200" y="680" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#999999" text-anchor="end">7 / 9</text>
+</svg>

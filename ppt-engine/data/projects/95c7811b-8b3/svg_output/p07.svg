@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  
+  <g id="header">
+    <text x="640" y="75" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="bold" fill="#0F172A" text-anchor="middle">典型应用案例解析</text>
+    <line x1="560" y1="100" x2="720" y2="100" stroke="#CBD5E1" stroke-width="3"/>
+  </g>
+
+  <g id="card-search">
+    <rect x="100" y="140" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="140" width="6" height="230" rx="3" fill="#4285F4"/>
+    <g transform="translate(130, 170)">
+      <circle cx="20" cy="20" r="14" fill="none" stroke="#4285F4" stroke-width="3"/>
+      <line x1="30" y1="30" x2="40" y2="40" stroke="#4285F4" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="10" cy="10" r="3" fill="#4285F4"/>
+      <circle cx="32" cy="8" r="3" fill="#4285F4"/>
+      <circle cx="35" cy="25" r="3" fill="#4285F4"/>
+    </g>
+    <text x="130" y="250" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E293B">Google 搜索：Knowledge Graph 赋能语义搜索</text>
+    <text x="130" y="290" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#64748B">通过实体链接与关系抽取构建知识网络，实现从关键词匹配到意图理解的跃迁。</text>
+  </g>
+
+  <g id="card-medical">
+    <rect x="680" y="140" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="680" y="140" width="6" height="230" rx="3" fill="#10B981"/>
+    <g transform="translate(710, 170)">
+      <rect x="10" y="0" width="20" height="40" rx="4" fill="none" stroke="#10B981" stroke-width="3"/>
+      <rect x="0" y="10" width="40" height="20" rx="4" fill="none" stroke="#10B981" stroke-width="3"/>
+      <path d="M12 20 Q20 12 28 20 T36 20" fill="none" stroke="#10B981" stroke-width="2"/>
+    </g>
+    <text x="710" y="250" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E293B">医疗辅助诊断：症状-疾病-药物知识推理</text>
+    <text x="710" y="290" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#64748B">基于临床指南与医学文献构建领域图谱，支持多跳推理与鉴别诊断，提升诊疗准确率。</text>
+  </g>
+
+  <g id="card-finance">
+    <rect x="100" y="410" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="410" width="6" height="230" rx="3" fill="#F59E0B"/>
+    <g transform="translate(130, 440)">
+      <path d="M5 35 L15 20 L25 28 L35 10" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <polygon points="5,35 35,35 35,10" fill="none" stroke="#F59E0B" stroke-width="2"/>
+      <circle cx="15" cy="20" r="3" fill="#F59E0B"/>
+    </g>
+    <text x="130" y="520" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E293B">金融风控：企业关联关系挖掘与反团伙欺诈</text>
+    <text x="130" y="560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#64748B">穿透股权穿透、担保链与资金流向，识别隐蔽利益共同体，实时预警系统性风险。</text>
+  </g>
+
+  <g id="card-ai">
+    <rect x="680" y="410" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="680" y="410" width="6" height="230" rx="3" fill="#8B5CF6"/>
+    <g transform="translate(710, 440)">
+      <rect x="5" y="5" width="30" height="30" rx="6" fill="none" stroke="#8B5CF6" stroke-width="3"/>
+      <circle cx="15" cy="18" r="3" fill="#8B5CF6"/>
+      <circle cx="25" cy="18" r="3" fill="#8B5CF6"/>
+      <path d="M12 28 Q20 32 28 28" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+      <line x1="20" y1="0" x2="20" y2="5" stroke="#8B5CF6" stroke-width="2"/>
+      <line x1="10" y1="2" x2="12" y2="5" stroke="#8B5CF6" stroke-width="2"/>
+      <line x1="30" y1="2" x2="28" y2="5" stroke="#8B5CF6" stroke-width="2"/>
+    </g>
+    <text x="710" y="520" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="bold" fill="#1E293B">大模型+RAG：利用知识图谱减少 LLM 幻觉</text>
+    <text x="710" y="560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#64748B">将非结构化文本转化为结构化事实三元组，为生成式模型提供可验证的上下文依据。</text>
+  </g>
+
+  <text x="1220" y="690" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#94A3B8" text-anchor="end">7 / 9</text>
+</svg>

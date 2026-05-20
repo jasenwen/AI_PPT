@@ -1,0 +1,28 @@
+# PPT Engine docker-compose override
+# Usage: docker compose -f docker-compose.yml -f docker-compose.ppt.yml up -d
+#
+# Or copy the ppt-engine section into your docker-compose.override.yml
+
+services:
+  api:
+    environment:
+      - PPT_ENGINE_URL=http://ppt-engine:8100
+
+  ppt-engine:
+    build:
+      context: ../ppt-engine
+    container_name: ppt-engine
+    ports:
+      - "8100:8100"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/LibreChat
+    env_file:
+      - ../ppt-engine/.env
+    volumes:
+      - ppt-data:/app/data
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
+volumes:
+  ppt-data:

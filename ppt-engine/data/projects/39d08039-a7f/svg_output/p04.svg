@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#1E3A8A"/>
+  
+  <g id="title">
+    <text x="640" y="75" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="#0F172A" text-anchor="middle">核心技术架构</text>
+    <rect x="540" y="95" width="200" height="4" rx="2" fill="#3B82F6"/>
+    <text x="1200" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">4 / 9</text>
+  </g>
+
+  <g id="card-1">
+    <rect x="300" y="150" width="200" height="160" rx="12" fill="#000000" opacity="0.05" transform="translate(2,2)"/>
+    <rect x="300" y="150" width="200" height="160" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="330" cy="180" r="22" fill="#3B82F6"/>
+    <text x="330" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="365" y="178" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#1E293B">知识抽取</text>
+    <text x="365" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• NER实体识别</text>
+    <text x="365" y="233" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 关系抽取</text>
+    <text x="365" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 属性抽取</text>
+  </g>
+
+  <g id="card-2">
+    <rect x="540" y="150" width="200" height="160" rx="12" fill="#000000" opacity="0.05" transform="translate(2,2)"/>
+    <rect x="540" y="150" width="200" height="160" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="570" cy="180" r="22" fill="#10B981"/>
+    <text x="570" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="605" y="178" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#1E293B">知识融合</text>
+    <text x="605" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 实体对齐</text>
+    <text x="605" y="233" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 共指消解</text>
+    <text x="605" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 冲突消解</text>
+  </g>
+
+  <g id="card-3">
+    <rect x="780" y="150" width="200" height="160" rx="12" fill="#000000" opacity="0.05" transform="translate(2,2)"/>
+    <rect x="780" y="150" width="200" height="160" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="810" cy="180" r="22" fill="#8B5CF6"/>
+    <text x="810" y="186" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="845" y="178" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#1E293B">知识存储</text>
+    <text x="845" y="208" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 图数据库建模</text>
+    <text x="845" y="233" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• Neo4j / JanusGraph</text>
+    <text x="845" y="258" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 模式设计</text>
+  </g>
+
+  <g id="card-4">
+    <rect x="420" y="350" width="200" height="160" rx="12" fill="#000000" opacity="0.05" transform="translate(2,2)"/>
+    <rect x="420" y="350" width="200" height="160" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="450" cy="380" r="22" fill="#F59E0B"/>
+    <text x="450" y="386" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="485" y="378" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#1E293B">知识推理</text>
+    <text x="485" y="408" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 规则推理</text>
+    <text x="485" y="433" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 图神经网络推理</text>
+    <text x="485" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 链接预测</text>
+  </g>
+
+  <g id="card-5">
+    <rect x="660" y="350" width="200" height="160" rx="12" fill="#000000" opacity="0.05" transform="translate(2,2)"/>
+    <rect x="660" y="350" width="200" height="160" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="690" cy="380" r="22" fill="#EF4444"/>
+    <text x="690" y="386" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+    <text x="725" y="378" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#1E293B">知识更新</text>
+    <text x="725" y="408" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 增量学习</text>
+    <text x="725" y="433" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 动态维护机制</text>
+    <text x="725" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569">• 实时同步</text>
+  </g>
+</svg>

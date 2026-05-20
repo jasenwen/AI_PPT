@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  
+  <g id="header">
+    <text x="640" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="bold" fill="#0F172A" text-anchor="middle">关键技术深度解析</text>
+    <line x1="460" y1="120" x2="820" y2="120" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+    <text x="640" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">核心算法架构与前沿技术融合路径</text>
+  </g>
+
+  <g id="card-1">
+    <rect x="80" y="180" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="200" width="6" height="48" rx="3" fill="#3B82F6"/>
+    <text x="130" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">知识表示学习</text>
+    <text x="130" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">TransE / RotatE / 图嵌入</text>
+    <text x="130" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">将离散实体与关系映射至连续向量空间，</text>
+    <text x="130" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">支持语义相似度计算与逻辑推理。</text>
+    <circle cx="480" cy="215" r="22" fill="#EFF6FF"/>
+    <path d="M470 215 L490 215 M480 205 L480 225 M473 208 L487 222 M473 222 L487 208" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g id="card-2">
+    <rect x="660" y="180" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="680" y="200" width="6" height="48" rx="3" fill="#8B5CF6"/>
+    <text x="710" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">图神经网络</text>
+    <text x="710" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">GCN、GAT 在图结构上的应用</text>
+    <text x="710" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">通过邻域聚合与注意力机制捕获高阶</text>
+    <text x="710" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">拓扑依赖，提升节点分类与聚类性能。</text>
+    <circle cx="1060" cy="215" r="22" fill="#F5F3FF"/>
+    <path d="M1050 215 L1070 215 M1055 210 L1065 220 M1055 220 L1065 210" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g id="card-3">
+    <rect x="80" y="430" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="450" width="6" height="48" rx="3" fill="#10B981"/>
+    <text x="130" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">知识图谱补全</text>
+    <text x="130" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">链接预测与缺失关系补全</text>
+    <text x="130" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">基于评分函数与负采样策略自动推断</text>
+    <text x="130" y="558" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">潜在关联，动态完善图谱覆盖率。</text>
+    <circle cx="480" cy="465" r="22" fill="#ECFDF5"/>
+    <path d="M470 465 L490 465 M480 455 L480 475 M474 459 L486 471 M474 471 L486 459" stroke="#10B981" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g id="card-4">
+    <rect x="660" y="430" width="540" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="680" y="450" width="6" height="48" rx="3" fill="#F59E0B"/>
+    <text x="710" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">大模型融合</text>
+    <text x="710" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">RAG + KG 增强生成式AI的准确性</text>
+    <text x="710" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">结合检索增强与结构化知识约束，</text>
+    <text x="710" y="558" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">有效抑制幻觉，提升专业领域可信度。</text>
+    <circle cx="1060" cy="465" r="22" fill="#FFFBEB"/>
+    <path d="M1050 465 L1070 465 M1055 460 L1065 470 M1055 470 L1065 460" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g id="footer">
+    <line x1="100" y1="680" x2="1180" y2="680" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="640" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">第 5 页 / 共 9 页 | 核心技术架构详解</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#0B1120" />
+  <circle cx="1150" cy="120" r="380" fill="#1E293B" opacity="0.4" />
+  <circle cx="180" cy="620" r="320" fill="#1E293B" opacity="0.3" />
+  <g id="network-decoration" opacity="0.12">
+    <circle cx="1020" cy="140" r="5" fill="#38BDF8" />
+    <circle cx="1100" cy="200" r="4" fill="#818CF8" />
+    <circle cx="960" cy="220" r="6" fill="#34D399" />
+    <circle cx="1080" cy="280" r="3" fill="#38BDF8" />
+    <path d="M1020 140 L1100 200 M1020 140 L960 220 M1100 200 L1080 280 M960 220 L1080 280" stroke="#94A3B8" stroke-width="2" fill="none" />
+  </g>
+  <g id="title-section">
+    <text x="100" y="135" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="54" font-weight="bold" fill="#F8FAFC">总结与展望</text>
+    <path d="M100 165 H300" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" />
+  </g>
+  <g id="content-points">
+    <g id="point-1">
+      <path fill="#1E293B" opacity="0.65" d="M114,230 H1166 A14,14 0 0 1 1180,244 V312 A14,14 0 0 1 1166,326 H114 A14,14 0 0 1 100,312 V244 A14,14 0 0 1 114,230 Z" />
+      <path fill="#38BDF8" d="M103,230 H103 A3,3 0 0 1 106,233 V323 A3,3 0 0 1 103,326 H103 A3,3 0 0 1 100,323 V233 A3,3 0 0 1 103,230 Z" />
+      <text x="155" y="282" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="28" font-weight="500" fill="#E2E8F0">知识图谱是连接数据与智能的关键桥梁</text>
+    </g>
+    <g id="point-2">
+      <path fill="#1E293B" opacity="0.65" d="M114,346 H1166 A14,14 0 0 1 1180,360 V428 A14,14 0 0 1 1166,442 H114 A14,14 0 0 1 100,428 V360 A14,14 0 0 1 114,346 Z" />
+      <path fill="#818CF8" d="M103,346 H103 A3,3 0 0 1 106,349 V439 A3,3 0 0 1 103,442 H103 A3,3 0 0 1 100,439 V349 A3,3 0 0 1 103,346 Z" />
+      <text x="155" y="398" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="28" font-weight="500" fill="#E2E8F0">核心技术日趋成熟 → 产业落地加速</text>
+    </g>
+    <g id="point-3">
+      <path fill="#1E293B" opacity="0.65" d="M114,462 H1166 A14,14 0 0 1 1180,476 V544 A14,14 0 0 1 1166,558 H114 A14,14 0 0 1 100,544 V476 A14,14 0 0 1 114,462 Z" />
+      <path fill="#34D399" d="M103,462 H103 A3,3 0 0 1 106,465 V555 A3,3 0 0 1 103,558 H103 A3,3 0 0 1 100,555 V465 A3,3 0 0 1 103,462 Z" />
+      <text x="155" y="514" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="28" font-weight="500" fill="#E2E8F0">未来：LLM + KG 深度融合，迈向可信 AI</text>
+    </g>
+  </g>
+  <g id="footer-section">
+    <path d="M1060 675 H1160" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+    <text x="1180" y="685" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="600" fill="#64748B" text-anchor="end">THANK YOU</text>
+  </g>
+</svg>

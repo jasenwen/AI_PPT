@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  
+  <g id="header">
+    <text x="80" y="95" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="800" fill="#0F172A">GraphRAG 融合之道</text>
+    <line x1="80" y1="125" x2="240" y2="125" stroke="#3B82F6" stroke-width="6" stroke-linecap="round"/>
+    <text x="1200" y="95" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="24" fill="#64748B" text-anchor="end">11 / 13</text>
+  </g>
+
+  <g id="main-content">
+    <rect x="60" y="160" width="1160" height="480" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+    
+    <g id="card-microsoft">
+      <rect x="100" y="200" width="320" height="400" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <circle cx="260" cy="260" r="36" fill="#DBEAFE"/>
+      <text x="260" y="272" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="bold" fill="#2563EB" text-anchor="middle">M</text>
+      <text x="140" y="340" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="bold" fill="#1E293B">微软 GraphRAG</text>
+      <line x1="140" y1="360" x2="200" y2="360" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+      <text x="140" y="400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 全局知识图谱索引构建</text>
+      <text x="140" y="435" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 社区发现与层次化摘要</text>
+      <text x="140" y="470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 突破向量检索语义局限</text>
+    </g>
+
+    <g id="card-lightrag">
+      <rect x="480" y="200" width="320" height="400" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <circle cx="640" cy="260" r="36" fill="#D1FAE5"/>
+      <text x="640" y="272" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="bold" fill="#059669" text-anchor="middle">L</text>
+      <text x="520" y="340" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="bold" fill="#1E293B">LightRAG</text>
+      <line x1="520" y1="360" x2="580" y2="360" stroke="#10B981" stroke-width="3" stroke-linecap="round"/>
+      <text x="520" y="400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 极简图结构轻量化设计</text>
+      <text x="520" y="435" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 实体-关系双路检索机制</text>
+      <text x="520" y="470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 低延迟推理与高吞吐</text>
+    </g>
+
+    <g id="card-agent">
+      <rect x="860" y="200" width="320" height="400" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <circle cx="1020" cy="260" r="36" fill="#EDE9FE"/>
+      <text x="1020" y="272" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="bold" fill="#7C3AED" text-anchor="middle">A</text>
+      <text x="900" y="340" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="bold" fill="#1E293B">Agent + Graph + RAG</text>
+      <line x1="900" y1="360" x2="960" y2="360" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round"/>
+      <text x="900" y="400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 智能体自主图遍历规划</text>
+      <text x="900" y="435" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 动态图谱实时演化更新</text>
+      <text x="900" y="470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#475569">• 复杂任务多步推理协同</text>
+    </g>
+
+    <g id="convergence-banner">
+      <rect x="440" y="640" width="400" height="56" rx="28" fill="#0F172A"/>
+      <text x="640" y="672" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">技术演进 → 深度融合架构</text>
+    </g>
+  </g>
+</svg>

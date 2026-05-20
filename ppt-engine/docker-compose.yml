@@ -1,0 +1,30 @@
+# PPT Engine docker-compose (standalone or alongside LibreChat)
+version: "3.8"
+
+services:
+  ppt-engine:
+    build: .
+    container_name: ppt-engine
+    ports:
+      - "${PPT_ENGINE_PORT:-8100}:8100"
+    env_file:
+      - .env
+    volumes:
+      - ppt-data:/app/data
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:7
+    container_name: ppt-engine-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo-data:/data/db
+    # NOTE: If reusing LibreChat's MongoDB, remove this service
+    # and point MONGO_URI in .env to the existing instance.
+
+volumes:
+  ppt-data:
+  mongo-data:

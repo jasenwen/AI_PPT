@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  <g id="title">
+    <text x="640" y="80" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#0F172A" text-anchor="middle">核心能力对比表</text>
+    <line x1="560" y1="105" x2="720" y2="105" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="comparison-table">
+    <path fill="#1E293B" d="M188,150 H1092 A8,8 0 0 1 1100,158 V202 A8,8 0 0 1 1092,210 H188 A8,8 0 0 1 180,202 V158 A8,8 0 0 1 188,150 Z" />
+    <text x="350" y="188" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">评估维度</text>
+    <text x="640" y="188" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">KG</text>
+    <text x="950" y="188" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">RAG</text>
+
+    <path fill="#F8FAFC" d="M184,210 H1096 A4,4 0 0 1 1100,214 V276 A4,4 0 0 1 1096,280 H184 A4,4 0 0 1 180,276 V214 A4,4 0 0 1 184,210 Z" />
+    <text x="350" y="252" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#334155" text-anchor="middle">精确性</text>
+    <path fill="#3B82F6" d="M595,230 H685 A15,15 0 0 1 700,245 V245 A15,15 0 0 1 685,260 H595 A15,15 0 0 1 580,245 V245 A15,15 0 0 1 595,230 Z" />
+    <text x="640" y="250" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">高</text>
+    <path fill="#94A3B8" d="M905,230 H995 A15,15 0 0 1 1010,245 V245 A15,15 0 0 1 995,260 H905 A15,15 0 0 1 890,245 V245 A15,15 0 0 1 905,230 Z" />
+    <text x="950" y="250" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">中</text>
+
+    <path fill="#FFFFFF" d="M184,280 H1096 A4,4 0 0 1 1100,284 V346 A4,4 0 0 1 1096,350 H184 A4,4 0 0 1 180,346 V284 A4,4 0 0 1 184,280 Z" />
+    <text x="350" y="322" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#334155" text-anchor="middle">可解释性</text>
+    <path fill="#3B82F6" d="M595,300 H685 A15,15 0 0 1 700,315 V315 A15,15 0 0 1 685,330 H595 A15,15 0 0 1 580,315 V315 A15,15 0 0 1 595,300 Z" />
+    <text x="640" y="320" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">高</text>
+    <path fill="#94A3B8" d="M905,300 H995 A15,15 0 0 1 1010,315 V315 A15,15 0 0 1 995,330 H905 A15,15 0 0 1 890,315 V315 A15,15 0 0 1 905,300 Z" />
+    <text x="950" y="320" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">中</text>
+
+    <path fill="#F8FAFC" d="M184,350 H1096 A4,4 0 0 1 1100,354 V416 A4,4 0 0 1 1096,420 H184 A4,4 0 0 1 180,416 V354 A4,4 0 0 1 184,350 Z" />
+    <text x="350" y="392" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#334155" text-anchor="middle">构建成本</text>
+    <path fill="#EF4444" d="M595,370 H685 A15,15 0 0 1 700,385 V385 A15,15 0 0 1 685,400 H595 A15,15 0 0 1 580,385 V385 A15,15 0 0 1 595,370 Z" />
+    <text x="640" y="390" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">高</text>
+    <path fill="#10B981" d="M905,370 H995 A15,15 0 0 1 1010,385 V385 A15,15 0 0 1 995,400 H905 A15,15 0 0 1 890,385 V385 A15,15 0 0 1 905,370 Z" />
+    <text x="950" y="390" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">低</text>
+
+    <path fill="#FFFFFF" d="M184,420 H1096 A4,4 0 0 1 1100,424 V486 A4,4 0 0 1 1096,490 H184 A4,4 0 0 1 180,486 V424 A4,4 0 0 1 184,420 Z" />
+    <text x="350" y="462" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#334155" text-anchor="middle">实时性</text>
+    <path fill="#EF4444" d="M595,440 H685 A15,15 0 0 1 700,455 V455 A15,15 0 0 1 685,470 H595 A15,15 0 0 1 580,455 V455 A15,15 0 0 1 595,440 Z" />
+    <text x="640" y="460" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">低</text>
+    <path fill="#10B981" d="M905,440 H995 A15,15 0 0 1 1010,455 V455 A15,15 0 0 1 995,470 H905 A15,15 0 0 1 890,455 V455 A15,15 0 0 1 905,440 Z" />
+    <text x="950" y="460" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">高</text>
+
+    <line x1="480" y1="150" x2="480" y2="490" stroke="#E2E8F0" stroke-width="2" />
+    <line x1="780" y1="150" x2="780" y2="490" stroke="#E2E8F0" stroke-width="2" />
+  </g>
+
+  <text x="1200" y="680" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">9 / 13</text>
+</svg>

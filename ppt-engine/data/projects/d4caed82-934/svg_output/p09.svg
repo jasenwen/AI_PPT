@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f6ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#1a73e8" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shadowLight" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#1a73e8" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#f5f8fe" rx="0"/>
+
+  <!-- Decorative top accent line -->
+  <rect x="0" y="0" width="1280" height="5" fill="url(#headerGrad)"/>
+
+  <!-- Header Area -->
+  <g id="header">
+    <rect x="0" y="5" width="1280" height="85" fill="url(#headerGrad)"/>
+    <text x="640" y="42" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff" letter-spacing="4">RAG 核心原理</text>
+    <text x="640" y="72" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#b3d9ff" letter-spacing="2">Retrieval-Augmented Generation — 检索增强生成架构</text>
+  </g>
+
+  <!-- Section 1: 三段式架构 -->
+  <g id="section-architecture" transform="translate(60, 110)">
+    <rect x="0" y="0" width="1160" height="130" rx="12" fill="url(#cardGrad1)" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="6" height="130" rx="3" fill="#1a73e8"/>
+    
+    <!-- Section label -->
+    <text x="30" y="32" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8" letter-spacing="2">01 / 三段式架构</text>
+    
+    <!-- Stage 1: Index -->
+    <g transform="translate(30, 48)">
+      <rect x="0" y="0" width="280" height="68" rx="10" fill="#1a73e8" filter="url(#shadowLight)"/>
+      <text x="140" y="28" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Index 索引</text>
+      <text x="140" y="50" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#b3d9ff">文档入库与向量化存储</text>
+    </g>
+    
+    <!-- Arrow 1 -->
+    <g transform="translate(320, 72)">
+      <line x1="0" y1="0" x2="40" y2="0" stroke="url(#arrowGrad)" stroke-width="3" stroke-linecap="round"/>
+      <polygon points="40,-6 52,0 40,6" fill="#4fc3f7"/>
+    </g>
+    
+    <!-- Stage 2: Retrieve -->
+    <g transform="translate(380, 48)">
+      <rect x="0" y="0" width="280" height="68" rx="10" fill="#4fc3f7" filter="url(#shadowLight)"/>
+      <text x="140" y="28" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Retrieve 检索</text>
+      <text x="140" y="50" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#ffffff">语义相似度匹配召回</text>
+    </g>
+    
+    <!-- Arrow 2 -->
+    <g transform="translate(670, 72)">
+      <line x1="0" y1="0" x2="40" y2="0" stroke="url(#arrowGrad)" stroke-width="3" stroke-linecap="round"/>
+      <polygon points="40,-6 52,0 40,6" fill="#4fc3f7"/>
+    </g>
+    
+    <!-- Stage 3: Generate -->
+    <g transform="translate(730, 48)">
+      <rect x="0" y="0" width="280" height="68" rx="10" fill="#1a73e8" filter="url(#shadowLight)"/>
+      <text x="140" y="28" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Generate 生成</text>
+      <text x="140" y="50" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#b3d9ff">LLM 基于上下文生成回答</text>
+    </g>
+  </g>
+
+  <!-- Section 2: 向量化流程 -->
+  <g id="section-vectorization" transform="translate(60, 260)">
+    <rect x="0" y="0" width="560" height="200" rx="12" fill="url(#cardGrad1)" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="6" height="200" rx="3" fill="#1a73e8"/>
+    
+    <text x="30" y="32" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8" letter-spacing="2">02 / 向量化处理</text>
+    
+    <!-- Pipeline steps -->
+    <g transform="translate(30, 52)">
+      <!-- Step 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="120" height="120" rx="12" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+        <text x="60" y="35" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1a73e8">📄</text>
+        <text x="60" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8">文档切片</text>
+        <text x="60" y="80" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#666">Chunking</text>
+        <text x="60" y="100" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#888">分段处理</text>
+      </g>
+      
+      <!-- Arrow -->
+      <g transform="translate(130, 55)">
+        <line x1="0" y1="0" x2="30" y2="0" stroke="#1a73e8" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="30,-5 40,0 30,5" fill="#1a73e8"/>
+      </g>
+      
+      <!-- Step 2 -->
+      <g transform="translate(175, 0)">
+        <rect x="0" y="0" width="120" height="120" rx="12" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+        <text x="60" y="35" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1a73e8">🧠</text>
+        <text x="60" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8">Embedding</text>
+        <text x="60" y="80" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#666">嵌入模型</text>
+        <text x="60" y="100" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#888">文本→向量</text>
+      </g>
+      
+      <!-- Arrow -->
+      <g transform="translate(310, 55)">
+        <line x1="0" y1="0" x2="30" y2="0" stroke="#1a73e8" stroke-width="2" stroke-linecap="round"/>
+        <polygon points="30,-5 40,0 30,5" fill="#1a73e8"/>
+      </g>
+      
+      <!-- Step 3 -->
+      <g transform="translate(355, 0)">
+        <rect x="0" y="0" width="120" height="120" rx="12" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+        <text x="60" y="35" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1a73e8">💾</text>
+        <text x="60" y="62" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8">向量数据库</text>
+        <text x="60" y="80" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#666">Vector DB</text>
+        <text x="60" y="100" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#888">高效存储检索</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Section 3: 语义检索 -->
+  <g id="section-retrieval" transform="translate(650, 260)">
+    <rect x="0" y="0" width="570" height="200" rx="12" fill="url(#cardGrad1)" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="6" height="200" rx="3" fill="#4fc3f7"/>
+    
+    <text x="30" y="32" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8" letter-spacing="2">03 / 语义检索机制</text>
+    
+    <!-- Cosine similarity visualization -->
+    <g transform="translate(30, 52)">
+      <rect x="0" y="0" width="240" height="140" rx="10" fill="#e8f0fe"/>
+      <text x="120" y="25" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#1a73e8">余弦相似度计算</text>
+      
+      <!-- Simulated vectors -->
+      <g transform="translate(20, 40)">
+        <text x="0" y="12" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">Query:</text>
+        <rect x="40" y="2" width="180" height="16" rx="4" fill="#1a73e8" opacity="0.7"/>
+        <text x="130" y="14" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#fff">[0.23, -0.45, 0.78, ...]</text>
+        
+        <text x="0" y="42" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">Doc1:</text>
+        <rect x="40" y="32" width="180" height="16" rx="4" fill="#4fc3f7" opacity="0.6"/>
+        <text x="130" y="44" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#fff">[0.21, -0.42, 0.81, ...] → 0.96</text>
+        
+        <text x="0" y="72" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">Doc2:</text>
+        <rect x="40" y="62" width="180" height="16" rx="4" fill="#4fc3f7" opacity="0.4"/>
+        <text x="130" y="74" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#fff">[0.55, 0.12, -0.33, ...] → 0.42</text>
+        
+        <text x="0" y="102" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">Doc3:</text>
+        <rect x="40" y="92" width="180" height="16" rx="4" fill="#4fc3f7" opacity="0.5"/>
+        <text x="130" y="104" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#fff">[0.19, -0.48, 0.75, ...] → 0.93</text>
+      </g>
+    </g>
+    
+    <!-- Top-k info -->
+    <g transform="translate(290, 52)">
+      <rect x="0" y="0" width="250" height="140" rx="10" fill="#e8f0fe"/>
+      <text x="125" y="25" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#1a73e8">Top-K 召回策略</text>
+      
+      <g transform="translate(20, 42)">
+        <rect x="0" y="0" width="210" height="28" rx="6" fill="#1a73e8"/>
+        <text x="105" y="19" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff">⭐ Doc1 (sim=0.96)</text>
+        
+        <rect x="0" y="34" width="210" height="28" rx="6" fill="#4fc3f7" opacity="0.7"/>
+        <text x="105" y="53" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff">⭐ Doc3 (sim=0.93)</text>
+        
+        <rect x="0" y="68" width="210" height="28" rx="6" fill="#4fc3f7" opacity="0.4"/>
+        <text x="105" y="87" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff">⭐ Doc5 (sim=0.89)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Section 4: 注入推理 -->
+  <g id="section-injection" transform="translate(60, 480)">
+    <rect x="0" y="0" width="1160" height="110" rx="12" fill="url(#cardGrad1)" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="6" height="110" rx="3" fill="#1a73e8"/>
+    
+    <text x="30" y="32" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8" letter-spacing="2">04 / 上下文注入与推理</text>
+    
+    <!-- Prompt template visualization -->
+    <g transform="translate(30, 48)">
+      <rect x="0" y="0" width="300" height="55" rx="8" fill="#1a73e8" opacity="0.08" stroke="#1a73e8" stroke-width="1" stroke-dasharray="4,3"/>
+      <text x="15" y="22" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#1a73e8">[System Prompt]</text>
+      <text x="15" y="42" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">你是一个有帮助的AI助手...</text>
+    </g>
+    
+    <!-- Plus sign -->
+    <text x="345" y="78" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#4fc3f7">+</text>
+    
+    <!-- Context block -->
+    <g transform="translate(365, 48)">
+      <rect x="0" y="0" width="300" height="55" rx="8" fill="#4fc3f7" opacity="0.12" stroke="#4fc3f7" stroke-width="1" stroke-dasharray="4,3"/>
+      <text x="15" y="22" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#1a73e8">[Context from Retrieval]</text>
+      <text x="15" y="42" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">根据检索到的文档片段...</text>
+    </g>
+    
+    <!-- Plus sign -->
+    <text x="685" y="78" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#4fc3f7">+</text>
+    
+    <!-- User query -->
+    <g transform="translate(705, 48)">
+      <rect x="0" y="0" width="200" height="55" rx="8" fill="#1a73e8" opacity="0.08" stroke="#1a73e8" stroke-width="1" stroke-dasharray="4,3"/>
+      <text x="15" y="22" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#1a73e8">[User Query]</text>
+      <text x="15" y="42" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#555">用户提出的问题...</text>
+    </g>
+    
+    <!-- Equals arrow -->
+    <text x="925" y="78" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#1a73e8">=</text>
+    
+    <!-- Generated output -->
+    <g transform="translate(945, 48)">
+      <rect x="0" y="0" width="195" height="55" rx="8" fill="#1a73e8"/>
+      <text x="97" y="22" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">LLM 生成回答</text>
+      <text x="97" y="42" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#b3d9ff">基于完整上下文的输出</text>
+    </g>
+  </g>
+
+  <!-- Section 5: 特点标签 -->
+  <g id="section-features" transform="translate(60, 610)">
+    <rect x="0" y="0" width="1160" height="85" rx="12" fill="url(#cardGrad1)" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="6" height="85" rx="3" fill="#4fc3f7"/>
+    
+    <text x="30" y="30" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#1a73e8" letter-spacing="2">05 / 核心特点</text>
+    
+    <!-- Advantages -->
+    <g transform="translate(30, 42)">
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#1a73e8"/>
+      <text x="70" y="21" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff">✓ 灵活可扩展</text>
+    </g>
+    
+    <g transform="translate(180, 42)">
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#1a73e8"/>
+      <text x="70" y="21" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff">✓ 低成本部署</text>
+    </g>
+    
+    <g transform="translate(330, 42)">
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#1a73e8"/>
+      <text x="70" y="21" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#ffffff">✓ 实时更新知识</text>
+    </g>
+    
+    <!-- Limitation -->
+    <g transform="translate(500, 42)">
+      <rect x="0" y="0" width="340" height="32" rx="16" fill="#fff3e0" stroke="#ff9800" stroke-width="1.5"/>
+      <text x="170" y="21" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#e65100">⚠ 精度受限于检索质量 (Retrieval Quality)</text>
+    </g>
+    
+    <!-- Sub-note -->
+    <text x="870" y="62" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#888">检索召回率直接影响最终生成效果</text>
+  </g>
+
+  <!-- Slide number -->
+  <text x="1240" y="700" text-anchor="end" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#aaa">9 / 21</text>
+  
+  <!-- Decorative dots pattern bottom right -->
+  <g transform="translate(1200, 660)" opacity="0.15">
+    <circle cx="0" cy="0" r="3" fill="#1a73e8"/>
+    <circle cx="20" cy="0" r="3" fill="#1a73e8"/>
+    <circle cx="40" cy="0" r="3" fill="#1a73e8"/>
+    <circle cx="0" cy="20" r="3" fill="#1a73e8"/>
+    <circle cx="20" cy="20" r="3" fill="#1a73e8"/>
+    <circle cx="40" cy="20" r="3" fill="#1a73e8"/>
+    <circle cx="0" cy="40" r="3" fill="#1a73e8"/>
+    <circle cx="20" cy="40" r="3" fill="#1a73e8"/>
+    <circle cx="40" cy="40" r="3" fill="#1a73e8"/>
+  </g>
+</svg>

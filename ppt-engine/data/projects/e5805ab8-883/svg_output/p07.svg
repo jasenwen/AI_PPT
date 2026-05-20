@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  
+  <g id="header">
+    <text x="80" y="85" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F172A">典型应用案例解析</text>
+    <rect x="80" y="108" width="64" height="4" fill="#3B82F6" rx="2"/>
+  </g>
+
+  <g id="card-google">
+    <rect x="80" y="140" width="520" height="220" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+    <circle cx="130" cy="250" r="32" fill="#3B82F6"/>
+    <circle cx="126" cy="246" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <line x1="134" y1="254" x2="144" y2="264" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="185" y="245" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">Google 搜索</text>
+    <text x="185" y="275" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#64748B">Knowledge Graph 赋能语义搜索</text>
+    <text x="185" y="305" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#94A3B8">通过实体链接与关系抽取，实现从关键词匹配到意图理解的跃迁</text>
+  </g>
+
+  <g id="card-medical">
+    <rect x="680" y="140" width="520" height="220" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+    <circle cx="730" cy="250" r="32" fill="#10B981"/>
+    <path d="M720 250 h20 M730 240 v20" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="785" y="245" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">医疗辅助诊断</text>
+    <text x="785" y="275" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#64748B">症状-疾病-药物知识推理</text>
+    <text x="785" y="305" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#94A3B8">构建临床指南图谱，支持多跳推理与个性化用药推荐</text>
+  </g>
+
+  <g id="card-finance">
+    <rect x="80" y="410" width="520" height="220" rx="12" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+    <circle cx="130" cy="520" r="32" fill="#F59E0B"/>
+    <path d="M122 512 l8-8 l8 8 v10 c0 6 -8 10 -8 10 c0 0 -8-4 -8-10 z" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="185" y="515" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">金融风控</text>
+    <text x="185" y="545" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#64748B">企业关联关系挖掘与反团伙欺诈</text>
+    <text x="185" y="575" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#94A3B8">基于图神经网络识别隐性担保圈与资金流向异常</text>
+  </g>
+
+  <g id="card-llm">
+    <rect x="680" y="410" width="520" height="220" rx="12" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+    <circle cx="730" cy="520" r="32" fill="#8B5CF6"/>
+    <path d="M722 515 c-4-8 4-12 8-6 c4-6 12-2 8 6 c4 8 -4 12 -8 6 c-4 6 -12 2 -8-6 z" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="785" y="515" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">大模型 + RAG</text>
+    <text x="785" y="545" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="16" fill="#64748B">利用知识图谱减少 LLM 幻觉</text>
+    <text x="785" y="575" font-family="'Microsoft YaHei', 'PingFang SC', Arial, sans-serif" font-size="14" fill="#94A3B8">结构化事实注入提示词，提升生成内容的准确性与可追溯性</text>
+  </g>
+
+  <g id="footer">
+    <text x="1200" y="690" font-family="Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">7 / 9</text>
+  </g>
+</svg>

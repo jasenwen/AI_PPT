@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  <rect width="1280" height="720" fill="#FFF8F0" />
+  
+  
+  <g id="decorations">
+    <circle cx="1150" cy="120" r="160" fill="#FFA500" opacity="0.08" />
+    <circle cx="100" cy="620" r="100" fill="#FF6B35" opacity="0.06" />
+    <circle cx="650" cy="80" r="50" fill="#FF8C42" opacity="0.12" />
+    <circle cx="1200" cy="550" r="70" fill="#FF6B35" opacity="0.05" />
+    <path d="M0,0 L420,0 L350,140 L0,180 Z" fill="#FF6B35" />
+    <path d="M0,180 Q150,220 300,160" fill="none" stroke="#FFA500" stroke-width="4" stroke-linecap="round" />
+    <path d="M 450 240 C 580 200 650 280 650 280" fill="none" stroke="#FFA500" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+    <path d="M 450 340 C 580 380 650 280 650 280" fill="none" stroke="#FF8C42" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+    <path d="M 450 440 C 580 420 650 280 650 280" fill="none" stroke="#FF6B35" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+  </g>
+
+  
+  <g id="title-section">
+    <text x="100" y="105" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="64" font-weight="bold" fill="#FF6B35">什么是 FDE？</text>
+    <text x="100" y="150" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="24" fill="#2D3436" opacity="0.85">Forward Deployed Engineer · 前部署工程师</text>
+    <line x1="100" y1="175" x2="280" y2="175" stroke="#FF6B35" stroke-width="5" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="content-points">
+    
+    <circle cx="130" cy="240" r="26" fill="#FFA500" />
+    <text x="130" y="247" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="180" y="245" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="28" fill="#2D3436">🚀 Forward Deployed Engineer（前部署工程师），由 Palantir 率先定义并推广</text>
+    
+    
+    <circle cx="130" cy="340" r="26" fill="#FF8C42" />
+    <text x="130" y="347" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="180" y="345" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="28" fill="#2D3436">⚡ 在客户一线战场，将软件能力转化为真实业务价值</text>
+    
+    
+    <circle cx="130" cy="440" r="26" fill="#FF6B35" />
+    <text x="130" y="447" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="180" y="445" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="28" fill="#2D3436">🎯 既是工程师，也是顾问、项目经理、产品经理</text>
+  </g>
+
+  
+  <g id="formula-hero">
+    <path fill="#FFFFFF" stroke="#FFA500" stroke-width="3" d="M684,200 H1176 A24,24 0 0 1 1200,224 V516 A24,24 0 0 1 1176,540 H684 A24,24 0 0 1 660,516 V224 A24,24 0 0 1 684,200 Z" />
+    <text x="930" y="265" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="30" font-weight="bold" fill="#2D3436" text-anchor="middle">核心公式</text>
+    
+    
+    <circle cx="780" cy="360" r="60" fill="#FFA500" />
+    <text x="780" y="366" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">工程技术</text>
+    
+    
+    <text x="855" y="368" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#FF6B35">×</text>
+    
+    
+    <circle cx="930" cy="360" r="60" fill="#FF8C42" />
+    <text x="930" y="366" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">业务理解</text>
+    
+    
+    <text x="1005" y="368" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#FF6B35">×</text>
+    
+    
+    <circle cx="1080" cy="360" r="60" fill="#FF6B35" />
+    <text x="1080" y="366" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">现场交付</text>
+    
+    
+    <path d="M 840 360 L 850 360" stroke="#FF6B35" stroke-width="4" stroke-linecap="round" />
+    <path d="M 990 360 L 1000 360" stroke="#FF6B35" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="footer">
+    <line x1="100" y1="680" x2="1180" y2="680" stroke="#E0E0E0" stroke-width="1" />
+    <text x="1180" y="705" font-family="Arial, sans-serif" font-size="16" fill="#2D3436" opacity="0.5" text-anchor="end">2 / 9</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A2E28"/>
+      <stop offset="100%" stop-color="#2D3436"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <circle cx="640" cy="360" r="480" fill="url(#centerGlow)"/>
+
+  <g id="organic-decorations">
+    <path d="M-100,220 C280,120 480,320 720,250 S1080,150 1380,290" stroke="#FF6B35" stroke-width="3" fill="none" opacity="0.25"/>
+    <path d="M-100,500 C320,600 520,400 760,450 S1080,550 1380,400" stroke="#FFA500" stroke-width="2" fill="none" opacity="0.2"/>
+    <circle cx="160" cy="180" r="55" fill="#FF8C42" opacity="0.08"/>
+    <circle cx="1140" cy="540" r="75" fill="#FF6B35" opacity="0.08"/>
+    <circle cx="140" cy="560" r="35" fill="#FFFFFF" opacity="0.06"/>
+    <circle cx="1160" cy="170" r="45" fill="#FFFFFF" opacity="0.06"/>
+    <path d="M640,90 L665,135 L615,135 Z" fill="#FF6B35" opacity="0.15"/>
+    <path d="M640,630 L665,585 L615,585 Z" fill="#FFA500" opacity="0.15"/>
+  </g>
+
+  <g id="connection-nodes">
+    <path d="M320,310 Q480,240 640,290 T960,270" stroke="#FF6B35" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="8,6"/>
+    <circle cx="320" cy="310" r="9" fill="#FF6B35" opacity="0.7"/>
+    <circle cx="640" cy="290" r="14" fill="#FFA500" opacity="0.8"/>
+    <circle cx="960" cy="270" r="9" fill="#FF6B35" opacity="0.7"/>
+    <line x1="320" y1="310" x2="640" y2="290" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+    <line x1="640" y1="290" x2="960" y2="270" stroke="#FF6B35" stroke-width="1.5" opacity="0.3"/>
+  </g>
+
+  <g id="main-content">
+    <text x="640" y="350" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="100" font-weight="bold" fill="#FF6B35" text-anchor="middle">谢谢！</text>
+    <text x="640" y="445" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="76" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Q &amp; A</text>
+    <line x1="500" y1="485" x2="780" y2="485" stroke="#FF6B35" stroke-width="5" stroke-linecap="round"/>
+    <text x="640" y="545" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="36" font-weight="normal" fill="#FFFFFF" text-anchor="middle" opacity="0.95">FDE — 技术的前线，价值的起点</text>
+  </g>
+
+  <g id="page-footer">
+    <text x="640" y="680" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#FFFFFF" opacity="0.3" text-anchor="middle">9 / 9</text>
+  </g>
+</svg>

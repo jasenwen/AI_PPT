@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  
+  <rect width="1280" height="720" fill="#FFF8F0" />
+  
+  
+  <g id="decorations">
+    <rect x="0" y="0" width="120" height="12" fill="#FF6B35" />
+    <circle cx="1150" cy="180" r="90" fill="#FFA500" opacity="0.12" />
+    <circle cx="130" cy="620" r="110" fill="#FF8C42" opacity="0.1" />
+    <path d="M 0 0 Q 250 120 500 0" fill="none" stroke="#FF6B35" stroke-width="3" opacity="0.15" />
+    <path d="M 780 720 Q 900 600 1280 650" fill="none" stroke="#FF8C42" stroke-width="3" opacity="0.15" />
+    <circle cx="100" cy="50" r="4" fill="#FF6B35" opacity="0.6" />
+    <circle cx="1200" cy="650" r="6" fill="#FFA500" opacity="0.5" />
+  </g>
+  
+  
+  <g id="title">
+    <text x="100" y="110" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#FF6B35">FDE 的工作全流程</text>
+    <text x="100" y="145" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#2D3436" opacity="0.7">从需求洞察到价值交付的闭环旅程</text>
+  </g>
+  
+  
+  <g id="process-line">
+    <path d="M 200 280 C 340 250, 340 310, 480 280 C 620 250, 620 310, 760 280 C 900 250, 900 310, 1040 280" fill="none" stroke="#FF6B35" stroke-width="4" stroke-dasharray="12 8" opacity="0.5" />
+    <circle cx="200" cy="280" r="6" fill="#FF6B35" />
+    <circle cx="480" cy="280" r="6" fill="#FF6B35" />
+    <circle cx="760" cy="280" r="6" fill="#FF6B35" />
+    <circle cx="1040" cy="280" r="6" fill="#FF6B35" />
+  </g>
+  
+  
+  <g id="phase1">
+    <circle cx="200" cy="280" r="36" fill="#FF6B35" />
+    <text x="200" y="287" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">P1</text>
+    <text x="200" y="340" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436">Phase 1</text>
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M120,380 H280 A10,10 0 0 1 290,390 V414 A10,10 0 0 1 280,424 H120 A10,10 0 0 1 110,414 V390 A10,10 0 0 1 120,380 Z" />
+    <text x="200" y="407" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🤝 客户对接</text>
+    <path d="M 200 424 L 200 436" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 195 432 L 200 440 L 205 432" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M120,444 H280 A10,10 0 0 1 290,454 V478 A10,10 0 0 1 280,488 H120 A10,10 0 0 1 110,478 V454 A10,10 0 0 1 120,444 Z" />
+    <text x="200" y="471" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🔍 需求调研</text>
+    <path d="M 200 488 L 200 500" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 195 496 L 200 504 L 205 496" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M120,508 H280 A10,10 0 0 1 290,518 V542 A10,10 0 0 1 280,552 H120 A10,10 0 0 1 110,542 V518 A10,10 0 0 1 120,508 Z" />
+    <text x="200" y="535" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">💡 痛点识别</text>
+  </g>
+  
+  
+  <g id="phase2">
+    <circle cx="480" cy="280" r="36" fill="#FF6B35" />
+    <text x="480" y="287" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">P2</text>
+    <text x="480" y="340" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436">Phase 2</text>
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M400,380 H560 A10,10 0 0 1 570,390 V414 A10,10 0 0 1 560,424 H400 A10,10 0 0 1 390,414 V390 A10,10 0 0 1 400,380 Z" />
+    <text x="480" y="407" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">📐 方案设计</text>
+    <path d="M 480 424 L 480 436" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 475 432 L 480 440 L 485 432" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M400,444 H560 A10,10 0 0 1 570,454 V478 A10,10 0 0 1 560,488 H400 A10,10 0 0 1 390,478 V454 A10,10 0 0 1 400,444 Z" />
+    <text x="480" y="471" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🧪 原型验证</text>
+    <path d="M 480 488 L 480 500" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 475 496 L 480 504 L 485 496" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M400,508 H560 A10,10 0 0 1 570,518 V542 A10,10 0 0 1 560,552 H400 A10,10 0 0 1 390,542 V518 A10,10 0 0 1 400,508 Z" />
+    <text x="480" y="535" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🚀 快速迭代</text>
+  </g>
+  
+  
+  <g id="phase3">
+    <circle cx="760" cy="280" r="36" fill="#FF6B35" />
+    <text x="760" y="287" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">P3</text>
+    <text x="760" y="340" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436">Phase 3</text>
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M680,380 H840 A10,10 0 0 1 850,390 V414 A10,10 0 0 1 840,424 H680 A10,10 0 0 1 670,414 V390 A10,10 0 0 1 680,380 Z" />
+    <text x="760" y="407" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🛠️ 现场部署</text>
+    <path d="M 760 424 L 760 436" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 755 432 L 760 440 L 765 432" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M680,444 H840 A10,10 0 0 1 850,454 V478 A10,10 0 0 1 840,488 H680 A10,10 0 0 1 670,478 V454 A10,10 0 0 1 680,444 Z" />
+    <text x="760" y="471" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🔗 系统集成</text>
+    <path d="M 760 488 L 760 500" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 755 496 L 760 504 L 765 496" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M680,508 H840 A10,10 0 0 1 850,518 V542 A10,10 0 0 1 840,552 H680 A10,10 0 0 1 670,542 V518 A10,10 0 0 1 680,508 Z" />
+    <text x="760" y="535" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🌊 数据打通</text>
+  </g>
+  
+  
+  <g id="phase4">
+    <circle cx="1040" cy="280" r="36" fill="#FF6B35" />
+    <text x="1040" y="287" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">P4</text>
+    <text x="1040" y="340" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436">Phase 4</text>
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M960,380 H1120 A10,10 0 0 1 1130,390 V414 A10,10 0 0 1 1120,424 H960 A10,10 0 0 1 950,414 V390 A10,10 0 0 1 960,380 Z" />
+    <text x="1040" y="407" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">🎓 交付培训</text>
+    <path d="M 1040 424 L 1040 436" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 1035 432 L 1040 440 L 1045 432" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M960,444 H1120 A10,10 0 0 1 1130,454 V478 A10,10 0 0 1 1120,488 H960 A10,10 0 0 1 950,478 V454 A10,10 0 0 1 960,444 Z" />
+    <text x="1040" y="471" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">📊 效果追踪</text>
+    <path d="M 1040 488 L 1040 500" stroke="#FF6B35" stroke-width="2" />
+    <path d="M 1035 496 L 1040 504 L 1045 496" fill="none" stroke="#FF6B35" stroke-width="2" />
+    
+    <path fill="#FFFFFF" stroke="#FF8C42" stroke-width="2" d="M960,508 H1120 A10,10 0 0 1 1130,518 V542 A10,10 0 0 1 1120,552 H960 A10,10 0 0 1 950,542 V518 A10,10 0 0 1 960,508 Z" />
+    <text x="1040" y="535" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#2D3436">♻️ 持续优化</text>
+  </g>
+  
+  
+  <g id="footer">
+    <text x="1240" y="690" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#2D3436" opacity="0.5">6 / 9</text>
+  </g>
+</svg>

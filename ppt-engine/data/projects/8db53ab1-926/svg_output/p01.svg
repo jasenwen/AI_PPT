@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="url(#bgGrad)"/>
+    <circle cx="150" cy="150" r="250" fill="#0072ff" opacity="0.08" filter="url(#glow)"/>
+    <circle cx="1100" cy="550" r="300" fill="#00c6ff" opacity="0.06" filter="url(#glow)"/>
+    <path d="M 0 600 Q 300 500 640 650 T 1280 550 L 1280 720 L 0 720 Z" fill="#000000" opacity="0.2"/>
+  </g>
+
+  <g id="network-decoration">
+    <g opacity="0.15" stroke="#ffffff" stroke-width="1.5" fill="none">
+      <path d="M 120 200 L 280 150 L 400 250 L 350 400 L 200 450 Z"/>
+      <path d="M 880 250 L 1000 180 L 1150 280 L 1100 420 L 950 400 Z"/>
+      <path d="M 450 100 L 600 80 L 750 120 L 700 200 L 500 180 Z"/>
+    </g>
+    <g fill="#00c6ff" opacity="0.4">
+      <circle cx="120" cy="200" r="3"/>
+      <circle cx="280" cy="150" r="3"/>
+      <circle cx="400" cy="250" r="3"/>
+      <circle cx="350" cy="400" r="3"/>
+      <circle cx="200" cy="450" r="3"/>
+      <circle cx="880" cy="250" r="3"/>
+      <circle cx="1000" cy="180" r="3"/>
+      <circle cx="1150" cy="280" r="3"/>
+      <circle cx="1100" cy="420" r="3"/>
+      <circle cx="950" cy="400" r="3"/>
+      <circle cx="450" cy="100" r="3"/>
+      <circle cx="600" cy="80" r="3"/>
+      <circle cx="750" cy="120" r="3"/>
+      <circle cx="700" cy="200" r="3"/>
+      <circle cx="500" cy="180" r="3"/>
+    </g>
+  </g>
+
+  <g id="content">
+    <text x="640" y="280" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" letter-spacing="4" filter="url(#shadow)">Quick Test</text>
+    
+    <line x1="520" y1="330" x2="760" y2="330" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+    
+    <g transform="translate(420, 420)">
+      <rect x="-60" y="-30" width="120" height="60" rx="30" fill="url(#accentGrad)" filter="url(#shadow)"/>
+      <text x="0" y="9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">AI</text>
+    </g>
+    
+    <g transform="translate(860, 420)">
+      <rect x="-60" y="-30" width="120" height="60" rx="30" fill="url(#accentGrad)" filter="url(#shadow)"/>
+      <text x="0" y="9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="2">LLM</text>
+    </g>
+    
+    <text x="640" y="520" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#94a3b8" text-anchor="middle" letter-spacing="1">Artificial Intelligence &amp; Large Language Models</text>
+  </g>
+</svg>

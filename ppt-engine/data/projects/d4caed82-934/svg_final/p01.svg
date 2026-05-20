@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  <rect width="1280" height="720" fill="#f5f8fe" />
+
+  
+  <g id="bg-decorations">
+    
+    <circle cx="160" cy="220" r="45" fill="#1a73e8" opacity="0.06" />
+    <circle cx="240" cy="300" r="28" fill="#1a73e8" opacity="0.09" />
+    <circle cx="190" cy="380" r="18" fill="#1a73e8" opacity="0.12" />
+    <line x1="160" y1="220" x2="240" y2="300" stroke="#1a73e8" stroke-width="2" opacity="0.1" />
+    <line x1="240" y1="300" x2="190" y2="380" stroke="#1a73e8" stroke-width="2" opacity="0.1" />
+    <line x1="160" y1="220" x2="190" y2="380" stroke="#1a73e8" stroke-width="1" opacity="0.05" />
+    
+    
+    <path fill="#4fc3f7" opacity="0.08" d="M1050,200 H1100 A10,10 0 0 1 1110,210 V280 A10,10 0 0 1 1100,290 H1050 A10,10 0 0 1 1040,280 V210 A10,10 0 0 1 1050,200 Z" />
+    <path fill="#4fc3f7" opacity="0.12" d="M1075,225 H1125 A10,10 0 0 1 1135,235 V305 A10,10 0 0 1 1125,315 H1075 A10,10 0 0 1 1065,305 V235 A10,10 0 0 1 1075,225 Z" />
+    <path fill="#4fc3f7" opacity="0.16" d="M1100,250 H1150 A10,10 0 0 1 1160,260 V330 A10,10 0 0 1 1150,340 H1100 A10,10 0 0 1 1090,330 V260 A10,10 0 0 1 1100,250 Z" />
+    <line x1="1040" y1="245" x2="1160" y2="245" stroke="#4fc3f7" stroke-width="2" opacity="0.1" />
+    <line x1="1065" y1="270" x2="1185" y2="270" stroke="#4fc3f7" stroke-width="2" opacity="0.1" />
+    <line x1="1090" y1="295" x2="1210" y2="295" stroke="#4fc3f7" stroke-width="2" opacity="0.1" />
+
+    
+    <line x1="0" y1="120" x2="1280" y2="120" stroke="#1a73e8" stroke-width="1" opacity="0.04" />
+    <line x1="0" y1="600" x2="1280" y2="600" stroke="#1a73e8" stroke-width="1" opacity="0.04" />
+  </g>
+
+  
+  <g id="main-content">
+    
+    <line x1="560" y1="240" x2="720" y2="240" stroke="#4fc3f7" stroke-width="4" stroke-linecap="round" />
+
+    
+    <text x="640" y="330" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="bold" fill="#1a73e8" text-anchor="middle">知识图谱 vs RAG</text>
+
+    
+    <text x="640" y="405" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1a73e8" opacity="0.7" text-anchor="middle">大模型时代下两种知识增强范式的深度对比</text>
+
+    
+    <text x="640" y="465" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4fc3f7" text-anchor="middle">面向技术团队</text>
+
+    
+    <circle cx="640" cy="515" r="5" fill="#4fc3f7" />
+    <line x1="605" y1="515" x2="625" y2="515" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" />
+    <line x1="655" y1="515" x2="675" y2="515" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

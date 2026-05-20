@@ -1,0 +1,26 @@
+# LibreChat configuration snippet — PPT Engine MCP Server
+#
+# Merge this into your librechat.yaml to enable PPT generation tools.
+# See: https://www.librechat.ai/docs/configuration/librechat_yaml
+#
+# The PPT Engine MCP server exposes these tools to Agents:
+#   - convert_document: Document → Markdown (MarkItDown)
+#   - list_templates: Browse template library
+#   - get_template_preview: Preview template SVG pages
+#   - create_ppt_task: Create PPT generation task
+#   - get_task_status: Poll task progress
+#
+# Usage:
+#   1. Copy this file to your project root as `librechat.yaml`
+#      or merge the mcpServers block into your existing config.
+#   2. Adjust the URL if running outside Docker.
+
+version: 1.2.2
+
+mcpServers:
+  ppt-engine:
+    # Docker Compose service name (when using docker-compose.ppt.yml)
+    url: http://ppt-engine:8100/mcp/sse
+    # For local development, use:
+    # url: http://localhost:8100/mcp/sse
+    timeout: 300000  # 5 minutes — SVG generation is slow

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="960" height="720" viewBox="0 0 960 720"><g id="layout-shape-2" data-name="Title 1" data-ph-type="title">
+<rect x="0" y="0" width="0" height="0" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="8" y="18" font-size="12" fill="#64748B">ph title</text>
+</g>
+<g id="layout-shape-3" data-name="Text Placeholder 2" data-ph-type="body">
+<rect x="48" y="161.17" width="424.17" height="67.17" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="56" y="179.17" font-size="12" fill="#64748B">ph body idx=1</text>
+</g>
+<g id="layout-shape-4" data-name="Content Placeholder 3">
+<rect x="48" y="228.33" width="424.17" height="414.83" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="56" y="246.33" font-size="12" fill="#64748B">ph idx=2</text>
+</g>
+<g id="layout-shape-5" data-name="Text Placeholder 4" data-ph-type="body">
+<rect x="487.67" y="161.17" width="424.33" height="67.17" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="495.67" y="179.17" font-size="12" fill="#64748B">ph body idx=3</text>
+</g>
+<g id="layout-shape-6" data-name="Content Placeholder 5">
+<rect x="487.67" y="228.33" width="424.33" height="414.83" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="495.67" y="246.33" font-size="12" fill="#64748B">ph idx=4</text>
+</g>
+<g id="layout-shape-7" data-name="Date Placeholder 6" data-ph-type="dt">
+<rect x="0" y="0" width="0" height="0" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="8" y="18" font-size="12" fill="#64748B">ph dt idx=10</text>
+</g>
+<g id="layout-shape-8" data-name="Footer Placeholder 7" data-ph-type="ftr">
+<rect x="0" y="0" width="0" height="0" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="8" y="18" font-size="12" fill="#64748B">ph ftr idx=11</text>
+</g>
+<g id="layout-shape-9" data-name="Slide Number Placeholder 8" data-ph-type="sldNum">
+<rect x="0" y="0" width="0" height="0" fill="#F8FAFC" fill-opacity="0.18" stroke="#94A3B8" stroke-dasharray="6 4" stroke-width="1"/><text x="8" y="18" font-size="12" fill="#64748B">ph sldNum idx=12</text>
+</g></svg>

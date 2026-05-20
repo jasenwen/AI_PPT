@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="100%" stop-color="#141e2b"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#151d28"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+
+  <!-- Tech Grid -->
+  <g id="grid-lines" stroke="#00d4ff" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="120"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/>
+    <line x1="0" y1="360" x2="1280" y2="360"/>
+    <line x1="0" y1="480" x2="1280" y2="480"/>
+    <line x1="0" y1="600" x2="1280" y2="600"/>
+    <line x1="320" y1="0" x2="320" y2="720"/>
+    <line x1="960" y1="0" x2="960" y2="720"/>
+  </g>
+
+  <!-- Central Divider -->
+  <line x1="640" y1="130" x2="640" y2="670" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.25"/>
+  <line x1="640" y1="360" x2="640" y2="360" stroke="#00d4ff" stroke-width="6" stroke-opacity="0.8" filter="url(#glow)"/>
+
+  <!-- Title Section -->
+  <g id="title-section">
+    <text x="80" y="95" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffffff">场景推荐矩阵</text>
+    <line x1="80" y1="115" x2="240" y2="115" stroke="#00d4ff" stroke-width="3" filter="url(#glow)"/>
+    <text x="80" y="145" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">AI 应用架构选型决策指南 | 核心场景匹配模型</text>
+  </g>
+
+  <!-- Card 1: KG Priority -->
+  <g id="card-kg">
+    <rect x="80" y="160" width="520" height="240" rx="12" fill="url(#cardGrad)" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M80 180 L80 160 L100 160" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M580 160 L600 160 L600 180" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M80 380 L80 400 L100 400" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M580 400 L600 400 L600 380" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    
+    <text x="110" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#00d4ff">✅</text>
+    <text x="145" y="198" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">知识图谱优先</text>
+    
+    <text x="145" y="245" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 金融风控</text>
+    <text x="305" y="245" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 医疗诊断</text>
+    <text x="145" y="280" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 反欺诈</text>
+    <text x="305" y="280" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 法规合规</text>
+  </g>
+
+  <!-- Card 2: RAG Priority -->
+  <g id="card-rag">
+    <rect x="680" y="160" width="520" height="240" rx="12" fill="url(#cardGrad)" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M680 180 L680 160 L700 160" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M1180 160 L1200 160 L1200 180" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M680 380 L680 400 L700 400" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M1180 400 L1200 400 L1200 380" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    
+    <text x="710" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#00d4ff">✅</text>
+    <text x="745" y="198" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">RAG 优先</text>
+    
+    <text x="745" y="245" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 企业知识库问答</text>
+    <text x="965" y="245" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 客服系统</text>
+    <text x="745" y="280" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 文档摘要</text>
+  </g>
+
+  <!-- Card 3: Combined -->
+  <g id="card-combo">
+    <rect x="80" y="440" width="520" height="240" rx="12" fill="url(#cardGrad)" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M80 460 L80 440 L100 440" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M580 440 L600 440 L600 460" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M80 660 L80 680 L100 680" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M580 680 L600 680 L600 660" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    
+    <text x="110" y="475" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#00d4ff">✅</text>
+    <text x="145" y="478" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">两者结合</text>
+    
+    <text x="145" y="525" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 智能问答增强</text>
+    <text x="325" y="525" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 复杂推理</text>
+    <text x="145" y="560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• GraphRAG 架构</text>
+  </g>
+
+  <!-- Card 4: Selection Criteria -->
+  <g id="card-criteria">
+    <rect x="680" y="440" width="520" height="240" rx="12" fill="url(#cardGrad)" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M680 460 L680 440 L700 440" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M1180 440 L1200 440 L1200 460" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M680 660 L680 680 L700 680" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    <path d="M1180 680 L1200 680 L1200 660" stroke="#00d4ff" stroke-width="2" fill="none"/>
+    
+    <circle cx="710" cy="475" r="12" fill="#8e9eab" opacity="0.2"/>
+    <circle cx="710" cy="475" r="5" fill="#8e9eab"/>
+    <text x="745" y="478" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">选型三要素</text>
+    
+    <text x="745" y="525" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 数据质量</text>
+    <text x="865" y="525" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 推理深度</text>
+    <text x="745" y="560" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#8e9eab">• 更新频率</text>
+  </g>
+
+  <!-- Matrix Connection Nodes -->
+  <g id="connection-nodes" fill="#00d4ff" opacity="0.6">
+    <circle cx="340" cy="280" r="4"/>
+    <circle cx="940" cy="280" r="4"/>
+    <circle cx="340" cy="560" r="4"/>
+    <circle cx="940" cy="560" r="4"/>
+  </g>
+  <g id="connection-lines" stroke="#00d4ff" stroke-width="1" stroke-dasharray="4 4" opacity="0.3">
+    <line x1="340" y1="280" x2="640" y2="280"/>
+    <line x1="640" y1="280" x2="940" y2="280"/>
+    <line x1="340" y1="560" x2="640" y2="560"/>
+    <line x1="640" y1="560" x2="940" y2="560"/>
+    <line x1="340" y1="280" x2="340" y2="440"/>
+    <line x1="940" y1="280" x2="940" y2="440"/>
+  </g>
+
+  <!-- Footer -->
+  <line x1="80" y1="690" x2="1200" y2="690" stroke="#00d4ff" stroke-width="1" opacity="0.2"/>
+  <text x="1200" y="710" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#8e9eab" text-anchor="end">16 / 21</text>
+</svg>

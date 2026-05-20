@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#0f1923"/>
+  
+  <g id="bg-tech-lines">
+    <line x1="0" y1="180" x2="1280" y2="180" stroke="#00d4ff" stroke-opacity="0.06" stroke-width="1"/>
+    <line x1="640" y1="0" x2="640" y2="720" stroke="#00d4ff" stroke-opacity="0.04" stroke-width="1"/>
+    <circle cx="1160" cy="140" r="180" fill="#00d4ff" opacity="0.02"/>
+    <circle cx="120" cy="600" r="140" fill="#00d4ff" opacity="0.02"/>
+    <path d="M 100 180 L 100 100 L 180 100" fill="none" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="2"/>
+    <path d="M 1180 540 L 1180 620 L 1100 620" fill="none" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="2"/>
+  </g>
+
+  <g id="header">
+    <text x="80" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">关键结论</text>
+    <text x="80" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#8e9eab" letter-spacing="2">KEY CONCLUSIONS | 20/21</text>
+    <line x1="80" y1="175" x2="190" y2="175" stroke="#00d4ff" stroke-width="3"/>
+  </g>
+
+  <g id="card-1">
+    <rect x="80" y="200" width="540" height="220" rx="10" fill="#1a2332" stroke="#00d4ff" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="110" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#00d4ff" opacity="0.15">01</text>
+    <text x="110" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">互补而非替代</text>
+    <text x="110" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">知识图谱 vs RAG 并非替代关系，</text>
+    <text x="110" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">而是互补关系。</text>
+    <rect x="110" y="370" width="40" height="3" fill="#00d4ff" opacity="0.6"/>
+  </g>
+
+  <g id="card-2">
+    <rect x="660" y="200" width="540" height="220" rx="10" fill="#1a2332" stroke="#00d4ff" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="690" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#00d4ff" opacity="0.15">02</text>
+    <text x="690" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">核心能力对比</text>
+    <text x="690" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">知识图谱 = 精准 + 可解释 + 推理；</text>
+    <text x="690" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">RAG = 灵活 + 实时 + 低门槛。</text>
+    <rect x="690" y="370" width="40" height="3" fill="#00d4ff" opacity="0.6"/>
+  </g>
+
+  <g id="card-3">
+    <rect x="80" y="460" width="540" height="220" rx="10" fill="#1a2332" stroke="#00d4ff" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="110" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#00d4ff" opacity="0.15">03</text>
+    <text x="110" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">当前最佳实践</text>
+    <text x="110" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">GraphRAG 是当下最佳融合实践。</text>
+    <text x="110" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">通过结构化检索增强生成，</text>
+    <text x="110" y="635" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">有效降低幻觉并提升准确性。</text>
+    <rect x="110" y="655" width="40" height="3" fill="#00d4ff" opacity="0.6"/>
+  </g>
+
+  <g id="card-4">
+    <rect x="660" y="460" width="540" height="220" rx="10" fill="#1a2332" stroke="#00d4ff" stroke-opacity="0.25" stroke-width="1"/>
+    <text x="690" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#00d4ff" opacity="0.15">04</text>
+    <text x="690" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">未来演进方向</text>
+    <text x="690" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">多模态知识图谱 + Agentic RAG</text>
+    <text x="690" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">是核心演进方向。</text>
+    <text x="690" y="635" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#8e9eab">实现跨模态理解与自主决策闭环。</text>
+    <rect x="690" y="655" width="40" height="3" fill="#00d4ff" opacity="0.6"/>
+  </g>
+</svg>

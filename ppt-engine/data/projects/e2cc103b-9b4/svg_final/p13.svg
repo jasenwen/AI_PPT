@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  
+  <rect width="1280" height="720" fill="#0f1923" />
+  
+  
+  <g id="grid-lines" stroke="#00d4ff" stroke-width="1" opacity="0.08">
+    <line x1="0" y1="180" x2="1280" y2="180" />
+    <line x1="0" y1="360" x2="1280" y2="360" />
+    <line x1="0" y1="540" x2="1280" y2="540" />
+    <line x1="320" y1="0" x2="320" y2="720" />
+    <line x1="640" y1="0" x2="640" y2="720" />
+    <line x1="960" y1="0" x2="960" y2="720" />
+  </g>
+
+  
+  <g id="header">
+    <text x="140" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="bold" fill="#ffffff">🔹 检索与推理机制</text>
+    <line x1="140" y1="125" x2="280" y2="125" stroke="#00d4ff" stroke-width="3" />
+    <text x="140" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#8e9eab">RETRIEVAL &amp; REASONING MECHANISMS</text>
+  </g>
+
+  
+  <line x1="640" y1="160" x2="640" y2="500" stroke="#00d4ff" stroke-width="2" stroke-dasharray="6,6" opacity="0.4" />
+
+  
+  <g id="kg-card">
+    <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" opacity="0.85" d="M150,160 H590 A10,10 0 0 1 600,170 V470 A10,10 0 0 1 590,480 H150 A10,10 0 0 1 140,470 V170 A10,10 0 0 1 150,160 Z" />
+    <text x="180" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#00d4ff">知识图谱 (KG)</text>
+    <text x="180" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#8e9eab">核心机制：</text>
+    <text x="180" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#ffffff">• 精确匹配</text>
+    <text x="180" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#ffffff">• 图遍历</text>
+    <text x="180" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#ffffff">• 多跳推理</text>
+    
+    
+    <g id="kg-graphic" stroke="#00d4ff" stroke-width="2" fill="none">
+      <line x1="460" y1="220" x2="500" y2="260" />
+      <line x1="500" y1="260" x2="460" y2="300" />
+      <line x1="460" y1="300" x2="500" y2="340" />
+      <line x1="460" y1="220" x2="500" y2="340" opacity="0.4" />
+      <circle cx="460" cy="220" r="5" fill="#00d4ff" />
+      <circle cx="500" cy="260" r="5" fill="#00d4ff" />
+      <circle cx="460" cy="300" r="5" fill="#00d4ff" />
+      <circle cx="500" cy="340" r="5" fill="#00d4ff" />
+    </g>
+  </g>
+
+  
+  <g id="rag-card">
+    <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" opacity="0.85" d="M690,160 H1130 A10,10 0 0 1 1140,170 V470 A10,10 0 0 1 1130,480 H690 A10,10 0 0 1 680,470 V170 A10,10 0 0 1 690,160 Z" />
+    <text x="720" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#00d4ff">RAG 架构</text>
+    <text x="720" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#8e9eab">核心机制：</text>
+    <text x="720" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#ffffff">• 模糊语义检索</text>
+    <text x="720" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#ffffff">• LLM 隐式推理</text>
+    <text x="720" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#ffffff">• 动态上下文注入</text>
+    
+    
+    <g id="rag-graphic" stroke="#00d4ff" stroke-width="2" fill="none">
+      <path d="M 900 220 Q 940 200 980 240 T 1060 220" />
+      <path d="M 900 260 Q 940 240 980 280 T 1060 260" opacity="0.6" />
+      <path d="M 900 300 Q 940 280 980 320 T 1060 300" opacity="0.3" />
+      <circle cx="980" cy="240" r="4" fill="#ffffff" />
+      <circle cx="1020" cy="230" r="4" fill="#ffffff" />
+    </g>
+  </g>
+
+  
+  <g id="insight-bar">
+    <path fill="#00d4ff" opacity="0.08" stroke="#00d4ff" stroke-width="1.5" d="M148,520 H1132 A8,8 0 0 1 1140,528 V592 A8,8 0 0 1 1132,600 H148 A8,8 0 0 1 140,592 V528 A8,8 0 0 1 148,520 Z" />
+    <text x="640" y="568" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">KG 擅长确定性推理 ｜ RAG 擅长开放式语义理解</text>
+  </g>
+
+  
+  <g id="corner-brackets" stroke="#00d4ff" stroke-width="2" fill="none" opacity="0.5">
+    <polyline points="120,140 120,120 140,120" />
+    <polyline points="1160,140 1160,120 1140,120" />
+    <polyline points="120,580 120,600 140,600" />
+    <polyline points="1160,580 1160,600 1140,600" />
+  </g>
+</svg>

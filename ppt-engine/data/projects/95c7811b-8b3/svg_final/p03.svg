@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <g id="header">
+    <text x="100" y="100" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#111827">什么是知识图谱</text>
+    <line x1="100" y1="125" x2="280" y2="125" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g id="content-points">
+    <g id="point-1">
+      <circle cx="100" cy="210" r="24" fill="#2563EB"/>
+      <text x="100" y="218" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="150" y="218" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#111827"><tspan font-weight="bold">定义：</tspan><tspan fill="#4B5563">用图结构描述实体及其语义关系的知识库</tspan></text>
+    </g>
+
+    <g id="point-2">
+      <circle cx="100" cy="350" r="24" fill="#2563EB"/>
+      <text x="100" y="358" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="150" y="358" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#111827"><tspan font-weight="bold">基本单元：</tspan><tspan fill="#4B5563">&lt;实体, 关系, 实体&gt; 三元组</tspan></text>
+    </g>
+
+    <g id="point-3">
+      <circle cx="100" cy="490" r="24" fill="#2563EB"/>
+      <text x="100" y="498" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="150" y="498" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#111827"><tspan font-weight="bold">本质：</tspan><tspan fill="#4B5563">将碎片化信息组织成结构化知识网络</tspan></text>
+    </g>
+  </g>
+
+  <g id="graph-illustration">
+    <circle cx="950" cy="400" r="220" fill="#EFF6FF"/>
+    
+    <g id="edges" stroke="#93C5FD" stroke-width="2.5" opacity="0.7">
+      <line x1="820" y1="280" x2="920" y2="240"/>
+      <line x1="820" y1="280" x2="860" y2="380"/>
+      <line x1="920" y1="240" x2="1020" y2="300"/>
+      <line x1="920" y1="240" x2="960" y2="360"/>
+      <line x1="1020" y1="300" x2="1100" y2="260"/>
+      <line x1="1020" y1="300" x2="1060" y2="400"/>
+      <line x1="860" y1="380" x2="960" y2="360"/>
+      <line x1="860" y1="380" x2="900" y2="480"/>
+      <line x1="960" y1="360" x2="1060" y2="400"/>
+      <line x1="960" y1="360" x2="1000" y2="480"/>
+      <line x1="1100" y1="260" x2="1060" y2="400"/>
+      <line x1="900" y1="480" x2="1000" y2="480"/>
+      <line x1="1000" y1="480" x2="1060" y2="400"/>
+      <line x1="1060" y1="400" x2="1100" y2="260"/>
+    </g>
+
+    <g id="nodes">
+      <circle cx="820" cy="280" r="18" fill="#2563EB"/>
+      <circle cx="920" cy="240" r="14" fill="#3B82F6"/>
+      <circle cx="1020" cy="300" r="20" fill="#1D4ED8"/>
+      <circle cx="860" cy="380" r="16" fill="#60A5FA"/>
+      <circle cx="960" cy="360" r="22" fill="#2563EB"/>
+      <circle cx="1100" cy="260" r="15" fill="#3B82F6"/>
+      <circle cx="900" cy="480" r="18" fill="#1D4ED8"/>
+      <circle cx="1000" cy="480" r="14" fill="#60A5FA"/>
+      <circle cx="1060" cy="400" r="16" fill="#2563EB"/>
+    </g>
+
+    <g id="semantic-hints" stroke="#BFDBFE" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.8">
+      <line x1="820" y1="280" x2="1060" y2="400"/>
+      <line x1="920" y1="240" x2="1000" y2="480"/>
+      <line x1="1020" y1="300" x2="900" y2="480"/>
+    </g>
+
+    <text x="950" y="560" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#6B7280" text-anchor="middle">知识图谱结构示意</text>
+  </g>
+
+  <g id="footer">
+    <text x="1180" y="680" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9CA3AF" text-anchor="end">3 / 9</text>
+  </g>
+</svg>

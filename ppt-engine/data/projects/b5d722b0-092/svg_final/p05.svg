@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="header">
+    <text x="640" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="bold" fill="#0F172A" text-anchor="middle">关键技术深度解析</text>
+    <line x1="460" y1="120" x2="820" y2="120" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" />
+    <text x="640" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">核心算法架构与前沿技术融合路径</text>
+  </g>
+
+  <g id="card-1">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M92,180 H608 A12,12 0 0 1 620,192 V398 A12,12 0 0 1 608,410 H92 A12,12 0 0 1 80,398 V192 A12,12 0 0 1 92,180 Z" />
+    <path fill="#3B82F6" d="M103,200 H103 A3,3 0 0 1 106,203 V245 A3,3 0 0 1 103,248 H103 A3,3 0 0 1 100,245 V203 A3,3 0 0 1 103,200 Z" />
+    <text x="130" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">知识表示学习</text>
+    <text x="130" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">TransE / RotatE / 图嵌入</text>
+    <text x="130" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">将离散实体与关系映射至连续向量空间，</text>
+    <text x="130" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">支持语义相似度计算与逻辑推理。</text>
+    <circle cx="480" cy="215" r="22" fill="#EFF6FF" />
+    <path d="M470 215 L490 215 M480 205 L480 225 M473 208 L487 222 M473 222 L487 208" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="card-2">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M672,180 H1188 A12,12 0 0 1 1200,192 V398 A12,12 0 0 1 1188,410 H672 A12,12 0 0 1 660,398 V192 A12,12 0 0 1 672,180 Z" />
+    <path fill="#8B5CF6" d="M683,200 H683 A3,3 0 0 1 686,203 V245 A3,3 0 0 1 683,248 H683 A3,3 0 0 1 680,245 V203 A3,3 0 0 1 683,200 Z" />
+    <text x="710" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">图神经网络</text>
+    <text x="710" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">GCN、GAT 在图结构上的应用</text>
+    <text x="710" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">通过邻域聚合与注意力机制捕获高阶</text>
+    <text x="710" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">拓扑依赖，提升节点分类与聚类性能。</text>
+    <circle cx="1060" cy="215" r="22" fill="#F5F3FF" />
+    <path d="M1050 215 L1070 215 M1055 210 L1065 220 M1055 220 L1065 210" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="card-3">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M92,430 H608 A12,12 0 0 1 620,442 V648 A12,12 0 0 1 608,660 H92 A12,12 0 0 1 80,648 V442 A12,12 0 0 1 92,430 Z" />
+    <path fill="#10B981" d="M103,450 H103 A3,3 0 0 1 106,453 V495 A3,3 0 0 1 103,498 H103 A3,3 0 0 1 100,495 V453 A3,3 0 0 1 103,450 Z" />
+    <text x="130" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">知识图谱补全</text>
+    <text x="130" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">链接预测与缺失关系补全</text>
+    <text x="130" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">基于评分函数与负采样策略自动推断</text>
+    <text x="130" y="558" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">潜在关联，动态完善图谱覆盖率。</text>
+    <circle cx="480" cy="465" r="22" fill="#ECFDF5" />
+    <path d="M470 465 L490 465 M480 455 L480 475 M474 459 L486 471 M474 471 L486 459" stroke="#10B981" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="card-4">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M672,430 H1188 A12,12 0 0 1 1200,442 V648 A12,12 0 0 1 1188,660 H672 A12,12 0 0 1 660,648 V442 A12,12 0 0 1 672,430 Z" />
+    <path fill="#F59E0B" d="M683,450 H683 A3,3 0 0 1 686,453 V495 A3,3 0 0 1 683,498 H683 A3,3 0 0 1 680,495 V453 A3,3 0 0 1 683,450 Z" />
+    <text x="710" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#1E293B">大模型融合</text>
+    <text x="710" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#64748B">RAG + KG 增强生成式AI的准确性</text>
+    <text x="710" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">结合检索增强与结构化知识约束，</text>
+    <text x="710" y="558" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">有效抑制幻觉，提升专业领域可信度。</text>
+    <circle cx="1060" cy="465" r="22" fill="#FFFBEB" />
+    <path d="M1050 465 L1070 465 M1055 460 L1065 470 M1055 470 L1065 460" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <g id="footer">
+    <line x1="100" y1="680" x2="1180" y2="680" stroke="#E2E8F0" stroke-width="1" />
+    <text x="640" y="705" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94A3B8" text-anchor="middle">第 5 页 / 共 9 页 | 核心技术架构详解</text>
+  </g>
+</svg>

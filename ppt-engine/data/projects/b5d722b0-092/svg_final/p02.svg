@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#2563EB"/>
+  
+  <g id="header">
+    <text x="640" y="110" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0F172A" text-anchor="middle">目录</text>
+    <line x1="580" y1="135" x2="700" y2="135" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <g id="toc-content">
+    <g id="item-01">
+      <circle cx="220" cy="220" r="32" fill="#2563EB"/>
+      <text x="220" y="228" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">01</text>
+      <text x="280" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#1E293B">什么是知识图谱</text>
+      <line x1="220" y1="265" x2="1060" y2="265" stroke="#CBD5E1" stroke-width="1"/>
+    </g>
+    
+    <g id="item-02">
+      <circle cx="220" cy="330" r="32" fill="#2563EB"/>
+      <text x="220" y="338" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">02</text>
+      <text x="280" y="338" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#1E293B">核心技术架构</text>
+      <line x1="220" y1="375" x2="1060" y2="375" stroke="#CBD5E1" stroke-width="1"/>
+    </g>
+    
+    <g id="item-03">
+      <circle cx="220" cy="440" r="32" fill="#2563EB"/>
+      <text x="220" y="448" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">03</text>
+      <text x="280" y="448" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#1E293B">应用落地场景</text>
+      <line x1="220" y1="485" x2="1060" y2="485" stroke="#CBD5E1" stroke-width="1"/>
+    </g>
+    
+    <g id="item-04">
+      <circle cx="220" cy="550" r="32" fill="#2563EB"/>
+      <text x="220" y="558" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">04</text>
+      <text x="280" y="558" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="500" fill="#1E293B">总结与展望</text>
+    </g>
+  </g>
+  
+  <g id="footer">
+    <text x="1180" y="680" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#64748B" text-anchor="end">2 / 9</text>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="header">
+    <text x="640" y="85" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#0F172A" text-anchor="middle">关键技术深度解析</text>
+    <line x1="520" y1="115" x2="760" y2="115" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g id="card-1-knowledge-rep">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M116,150 H604 A16,16 0 0 1 620,166 V364 A16,16 0 0 1 604,380 H116 A16,16 0 0 1 100,364 V166 A16,16 0 0 1 116,150 Z" />
+    <path fill="#3B82F6" d="M102,150 H618 A2,2 0 0 1 620,152 V152 A2,2 0 0 1 618,154 H102 A2,2 0 0 1 100,152 V152 A2,2 0 0 1 102,150 Z" />
+    <circle cx="150" cy="200" r="26" fill="#EFF6FF" />
+    <path d="M138 200h24M150 188v24M142 192l16 16M158 192l-16 16" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" />
+    <text x="200" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0F172A">知识表示学习</text>
+    <text x="140" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">TransE / RotatE / 图嵌入向量空间映射</text>
+  </g>
+
+  <g id="card-2-gnn">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M676,150 H1164 A16,16 0 0 1 1180,166 V364 A16,16 0 0 1 1164,380 H676 A16,16 0 0 1 660,364 V166 A16,16 0 0 1 676,150 Z" />
+    <path fill="#7C3AED" d="M662,150 H1178 A2,2 0 0 1 1180,152 V152 A2,2 0 0 1 1178,154 H662 A2,2 0 0 1 660,152 V152 A2,2 0 0 1 662,150 Z" />
+    <circle cx="710" cy="200" r="26" fill="#F5F3FF" />
+    <path d="M696 192h28M696 200h28M696 208h28M704 192v16M716 192v16" stroke="#7C3AED" stroke-width="2.5" stroke-linecap="round" />
+    <text x="760" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0F172A">图神经网络</text>
+    <text x="700" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">GCN、GAT 在图结构特征提取与传播</text>
+  </g>
+
+  <g id="card-3-completion">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M116,420 H604 A16,16 0 0 1 620,436 V634 A16,16 0 0 1 604,650 H116 A16,16 0 0 1 100,634 V436 A16,16 0 0 1 116,420 Z" />
+    <path fill="#059669" d="M102,420 H618 A2,2 0 0 1 620,422 V422 A2,2 0 0 1 618,424 H102 A2,2 0 0 1 100,422 V422 A2,2 0 0 1 102,420 Z" />
+    <circle cx="150" cy="470" r="26" fill="#ECFDF5" />
+    <path d="M136 462 Q150 450 164 462 M136 478 Q150 490 164 478 M150 456v28" stroke="#059669" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <circle cx="140" cy="462" r="3" fill="#059669" />
+    <circle cx="160" cy="478" r="3" fill="#059669" />
+    <line x1="140" y1="462" x2="160" y2="478" stroke="#059669" stroke-width="1.5" stroke-dasharray="4 3" />
+    <text x="200" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0F172A">知识图谱补全</text>
+    <text x="140" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">链接预测算法与缺失关系自动补全</text>
+  </g>
+
+  <g id="card-4-fusion">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" d="M676,420 H1164 A16,16 0 0 1 1180,436 V634 A16,16 0 0 1 1164,650 H676 A16,16 0 0 1 660,634 V436 A16,16 0 0 1 676,420 Z" />
+    <path fill="#D97706" d="M662,420 H1178 A2,2 0 0 1 1180,422 V422 A2,2 0 0 1 1178,424 H662 A2,2 0 0 1 660,422 V422 A2,2 0 0 1 662,420 Z" />
+    <circle cx="710" cy="470" r="26" fill="#FFFBEB" />
+    <path d="M696 460h28v20h-28z" stroke="#D97706" stroke-width="2.5" fill="none" />
+    <path d="M702 466h16M702 472h16M702 478h10" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="716" cy="464" r="3" fill="#D97706" />
+    <text x="760" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#0F172A">大模型融合</text>
+    <text x="700" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#475569">RAG + KG 增强生成式AI事实准确性</text>
+  </g>
+
+  <g id="footer">
+    <text x="1180" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">5 / 9</text>
+  </g>
+</svg>

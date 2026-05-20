@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0B1120"/>
+  <g id="background-elements">
+    <circle cx="1080" cy="360" r="300" fill="#1E293B" opacity="0.35"/>
+    <circle cx="1080" cy="360" r="220" fill="#1E293B" opacity="0.2"/>
+    <line x1="220" y1="260" x2="220" y2="500" stroke="#334155" stroke-width="2" stroke-dasharray="8 8"/>
+  </g>
+  <g id="title">
+    <text x="640" y="150" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="bold" fill="#FFFFFF" text-anchor="middle">总结与展望</text>
+    <line x1="520" y1="190" x2="760" y2="190" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g id="point-1">
+    <circle cx="220" cy="280" r="18" fill="#38BDF8"/>
+    <text x="265" y="288" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="32" fill="#FFFFFF">知识图谱是连接数据与智能的关键桥梁</text>
+  </g>
+  <g id="point-2">
+    <circle cx="220" cy="380" r="18" fill="#818CF8"/>
+    <text x="265" y="388" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="32" fill="#FFFFFF">核心技术日趋成熟 → 产业落地加速</text>
+  </g>
+  <g id="point-3">
+    <circle cx="220" cy="480" r="18" fill="#34D399"/>
+    <text x="265" y="488" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="32" fill="#FFFFFF">未来：LLM + KG 深度融合，迈向可信 AI</text>
+  </g>
+  <g id="footer">
+    <text x="640" y="660" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#64748B" text-anchor="middle">THANK YOU</text>
+  </g>
+</svg>

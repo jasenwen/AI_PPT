@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  
+  <g id="header">
+    <rect x="0" y="0" width="1280" height="80" fill="#FFFFFF" />
+    <line x1="0" y1="80" x2="1280" y2="80" stroke="#E2E8F0" stroke-width="2" />
+    <text x="640" y="50" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#0F172A" text-anchor="middle">核心技术架构</text>
+  </g>
+
+  <g id="layer-1-data">
+    <path fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2" d="M172,120 H1108 A12,12 0 0 1 1120,132 V180 A12,12 0 0 1 1108,192 H172 A12,12 0 0 1 160,180 V132 A12,12 0 0 1 172,120 Z" />
+    <path fill="#3B82F6" d="M164,120 H164 A4,4 0 0 1 168,124 V188 A4,4 0 0 1 164,192 H164 A4,4 0 0 1 160,188 V124 A4,4 0 0 1 164,120 Z" />
+    <text x="200" y="148" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#1E40AF">1. 数据层</text>
+    <text x="200" y="172" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#475569">结构化/半结构化/非结构化数据来源</text>
+  </g>
+
+  <g id="layer-2-extraction">
+    <path fill="#F0FDF4" stroke="#BBF7D0" stroke-width="2" d="M172,212 H1108 A12,12 0 0 1 1120,224 V272 A12,12 0 0 1 1108,284 H172 A12,12 0 0 1 160,272 V224 A12,12 0 0 1 172,212 Z" />
+    <path fill="#22C55E" d="M164,212 H164 A4,4 0 0 1 168,216 V280 A4,4 0 0 1 164,284 H164 A4,4 0 0 1 160,280 V216 A4,4 0 0 1 164,212 Z" />
+    <text x="200" y="240" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#166534">2. 知识抽取层</text>
+    <text x="200" y="264" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#475569">NER、关系抽取、事件抽取</text>
+  </g>
+
+  <g id="layer-3-fusion">
+    <path fill="#FFF7ED" stroke="#FED7AA" stroke-width="2" d="M172,304 H1108 A12,12 0 0 1 1120,316 V364 A12,12 0 0 1 1108,376 H172 A12,12 0 0 1 160,364 V316 A12,12 0 0 1 172,304 Z" />
+    <path fill="#F97316" d="M164,304 H164 A4,4 0 0 1 168,308 V372 A4,4 0 0 1 164,376 H164 A4,4 0 0 1 160,372 V308 A4,4 0 0 1 164,304 Z" />
+    <text x="200" y="332" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#9A3412">3. 知识融合层</text>
+    <text x="200" y="356" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#475569">实体对齐、知识合并、冲突消解</text>
+  </g>
+
+  <g id="layer-4-storage">
+    <path fill="#F5F3FF" stroke="#DDD6FE" stroke-width="2" d="M172,396 H1108 A12,12 0 0 1 1120,408 V456 A12,12 0 0 1 1108,468 H172 A12,12 0 0 1 160,456 V408 A12,12 0 0 1 172,396 Z" />
+    <path fill="#8B5CF6" d="M164,396 H164 A4,4 0 0 1 168,400 V464 A4,4 0 0 1 164,468 H164 A4,4 0 0 1 160,464 V400 A4,4 0 0 1 164,396 Z" />
+    <text x="200" y="424" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#5B21B6">4. 知识存储与查询层</text>
+    <text x="200" y="448" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#475569">图数据库 (Neo4j, JanusGraph)</text>
+  </g>
+
+  <g id="layer-5-reasoning">
+    <path fill="#FDF2F8" stroke="#FBCFE8" stroke-width="2" d="M172,488 H1108 A12,12 0 0 1 1120,500 V548 A12,12 0 0 1 1108,560 H172 A12,12 0 0 1 160,548 V500 A12,12 0 0 1 172,488 Z" />
+    <path fill="#EC4899" d="M164,488 H164 A4,4 0 0 1 168,492 V556 A4,4 0 0 1 164,560 H164 A4,4 0 0 1 160,556 V492 A4,4 0 0 1 164,488 Z" />
+    <text x="200" y="516" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#9D174D">5. 知识推理与应用层</text>
+    <text x="200" y="540" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#475569">推理引擎、问答系统、推荐系统</text>
+  </g>
+
+  <g id="flow-arrows">
+    <path d="M640,192 L640,204 M634,200 L640,208 L646,200" stroke="#94A3B8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M640,284 L640,296 M634,292 L640,300 L646,292" stroke="#94A3B8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M640,376 L640,388 M634,384 L640,392 L646,384" stroke="#94A3B8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M640,468 L640,480 M634,476 L640,484 L646,476" stroke="#94A3B8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

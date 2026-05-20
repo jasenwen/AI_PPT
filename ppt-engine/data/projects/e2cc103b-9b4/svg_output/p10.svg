@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#0f1923"/>
+  
+  <g id="bg-tech-grid" opacity="0.12">
+    <line x1="0" y1="120" x2="1280" y2="120" stroke="#00d4ff" stroke-width="1"/>
+    <line x1="80" y1="0" x2="80" y2="720" stroke="#00d4ff" stroke-width="1"/>
+    <line x1="1200" y1="0" x2="1200" y2="720" stroke="#00d4ff" stroke-width="1"/>
+    <circle cx="1100" cy="360" r="240" fill="none" stroke="#00d4ff" stroke-width="1"/>
+    <circle cx="1100" cy="360" r="180" fill="none" stroke="#00d4ff" stroke-width="1" stroke-dasharray="6 4"/>
+    <circle cx="1100" cy="360" r="120" fill="none" stroke="#00d4ff" stroke-width="1" stroke-dasharray="2 6"/>
+    <path d="M 1100 120 L 1100 600 M 860 360 L 1340 360" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <g id="header">
+    <text x="80" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">RAG 技术栈</text>
+    <text x="80" y="135" font-family="monospace" font-size="16" fill="#8e9eab">RETRIEVAL-AUGMENTED GENERATION ARCHITECTURE</text>
+    <text x="1200" y="100" font-family="monospace" font-size="24" fill="#8e9eab">10 / 21</text>
+    <line x1="80" y1="155" x2="1200" y2="155" stroke="#00d4ff" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <g id="card-1">
+    <rect x="80" y="190" width="540" height="120" rx="12" fill="#1a2332" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="78" y="188" width="544" height="124" rx="14" fill="none" stroke="#00d4ff" stroke-width="4" opacity="0.15"/>
+    <circle cx="115" cy="250" r="22" fill="#00d4ff" fill-opacity="0.15" stroke="#00d4ff" stroke-width="2"/>
+    <text x="115" y="256" font-family="monospace" font-size="16" font-weight="bold" fill="#00d4ff" text-anchor="middle">01</text>
+    <text x="155" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">Embedding 模型</text>
+    <text x="155" y="278" font-family="monospace" font-size="15" fill="#8e9eab">text-embedding-3 / BGE / E5</text>
+  </g>
+
+  <g id="card-2">
+    <rect x="80" y="340" width="540" height="120" rx="12" fill="#1a2332" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="78" y="338" width="544" height="124" rx="14" fill="none" stroke="#00d4ff" stroke-width="4" opacity="0.15"/>
+    <circle cx="115" cy="400" r="22" fill="#00d4ff" fill-opacity="0.15" stroke="#00d4ff" stroke-width="2"/>
+    <text x="115" y="406" font-family="monospace" font-size="16" font-weight="bold" fill="#00d4ff" text-anchor="middle">02</text>
+    <text x="155" y="395" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">向量数据库</text>
+    <text x="155" y="428" font-family="monospace" font-size="15" fill="#8e9eab">Milvus / Pinecone / Qdrant / Chroma</text>
+  </g>
+
+  <g id="card-3">
+    <rect x="80" y="490" width="540" height="120" rx="12" fill="#1a2332" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="78" y="488" width="544" height="124" rx="14" fill="none" stroke="#00d4ff" stroke-width="4" opacity="0.15"/>
+    <circle cx="115" cy="550" r="22" fill="#00d4ff" fill-opacity="0.15" stroke="#00d4ff" stroke-width="2"/>
+    <text x="115" y="556" font-family="monospace" font-size="16" font-weight="bold" fill="#00d4ff" text-anchor="middle">03</text>
+    <text x="155" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">检索策略</text>
+    <text x="155" y="578" font-family="monospace" font-size="15" fill="#8e9eab">Dense Retrieval + BM25 混合检索</text>
+  </g>
+
+  <g id="card-4">
+    <rect x="680" y="190" width="540" height="120" rx="12" fill="#1a2332" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="678" y="188" width="544" height="124" rx="14" fill="none" stroke="#00d4ff" stroke-width="4" opacity="0.15"/>
+    <circle cx="715" cy="250" r="22" fill="#00d4ff" fill-opacity="0.15" stroke="#00d4ff" stroke-width="2"/>
+    <text x="715" y="256" font-family="monospace" font-size="16" font-weight="bold" fill="#00d4ff" text-anchor="middle">04</text>
+    <text x="755" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">优化技术</text>
+    <text x="755" y="278" font-family="monospace" font-size="15" fill="#8e9eab">RAPTOR / HyDE / Self-RAG / CRAG</text>
+  </g>
+
+  <g id="card-5">
+    <rect x="680" y="340" width="540" height="120" rx="12" fill="#1a2332" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="678" y="338" width="544" height="124" rx="14" fill="none" stroke="#00d4ff" stroke-width="4" opacity="0.15"/>
+    <circle cx="715" cy="400" r="22" fill="#00d4ff" fill-opacity="0.15" stroke="#00d4ff" stroke-width="2"/>
+    <text x="715" y="406" font-family="monospace" font-size="16" font-weight="bold" fill="#00d4ff" text-anchor="middle">05</text>
+    <text x="755" y="395" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">框架生态</text>
+    <text x="755" y="428" font-family="monospace" font-size="15" fill="#8e9eab">LangChain / LlamaIndex / Haystack</text>
+  </g>
+
+  <g id="footer-accent">
+    <line x1="80" y1="680" x2="1200" y2="680" stroke="#00d4ff" stroke-width="1" opacity="0.2"/>
+    <text x="80" y="700" font-family="monospace" font-size="14" fill="#8e9eab" opacity="0.6">SYSTEM ARCHITECTURE // RAG STACK OVERVIEW</text>
+    <rect x="1180" y="690" width="20" height="4" fill="#00d4ff" opacity="0.8"/>
+  </g>
+</svg>

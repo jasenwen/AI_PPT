@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#f5f8fe" />
+  
+  <g id="header">
+    <text x="80" y="85" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="#1a73e8">检索与推理机制</text>
+    <text x="1180" y="65" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="24" fill="#9aa0a6" text-anchor="end">13 / 21</text>
+    <line x1="80" y1="115" x2="1200" y2="115" stroke="#4fc3f7" stroke-width="2" opacity="0.6" />
+  </g>
+
+  <g id="kg-card">
+    <path fill="#ffffff" stroke="#e0e7ff" stroke-width="1" d="M96,150 H604 A16,16 0 0 1 620,166 V574 A16,16 0 0 1 604,590 H96 A16,16 0 0 1 80,574 V166 A16,16 0 0 1 96,150 Z" />
+    <circle cx="130" cy="200" r="24" fill="#e8f0fe" />
+    <path d="M120 200 L140 200 M130 190 L130 210 M115 185 L145 215 M115 215 L145 185" stroke="#1a73e8" stroke-width="2" stroke-linecap="round" />
+    <text x="170" y="208" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="32" font-weight="bold" fill="#1a73e8">知识图谱</text>
+    
+    <path fill="#4fc3f7" d="M124,260 H124 A4,4 0 0 1 128,264 V280 A4,4 0 0 1 124,284 H124 A4,4 0 0 1 120,280 V264 A4,4 0 0 1 124,260 Z" />
+    <text x="140" y="280" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="24" fill="#333333">精确匹配</text>
+    
+    <path fill="#4fc3f7" d="M124,310 H124 A4,4 0 0 1 128,314 V330 A4,4 0 0 1 124,334 H124 A4,4 0 0 1 120,330 V314 A4,4 0 0 1 124,310 Z" />
+    <text x="140" y="330" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="24" fill="#333333">图遍历</text>
+    
+    <path fill="#4fc3f7" d="M124,360 H124 A4,4 0 0 1 128,364 V380 A4,4 0 0 1 124,384 H124 A4,4 0 0 1 120,380 V364 A4,4 0 0 1 124,360 Z" />
+    <text x="140" y="380" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="24" fill="#333333">多跳推理</text>
+    
+    <circle cx="520" cy="200" r="6" fill="#4fc3f7" opacity="0.5" />
+    <circle cx="480" cy="250" r="4" fill="#1a73e8" opacity="0.3" />
+    <circle cx="540" cy="300" r="8" fill="#4fc3f7" opacity="0.4" />
+    <line x1="520" y1="200" x2="480" y2="250" stroke="#1a73e8" stroke-width="1" opacity="0.2" />
+    <line x1="480" y1="250" x2="540" y2="300" stroke="#1a73e8" stroke-width="1" opacity="0.2" />
+    
+    <path fill="#f0f4ff" d="M128,420 H572 A8,8 0 0 1 580,428 V452 A8,8 0 0 1 572,460 H128 A8,8 0 0 1 120,452 V428 A8,8 0 0 1 128,420 Z" />
+    <text x="140" y="446" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="18" fill="#1a73e8" font-weight="bold">确定性推理 ★★★★★</text>
+    <text x="320" y="446" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="18" fill="#9aa0a6">开放式语义 ☆☆☆☆☆</text>
+  </g>
+
+  <g id="rag-card">
+    <path fill="#ffffff" stroke="#e0e7ff" stroke-width="1" d="M676,150 H1184 A16,16 0 0 1 1200,166 V574 A16,16 0 0 1 1184,590 H676 A16,16 0 0 1 660,574 V166 A16,16 0 0 1 676,150 Z" />
+    <circle cx="710" cy="200" r="24" fill="#e8f0fe" />
+    <path d="M700 200 Q710 180 720 200 Q710 220 700 200 Z" fill="none" stroke="#1a73e8" stroke-width="2" />
+    <circle cx="710" cy="200" r="4" fill="#1a73e8" />
+    <text x="750" y="208" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="32" font-weight="bold" fill="#1a73e8">RAG</text>
+    
+    <path fill="#4fc3f7" d="M704,260 H704 A4,4 0 0 1 708,264 V280 A4,4 0 0 1 704,284 H704 A4,4 0 0 1 700,280 V264 A4,4 0 0 1 704,260 Z" />
+    <text x="720" y="280" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="24" fill="#333333">模糊语义检索</text>
+    
+    <path fill="#4fc3f7" d="M704,310 H704 A4,4 0 0 1 708,314 V330 A4,4 0 0 1 704,334 H704 A4,4 0 0 1 700,330 V314 A4,4 0 0 1 704,310 Z" />
+    <text x="720" y="330" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="24" fill="#333333">LLM 隐式推理</text>
+    
+    <path d="M1080 200 Q1050 220 1020 200 T960 200" fill="none" stroke="#4fc3f7" stroke-width="2" opacity="0.3" />
+    <path d="M1080 240 Q1050 260 1020 240 T960 240" fill="none" stroke="#1a73e8" stroke-width="2" opacity="0.2" />
+    
+    <path fill="#f0f4ff" d="M708,420 H1152 A8,8 0 0 1 1160,428 V452 A8,8 0 0 1 1152,460 H708 A8,8 0 0 1 700,452 V428 A8,8 0 0 1 708,420 Z" />
+    <text x="720" y="446" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="18" fill="#1a73e8" font-weight="bold">确定性推理 ☆☆☆☆☆</text>
+    <text x="900" y="446" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="18" fill="#9aa0a6">开放式语义 ★★★★★</text>
+  </g>
+
+  <g id="summary">
+    <path fill="#e8f0fe" d="M270,610 H1010 A30,30 0 0 1 1040,640 V640 A30,30 0 0 1 1010,670 H270 A30,30 0 0 1 240,640 V640 A30,30 0 0 1 270,610 Z" />
+    <text x="640" y="648" font-family="PingFang SC, Microsoft YaHei, system-ui, -apple-system, sans-serif" font-size="26" font-weight="bold" fill="#1a73e8" text-anchor="middle">KG 擅长确定性推理，RAG 擅长开放式语义理解</text>
+  </g>
+
+  <g id="decorations" opacity="0.15">
+    <circle cx="1150" cy="80" r="60" fill="#4fc3f7" />
+    <circle cx="1180" cy="110" r="40" fill="#1a73e8" />
+    <circle cx="100" cy="650" r="50" fill="#4fc3f7" />
+    <circle cx="130" cy="680" r="30" fill="#1a73e8" />
+  </g>
+</svg>

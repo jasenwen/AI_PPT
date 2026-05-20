@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0f1923" />
+  
+  <g id="bg-tech-elements">
+    <circle cx="1120" cy="120" r="280" fill="#00d4ff" opacity="0.03" />
+    <circle cx="1120" cy="120" r="180" fill="#00d4ff" opacity="0.05" />
+    <line x1="0" y1="720" x2="1280" y2="0" stroke="#00d4ff" stroke-width="1" opacity="0.04" />
+    <line x1="1280" y1="0" x2="0" y2="720" stroke="#00d4ff" stroke-width="1" opacity="0.02" />
+    <rect x="1160" y="640" width="100" height="100" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.08" />
+    <rect x="1175" y="655" width="70" height="70" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12" />
+    <circle cx="1210" cy="690" r="4" fill="#00d4ff" opacity="0.2" />
+    <circle cx="1210" cy="690" r="8" fill="#00d4ff" opacity="0.1" />
+  </g>
+
+  <g id="header-section">
+    <text x="120" y="115" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffffff">目录</text>
+    <line x1="120" y1="140" x2="260" y2="140" stroke="#00d4ff" stroke-width="4" />
+    <text x="120" y="175" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#8e9eab" letter-spacing="2">TABLE OF CONTENTS</text>
+  </g>
+
+  <line x1="150" y1="190" x2="150" y2="640" stroke="#00d4ff" stroke-width="2" opacity="0.25" />
+
+  <g id="toc-list">
+    <g id="item-01">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,165 H172 A8,8 0 0 1 180,173 V207 A8,8 0 0 1 172,215 H128 A8,8 0 0 1 120,207 V173 A8,8 0 0 1 128,165 Z" />
+      <text x="150" y="198" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">01</text>
+      <text x="200" y="198" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">背景与问题</text>
+      <circle cx="1080" cy="190" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+    <g id="item-02">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,240 H172 A8,8 0 0 1 180,248 V282 A8,8 0 0 1 172,290 H128 A8,8 0 0 1 120,282 V248 A8,8 0 0 1 128,240 Z" />
+      <text x="150" y="273" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">02</text>
+      <text x="200" y="273" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">什么是知识图谱？</text>
+      <circle cx="1080" cy="265" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+    <g id="item-03">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,315 H172 A8,8 0 0 1 180,323 V357 A8,8 0 0 1 172,365 H128 A8,8 0 0 1 120,357 V323 A8,8 0 0 1 128,315 Z" />
+      <text x="150" y="348" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">03</text>
+      <text x="200" y="348" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">什么是 RAG？</text>
+      <circle cx="1080" cy="340" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+    <g id="item-04">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,390 H172 A8,8 0 0 1 180,398 V432 A8,8 0 0 1 172,440 H128 A8,8 0 0 1 120,432 V398 A8,8 0 0 1 128,390 Z" />
+      <text x="150" y="423" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">04</text>
+      <text x="200" y="423" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">核心维度对比</text>
+      <circle cx="1080" cy="415" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+    <g id="item-05">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,465 H172 A8,8 0 0 1 180,473 V507 A8,8 0 0 1 172,515 H128 A8,8 0 0 1 120,507 V473 A8,8 0 0 1 128,465 Z" />
+      <text x="150" y="498" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">05</text>
+      <text x="200" y="498" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">应用场景与选型指南</text>
+      <circle cx="1080" cy="490" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+    <g id="item-06">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,540 H172 A8,8 0 0 1 180,548 V582 A8,8 0 0 1 172,590 H128 A8,8 0 0 1 120,582 V548 A8,8 0 0 1 128,540 Z" />
+      <text x="150" y="573" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">06</text>
+      <text x="200" y="573" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">GraphRAG：融合之道</text>
+      <circle cx="1080" cy="565" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+    <g id="item-07">
+      <path fill="#1a2332" stroke="#00d4ff" stroke-width="1.5" d="M128,615 H172 A8,8 0 0 1 180,623 V657 A8,8 0 0 1 172,665 H128 A8,8 0 0 1 120,657 V623 A8,8 0 0 1 128,615 Z" />
+      <text x="150" y="648" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#00d4ff" text-anchor="middle">07</text>
+      <text x="200" y="648" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#ffffff">总结与展望</text>
+      <circle cx="1080" cy="640" r="3" fill="#00d4ff" opacity="0.4" />
+    </g>
+  </g>
+
+  <g id="footer-section">
+    <line x1="100" y1="680" x2="1120" y2="680" stroke="#8e9eab" stroke-width="1" opacity="0.2" />
+    <text x="1200" y="680" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#8e9eab" text-anchor="end">02 / 21</text>
+  </g>
+</svg>

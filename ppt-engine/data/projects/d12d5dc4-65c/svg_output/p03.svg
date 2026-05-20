@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="8" height="720" fill="#2563EB"/>
+  
+  <g id="header">
+    <text x="80" y="100" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#0F172A">什么是知识图谱</text>
+    <text x="1180" y="100" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#64748B" text-anchor="end">3 / 12</text>
+    <line x1="80" y1="130" x2="1200" y2="130" stroke="#E2E8F0" stroke-width="2"/>
+  </g>
+
+  <g id="content-blocks">
+    <g id="block-1">
+      <rect x="80" y="160" width="540" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="115" cy="195" r="24" fill="#EFF6FF"/>
+      <text x="115" y="201" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#2563EB" text-anchor="middle">1</text>
+      <text x="155" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">定义</text>
+      <text x="155" y="235" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#475569">以图结构组织实体及其关系的知识库</text>
+    </g>
+
+    <g id="block-2">
+      <rect x="660" y="160" width="540" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="695" cy="195" r="24" fill="#ECFDF5"/>
+      <text x="695" y="201" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#059669" text-anchor="middle">2</text>
+      <text x="735" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">三元组基础</text>
+      <text x="735" y="235" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#475569">(实体, 关系, 实体) 的语义网络</text>
+    </g>
+
+    <g id="block-3">
+      <rect x="80" y="340" width="540" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="115" cy="375" r="24" fill="#FFF7ED"/>
+      <text x="115" y="381" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#D97706" text-anchor="middle">3</text>
+      <text x="155" y="375" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">本质</text>
+      <text x="155" y="415" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#475569">从「数据」到「信息」再到「知识」的升华</text>
+    </g>
+
+    <g id="block-4">
+      <rect x="660" y="340" width="540" height="150" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <circle cx="695" cy="375" r="24" fill="#F5F3FF"/>
+      <text x="695" y="381" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#7C3AED" text-anchor="middle">4</text>
+      <text x="735" y="375" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A">类比</text>
+      <text x="735" y="415" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#475569">机器世界的「认知地图」</text>
+    </g>
+  </g>
+
+  <g id="decorative-graph">
+    <line x1="950" y1="520" x2="1050" y2="480" stroke="#CBD5E1" stroke-width="2"/>
+    <line x1="1050" y1="480" x2="1150" y2="530" stroke="#CBD5E1" stroke-width="2"/>
+    <line x1="1050" y1="480" x2="1000" y2="600" stroke="#CBD5E1" stroke-width="2"/>
+    <line x1="1000" y1="600" x2="1100" y2="650" stroke="#CBD5E1" stroke-width="2"/>
+    <line x1="1100" y1="650" x2="1150" y2="530" stroke="#CBD5E1" stroke-width="2"/>
+    <line x1="950" y1="520" x2="1000" y2="600" stroke="#CBD5E1" stroke-width="2"/>
+    
+    <circle cx="950" cy="520" r="16" fill="#3B82F6"/>
+    <circle cx="1050" cy="480" r="20" fill="#10B981"/>
+    <circle cx="1150" cy="530" r="14" fill="#F59E0B"/>
+    <circle cx="1000" cy="600" r="18" fill="#8B5CF6"/>
+    <circle cx="1100" cy="650" r="12" fill="#EC4899"/>
+    
+    <text x="950" y="555" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">实体A</text>
+    <text x="1050" y="515" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">实体B</text>
+    <text x="1150" y="565" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">实体C</text>
+    <text x="1000" y="635" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">实体D</text>
+    <text x="1100" y="685" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">实体E</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="680" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#94A3B8">© 2024 AI Knowledge Base Series</text>
+  </g>
+</svg>

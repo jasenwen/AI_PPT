@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F8FAFC" />
+  <g id="header">
+    <rect x="0" y="0" width="1280" height="80" fill="#FFFFFF" />
+    <line x1="0" y1="80" x2="1280" y2="80" stroke="#E2E8F0" stroke-width="2" />
+    <text x="80" y="52" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#0F172A">场景推荐矩阵</text>
+    <line x1="80" y1="68" x2="160" y2="68" stroke="#3B82F6" stroke-width="4" />
+    <text x="1200" y="50" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#64748B" text-anchor="end">10 / 13</text>
+  </g>
+  <g id="kg-priority">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M96,140 H404 A16,16 0 0 1 420,156 V564 A16,16 0 0 1 404,580 H96 A16,16 0 0 1 80,564 V156 A16,16 0 0 1 96,140 Z" />
+    <path fill="#2563EB" d="M84,140 H416 A4,4 0 0 1 420,144 V144 A4,4 0 0 1 416,148 H84 A4,4 0 0 1 80,144 V144 A4,4 0 0 1 84,140 Z" />
+    <text x="110" y="200" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">KG优先</text>
+    <text x="110" y="240" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">知识图谱驱动，强依赖结构化关系</text>
+    <circle cx="110" cy="295" r="6" fill="#2563EB" />
+    <text x="130" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">金融风控</text>
+    <circle cx="110" cy="340" r="6" fill="#2563EB" />
+    <text x="130" y="345" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">医疗健康</text>
+    <rect x="110" y="385" width="280" height="1" fill="#E2E8F0" />
+    <text x="110" y="425" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#94A3B8">适用高合规、强逻辑场景</text>
+  </g>
+  <g id="rag-priority">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M486,140 H794 A16,16 0 0 1 810,156 V564 A16,16 0 0 1 794,580 H486 A16,16 0 0 1 470,564 V156 A16,16 0 0 1 486,140 Z" />
+    <path fill="#7C3AED" d="M474,140 H806 A4,4 0 0 1 810,144 V144 A4,4 0 0 1 806,148 H474 A4,4 0 0 1 470,144 V144 A4,4 0 0 1 474,140 Z" />
+    <text x="500" y="200" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">RAG优先</text>
+    <text x="500" y="240" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">检索增强生成，擅长非结构化数据</text>
+    <circle cx="500" cy="295" r="6" fill="#7C3AED" />
+    <text x="520" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">知识库问答</text>
+    <circle cx="500" cy="340" r="6" fill="#7C3AED" />
+    <text x="520" y="345" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">智能客服</text>
+    <rect x="500" y="385" width="280" height="1" fill="#E2E8F0" />
+    <text x="500" y="425" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#94A3B8">适用动态更新、开放域场景</text>
+  </g>
+  <g id="combined">
+    <path fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" d="M876,140 H1184 A16,16 0 0 1 1200,156 V564 A16,16 0 0 1 1184,580 H876 A16,16 0 0 1 860,564 V156 A16,16 0 0 1 876,140 Z" />
+    <path fill="#059669" d="M864,140 H1196 A4,4 0 0 1 1200,144 V144 A4,4 0 0 1 1196,148 H864 A4,4 0 0 1 860,144 V144 A4,4 0 0 1 864,140 Z" />
+    <text x="890" y="200" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#1E293B">结合</text>
+    <text x="890" y="240" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748B">融合图谱结构与语义检索优势</text>
+    <circle cx="890" cy="295" r="6" fill="#059669" />
+    <text x="910" y="300" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">GraphRAG</text>
+    <circle cx="890" cy="340" r="6" fill="#059669" />
+    <text x="910" y="345" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#334155">复杂推理场景</text>
+    <rect x="890" y="385" width="280" height="1" fill="#E2E8F0" />
+    <text x="890" y="425" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#94A3B8">适用多跳推理、深度分析场景</text>
+  </g>
+  <g id="footer">
+    <line x1="80" y1="680" x2="1200" y2="680" stroke="#E2E8F0" stroke-width="2" />
+    <text x="80" y="705" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#94A3B8">AI Agent 技术选型指南</text>
+  </g>
+</svg>

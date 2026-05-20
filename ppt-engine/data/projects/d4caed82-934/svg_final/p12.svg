@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f5f8fe" />
+  
+  <g id="header">
+    <text x="80" y="80" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#1a73e8">知识表示方式</text>
+    <text x="1180" y="80" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#888888" text-anchor="end">12 / 21</text>
+    <line x1="80" y1="100" x2="1200" y2="100" stroke="#dce8fa" stroke-width="2" />
+  </g>
+
+  <g id="left-card">
+    <path fill="#ffffff" stroke="#dce8fa" stroke-width="2" d="M96,120 H604 A16,16 0 0 1 620,136 V484 A16,16 0 0 1 604,500 H96 A16,16 0 0 1 80,484 V136 A16,16 0 0 1 96,120 Z" />
+    <g transform="translate(120, 150)">
+      <circle cx="20" cy="20" r="8" fill="#1a73e8" />
+      <circle cx="80" cy="10" r="8" fill="#1a73e8" />
+      <circle cx="60" cy="60" r="8" fill="#1a73e8" />
+      <line x1="20" y1="20" x2="80" y2="10" stroke="#1a73e8" stroke-width="2" />
+      <line x1="20" y1="20" x2="60" y2="60" stroke="#1a73e8" stroke-width="2" />
+      <line x1="80" y1="10" x2="60" y2="60" stroke="#1a73e8" stroke-width="2" />
+    </g>
+    <text x="120" y="270" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#1a73e8">知识图谱</text>
+    <text x="120" y="310" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#444444">显式符号化表示，结构化三元组</text>
+    <text x="120" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">• 实体-关系-属性建模</text>
+    <text x="120" y="390" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">• 逻辑推理与规则引擎</text>
+    <text x="120" y="420" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">• 强可解释性与确定性</text>
+    <path fill="#eef4ff" d="M126,450 H574 A6,6 0 0 1 580,456 V474 A6,6 0 0 1 574,480 H126 A6,6 0 0 1 120,474 V456 A6,6 0 0 1 126,450 Z" />
+    <text x="135" y="470" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1a73e8">可解释性 ★★★★★</text>
+  </g>
+
+  <g id="right-card">
+    <path fill="#ffffff" stroke="#dce8fa" stroke-width="2" d="M676,120 H1184 A16,16 0 0 1 1200,136 V484 A16,16 0 0 1 1184,500 H676 A16,16 0 0 1 660,484 V136 A16,16 0 0 1 676,120 Z" />
+    <g transform="translate(700, 150)">
+      <path fill="#4fc3f7" opacity="0.2" d="M4,0 H36 A4,4 0 0 1 40,4 V46 A4,4 0 0 1 36,50 H4 A4,4 0 0 1 0,46 V4 A4,4 0 0 1 4,0 Z" />
+      <line x1="10" y1="15" x2="30" y2="15" stroke="#4fc3f7" stroke-width="2" />
+      <line x1="10" y1="25" x2="30" y2="25" stroke="#4fc3f7" stroke-width="2" />
+      <line x1="10" y1="35" x2="25" y2="35" stroke="#4fc3f7" stroke-width="2" />
+      <path d="M 50 25 L 70 25 L 65 20 M 70 25 L 65 30" stroke="#4fc3f7" stroke-width="2" fill="none" />
+      <path fill="#4fc3f7" opacity="0.3" d="M84,15 H136 A4,4 0 0 1 140,19 V31 A4,4 0 0 1 136,35 H84 A4,4 0 0 1 80,31 V19 A4,4 0 0 1 84,15 Z" />
+      <text x="85" y="29" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">[0.1, 0.8]</text>
+    </g>
+    <text x="700" y="270" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#4fc3f7">RAG</text>
+    <text x="700" y="310" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#444444">隐式语义表示，非结构化文档向量化</text>
+    <text x="700" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">• 高维稠密向量空间映射</text>
+    <text x="700" y="390" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">• 相似度检索与上下文增强</text>
+    <text x="700" y="420" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#666666">• 弱可解释性与概率生成</text>
+    <path fill="#eef4ff" d="M706,450 H1154 A6,6 0 0 1 1160,456 V474 A6,6 0 0 1 1154,480 H706 A6,6 0 0 1 700,474 V456 A6,6 0 0 1 706,450 Z" />
+    <text x="715" y="470" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#4fc3f7">检索效率 ★★★★★</text>
+  </g>
+
+  <g id="divider">
+    <circle cx="620" cy="310" r="40" fill="#f5f8fe" stroke="#1a73e8" stroke-width="3" />
+    <text x="620" y="318" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#1a73e8" text-anchor="middle">VS</text>
+  </g>
+
+  <g id="bottom-banner">
+    <path fill="#1a73e8" d="M92,540 H1188 A12,12 0 0 1 1200,552 V628 A12,12 0 0 1 1188,640 H92 A12,12 0 0 1 80,628 V552 A12,12 0 0 1 92,540 Z" />
+    <text x="640" y="585" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">本质区别：符号主义 vs 连接主义</text>
+  </g>
+</svg>

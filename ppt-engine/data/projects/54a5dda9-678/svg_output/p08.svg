@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <g id="top-decoration">
+    <rect x="0" y="0" width="1280" height="6" fill="#F5F7FA"/>
+    <rect x="0" y="6" width="1280" height="2" fill="#2B7FC3"/>
+  </g>
+
+  <g id="slide-title">
+    <text x="100" y="120" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="36" font-weight="bold" fill="#1A3A5C">总结与展望</text>
+    <line x1="100" y1="145" x2="180" y2="145" stroke="#2B7FC3" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g id="point-1">
+    <rect x="100" y="200" width="1080" height="100" rx="12" fill="#F5F7FA"/>
+    <circle cx="140" cy="250" r="10" fill="#2B7FC3"/>
+    <text x="170" y="256" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="20" fill="#333333">知识图谱是连接数据与智能的关键基础设施</text>
+  </g>
+
+  <g id="point-2">
+    <rect x="100" y="320" width="1080" height="100" rx="12" fill="#F5F7FA"/>
+    <circle cx="140" cy="370" r="10" fill="#2B7FC3"/>
+    <text x="170" y="376" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="20" fill="#333333">核心技术日趋成熟 <tspan fill="#2B7FC3" font-weight="bold">→</tspan> 产业落地加速</text>
+  </g>
+
+  <g id="point-3">
+    <rect x="100" y="440" width="1080" height="100" rx="12" fill="#F5F7FA"/>
+    <circle cx="140" cy="490" r="10" fill="#2B7FC3"/>
+    <text x="170" y="496" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="20" fill="#333333">未来：<tspan fill="#2B7FC3" font-weight="bold">LLM + KG 深度融合</tspan>，迈向可信 AI</text>
+  </g>
+
+  <g id="footer">
+    <line x1="100" y1="680" x2="1180" y2="680" stroke="#E0E0E0" stroke-width="1"/>
+    <text x="640" y="675" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="16" fill="#1A3A5C" text-anchor="middle" font-weight="bold">携手构建可信智能新生态</text>
+    <text x="1180" y="675" font-family="'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif" font-size="14" fill="#999999" text-anchor="end">8 / 9</text>
+  </g>
+</svg>

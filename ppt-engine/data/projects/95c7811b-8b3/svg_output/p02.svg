@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#2563EB"/>
+  
+  <g id="header">
+    <text x="100" y="110" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#0F172A">目录</text>
+    <rect x="100" y="130" width="120" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="toc-item-1">
+    <rect x="80" y="210" width="1120" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="130" y="265" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">01</text>
+    <text x="220" y="265" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">什么是知识图谱</text>
+  </g>
+
+  <g id="toc-item-2">
+    <rect x="80" y="320" width="1120" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="130" y="375" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">02</text>
+    <text x="220" y="375" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">核心技术架构</text>
+  </g>
+
+  <g id="toc-item-3">
+    <rect x="80" y="430" width="1120" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="130" y="485" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">03</text>
+    <text x="220" y="485" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">应用落地场景</text>
+  </g>
+
+  <g id="toc-item-4">
+    <rect x="80" y="540" width="1120" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="130" y="595" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="#2563EB">04</text>
+    <text x="220" y="595" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="normal" fill="#1E293B">总结与展望</text>
+  </g>
+
+  <g id="decoration">
+    <circle cx="1100" cy="360" r="180" fill="#EFF6FF" opacity="0.6"/>
+    <circle cx="1100" cy="360" r="120" fill="#DBEAFE" opacity="0.4"/>
+    <path d="M 1050 300 L 1150 300 M 1050 360 L 1150 360 M 1050 420 L 1150 420" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

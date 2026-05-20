@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <g id="slide-background">
+    <rect width="1280" height="720" fill="#0B1120" />
+    <circle cx="1150" cy="120" r="320" fill="#1E293B" opacity="0.25" />
+    <circle cx="120" cy="620" r="280" fill="#1E293B" opacity="0.2" />
+    <path d="M0 0 L1280 0 L1280 720 L0 720 Z" fill="url(#bgGrad)" opacity="0" />
+  </g>
+  
+  <g id="title-section">
+    <text x="640" y="115" font-family="Microsoft YaHei, SimHei, Arial, Helvetica, sans-serif" font-size="54" font-weight="bold" fill="#F8FAFC" text-anchor="middle">总结与展望</text>
+    <line x1="550" y1="155" x2="730" y2="155" stroke="#3B82F6" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <g id="content-cards">
+    <g id="point-1">
+      <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M254,250 H1026 A14,14 0 0 1 1040,264 V320 A14,14 0 0 1 1026,334 H254 A14,14 0 0 1 240,320 V264 A14,14 0 0 1 254,250 Z" />
+      <path fill="#3B82F6" d="M243,250 H243 A3,3 0 0 1 246,253 V331 A3,3 0 0 1 243,334 H243 A3,3 0 0 1 240,331 V253 A3,3 0 0 1 243,250 Z" />
+      <text x="285" y="300" font-family="Microsoft YaHei, SimHei, Arial, Helvetica, sans-serif" font-size="26" fill="#E2E8F0">知识图谱是连接数据与智能的关键桥梁</text>
+    </g>
+    
+    <g id="point-2">
+      <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M254,370 H1026 A14,14 0 0 1 1040,384 V440 A14,14 0 0 1 1026,454 H254 A14,14 0 0 1 240,440 V384 A14,14 0 0 1 254,370 Z" />
+      <path fill="#10B981" d="M243,370 H243 A3,3 0 0 1 246,373 V451 A3,3 0 0 1 243,454 H243 A3,3 0 0 1 240,451 V373 A3,3 0 0 1 243,370 Z" />
+      <text x="285" y="420" font-family="Microsoft YaHei, SimHei, Arial, Helvetica, sans-serif" font-size="26" fill="#E2E8F0">核心技术日趋成熟 → 产业落地加速</text>
+    </g>
+    
+    <g id="point-3">
+      <path fill="#1E293B" stroke="#334155" stroke-width="1" d="M254,490 H1026 A14,14 0 0 1 1040,504 V560 A14,14 0 0 1 1026,574 H254 A14,14 0 0 1 240,560 V504 A14,14 0 0 1 254,490 Z" />
+      <path fill="#8B5CF6" d="M243,490 H243 A3,3 0 0 1 246,493 V571 A3,3 0 0 1 243,574 H243 A3,3 0 0 1 240,571 V493 A3,3 0 0 1 243,490 Z" />
+      <text x="285" y="540" font-family="Microsoft YaHei, SimHei, Arial, Helvetica, sans-serif" font-size="26" fill="#E2E8F0">未来：LLM + KG 深度融合，迈向可信 AI</text>
+    </g>
+  </g>
+  
+  <g id="footer-decoration">
+    <line x1="560" y1="650" x2="720" y2="650" stroke="#334155" stroke-width="2" stroke-linecap="round" />
+    <text x="640" y="685" font-family="Microsoft YaHei, SimHei, Arial, Helvetica, sans-serif" font-size="18" fill="#64748B" text-anchor="middle">THANK YOU</text>
+  </g>
+</svg>

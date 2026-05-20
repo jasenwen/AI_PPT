@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#f5f8fe"/>
+  
+  <!-- Header Group -->
+  <g id="header">
+    <text x="150" y="115" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" fill="#1a73e8">目录</text>
+    <line x1="150" y1="145" x2="280" y2="145" stroke="#4fc3f7" stroke-width="4" stroke-linecap="round"/>
+    <text x="150" y="180" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#6b7280" letter-spacing="2">TABLE OF CONTENTS</text>
+  </g>
+
+  <!-- TOC List Group -->
+  <g id="toc-list">
+    <!-- Item 1 -->
+    <circle cx="180" cy="230" r="28" fill="#1a73e8"/>
+    <text x="180" y="230" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">01</text>
+    <text x="245" y="230" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">背景与问题</text>
+    
+    <!-- Item 2 -->
+    <circle cx="180" cy="310" r="28" fill="#1a73e8"/>
+    <text x="180" y="310" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">02</text>
+    <text x="245" y="310" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">什么是知识图谱？</text>
+    
+    <!-- Item 3 -->
+    <circle cx="180" cy="390" r="28" fill="#1a73e8"/>
+    <text x="180" y="390" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">03</text>
+    <text x="245" y="390" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">什么是 RAG？</text>
+    
+    <!-- Item 4 -->
+    <circle cx="180" cy="470" r="28" fill="#1a73e8"/>
+    <text x="180" y="470" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">04</text>
+    <text x="245" y="470" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">核心维度对比</text>
+    
+    <!-- Item 5 -->
+    <circle cx="180" cy="550" r="28" fill="#1a73e8"/>
+    <text x="180" y="550" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">05</text>
+    <text x="245" y="550" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">应用场景与选型指南</text>
+    
+    <!-- Item 6 -->
+    <circle cx="180" cy="630" r="28" fill="#1a73e8"/>
+    <text x="180" y="630" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">06</text>
+    <text x="245" y="630" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">GraphRAG：融合之道</text>
+    
+    <!-- Item 7 -->
+    <circle cx="180" cy="710" r="28" fill="#1a73e8"/>
+    <text x="180" y="710" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">07</text>
+    <text x="245" y="710" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f2937" dominant-baseline="middle">总结与展望</text>
+  </g>
+
+  <!-- Right Side Abstract Network Decoration -->
+  <g id="decoration-network" opacity="0.18">
+    <path d="M 880 180 L 980 240 L 1080 210 L 1120 320 L 1020 400 L 920 340 Z" fill="none" stroke="#4fc3f7" stroke-width="2.5"/>
+    <path d="M 980 240 L 1020 400 M 1080 210 L 1020 400 M 920 340 L 1020 400 M 880 180 L 920 340" fill="none" stroke="#1a73e8" stroke-width="2"/>
+    <circle cx="880" cy="180" r="9" fill="#4fc3f7"/>
+    <circle cx="980" cy="240" r="11" fill="#1a73e8"/>
+    <circle cx="1080" cy="210" r="8" fill="#4fc3f7"/>
+    <circle cx="1120" cy="320" r="10" fill="#1a73e8"/>
+    <circle cx="1020" cy="400" r="14" fill="#4fc3f7"/>
+    <circle cx="920" cy="340" r="9" fill="#1a73e8"/>
+    <!-- Extended connections -->
+    <path d="M 1120 320 L 1160 480 L 1090 540 L 960 600" fill="none" stroke="#1a73e8" stroke-width="2" stroke-dasharray="6,4"/>
+    <circle cx="1160" cy="480" r="7" fill="#4fc3f7"/>
+    <circle cx="1090" cy="540" r="9" fill="#1a73e8"/>
+    <circle cx="960" cy="600" r="6" fill="#4fc3f7"/>
+    <!-- Subtle grid accents -->
+    <line x1="850" y1="150" x2="850" y2="650" stroke="#4fc3f7" stroke-width="1" stroke-dasharray="2,8"/>
+    <line x1="1150" y1="150" x2="1150" y2="650" stroke="#4fc3f7" stroke-width="1" stroke-dasharray="2,8"/>
+  </g>
+
+  <!-- Footer -->
+  <g id="footer">
+    <text x="150" y="690" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9ca3af">02 / 21</text>
+    <text x="1130" y="690" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9ca3af" text-anchor="end">KNOWLEDGE GRAPH &amp; RAG</text>
+  </g>
+</svg>

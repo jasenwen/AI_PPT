@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  <rect width="1280" height="720" fill="#f5f8fe" />
+  
+  
+  <g id="decorations">
+    <circle cx="1150" cy="120" r="180" fill="#4fc3f7" opacity="0.06" />
+    <circle cx="130" cy="620" r="140" fill="#1a73e8" opacity="0.05" />
+    <line x1="0" y1="140" x2="1280" y2="140" stroke="#e0e7ff" stroke-width="1.5" opacity="0.6" />
+    <line x1="640" y1="0" x2="640" y2="720" stroke="#e0e7ff" stroke-width="1" opacity="0.3" />
+    <path fill="none" stroke="#e0e7ff" stroke-width="2" opacity="0.4" d="M116,140 H564 A16,16 0 0 1 580,156 V504 A16,16 0 0 1 564,520 H116 A16,16 0 0 1 100,504 V156 A16,16 0 0 1 116,140 Z" />
+    <path fill="none" stroke="#e0e7ff" stroke-width="2" opacity="0.4" d="M716,140 H1164 A16,16 0 0 1 1180,156 V504 A16,16 0 0 1 1164,520 H716 A16,16 0 0 1 700,504 V156 A16,16 0 0 1 716,140 Z" />
+  </g>
+
+  
+  <g id="title-section">
+    <text x="640" y="95" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="#1a73e8" text-anchor="middle">04 核心维度对比</text>
+    <text x="640" y="145" font-family="Arial, sans-serif" font-size="26" fill="#4fc3f7" text-anchor="middle">知识图谱 vs RAG — 全面对决</text>
+    <line x1="460" y1="165" x2="820" y2="165" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  
+  <g id="left-column">
+    <path fill="#ffffff" stroke="#d0d9f0" stroke-width="2" d="M116,190 H564 A16,16 0 0 1 580,206 V514 A16,16 0 0 1 564,530 H116 A16,16 0 0 1 100,514 V206 A16,16 0 0 1 116,190 Z" />
+    <path fill="#1a73e8" d="M116,190 H564 A16,16 0 0 1 580,206 V244 A16,16 0 0 1 564,260 H116 A16,16 0 0 1 100,244 V206 A16,16 0 0 1 116,190 Z" />
+    <text x="340" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">知识图谱 (KG)</text>
+    
+    <circle cx="140" cy="290" r="7" fill="#4fc3f7" />
+    <text x="165" y="295" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">基于实体与关系构建</text>
+    
+    <circle cx="140" cy="340" r="7" fill="#4fc3f7" />
+    <text x="165" y="345" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">支持多跳复杂推理</text>
+    
+    <circle cx="140" cy="390" r="7" fill="#4fc3f7" />
+    <text x="165" y="395" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">高可解释性与透明度</text>
+    
+    <circle cx="140" cy="440" r="7" fill="#4fc3f7" />
+    <text x="165" y="445" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">适合静态领域知识库</text>
+    
+    <circle cx="140" cy="490" r="7" fill="#4fc3f7" />
+    <text x="165" y="495" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">需人工/算法维护结构</text>
+  </g>
+
+  
+  <g id="right-column">
+    <path fill="#ffffff" stroke="#d0d9f0" stroke-width="2" d="M716,190 H1164 A16,16 0 0 1 1180,206 V514 A16,16 0 0 1 1164,530 H716 A16,16 0 0 1 700,514 V206 A16,16 0 0 1 716,190 Z" />
+    <path fill="#4fc3f7" d="M716,190 H1164 A16,16 0 0 1 1180,206 V244 A16,16 0 0 1 1164,260 H716 A16,16 0 0 1 700,244 V206 A16,16 0 0 1 716,190 Z" />
+    <text x="940" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">RAG (检索增强)</text>
+    
+    <circle cx="740" cy="290" r="7" fill="#1a73e8" />
+    <text x="765" y="295" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">直接关联原始文档片段</text>
+    
+    <circle cx="740" cy="340" r="7" fill="#1a73e8" />
+    <text x="765" y="345" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">响应速度快，延迟低</text>
+    
+    <circle cx="740" cy="390" r="7" fill="#1a73e8" />
+    <text x="765" y="395" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">天然支持实时数据更新</text>
+    
+    <circle cx="740" cy="440" r="7" fill="#1a73e8" />
+    <text x="765" y="445" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">依赖向量检索精度</text>
+    
+    <circle cx="740" cy="490" r="7" fill="#1a73e8" />
+    <text x="765" y="495" font-family="Arial, sans-serif" font-size="20" fill="#2c3e50">易受噪声与幻觉影响</text>
+  </g>
+
+  
+  <g id="comparison-table">
+    <path fill="#ffffff" stroke="#d0d9f0" stroke-width="2" d="M112,550 H1168 A12,12 0 0 1 1180,562 V648 A12,12 0 0 1 1168,660 H112 A12,12 0 0 1 100,648 V562 A12,12 0 0 1 112,550 Z" />
+    <line x1="450" y1="550" x2="450" y2="660" stroke="#e0e7ff" stroke-width="2" />
+    <line x1="850" y1="550" x2="850" y2="660" stroke="#e0e7ff" stroke-width="2" />
+    
+    <text x="275" y="585" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle">评估维度</text>
+    <text x="650" y="585" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle">知识图谱</text>
+    <text x="1050" y="585" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a73e8" text-anchor="middle">RAG</text>
+    
+    <text x="275" y="625" font-family="Arial, sans-serif" font-size="18" fill="#333333" text-anchor="middle">逻辑推理深度</text>
+    <text x="650" y="625" font-family="Arial, sans-serif" font-size="20" fill="#1a73e8" text-anchor="middle">★★★★☆</text>
+    <text x="1050" y="625" font-family="Arial, sans-serif" font-size="20" fill="#1a73e8" text-anchor="middle">★★☆☆☆</text>
+    
+    <text x="275" y="655" font-family="Arial, sans-serif" font-size="18" fill="#333333" text-anchor="middle">实时信息获取</text>
+    <text x="650" y="655" font-family="Arial, sans-serif" font-size="20" fill="#1a73e8" text-anchor="middle">★★☆☆☆</text>
+    <text x="1050" y="655" font-family="Arial, sans-serif" font-size="20" fill="#1a73e8" text-anchor="middle">★★★★★</text>
+  </g>
+</svg>

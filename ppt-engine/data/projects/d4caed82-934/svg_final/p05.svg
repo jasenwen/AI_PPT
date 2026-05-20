@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#f5f8fe"/>
+    <rect x="0" y="0" width="6" height="720" fill="#1a73e8"/>
+    <rect x="6" y="0" width="1274" height="720" fill="#f5f8fe"/>
+  </g>
+  
+  <g id="title-section">
+    <text x="100" y="260" font-family="Arial, Helvetica, sans-serif" font-size="180" font-weight="bold" fill="#1a73e8">02</text>
+    <text x="100" y="390" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="bold" fill="#111827">什么是知识图谱？</text>
+    <line x1="100" y1="430" x2="280" y2="430" stroke="#4fc3f7" stroke-width="4"/>
+    <text x="100" y="510" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="normal" fill="#4fc3f7">1. 符号主义的知识组织方式</text>
+  </g>
+  
+  <g id="visual-element">
+    <line x1="780" y1="180" x2="920" y2="260" stroke="#1a73e8" stroke-width="2" opacity="0.25"/>
+    <line x1="920" y1="260" x2="1060" y2="200" stroke="#1a73e8" stroke-width="2" opacity="0.25"/>
+    <line x1="920" y1="260" x2="960" y2="420" stroke="#1a73e8" stroke-width="2" opacity="0.25"/>
+    <line x1="1060" y1="200" x2="1140" y2="320" stroke="#1a73e8" stroke-width="2" opacity="0.25"/>
+    <line x1="960" y1="420" x2="1080" y2="380" stroke="#1a73e8" stroke-width="2" opacity="0.25"/>
+    <line x1="1080" y1="380" x2="1140" y2="320" stroke="#1a73e8" stroke-width="2" opacity="0.25"/>
+    <line x1="780" y1="180" x2="820" y2="360" stroke="#4fc3f7" stroke-width="2" opacity="0.25"/>
+    <line x1="820" y1="360" x2="960" y2="420" stroke="#4fc3f7" stroke-width="2" opacity="0.25"/>
+    <line x1="820" y1="360" x2="1000" y2="480" stroke="#4fc3f7" stroke-width="2" opacity="0.25"/>
+    <line x1="1000" y1="480" x2="1080" y2="380" stroke="#4fc3f7" stroke-width="2" opacity="0.25"/>
+    
+    <circle cx="780" cy="180" r="14" fill="#1a73e8"/>
+    <circle cx="920" cy="260" r="18" fill="#1a73e8"/>
+    <circle cx="1060" cy="200" r="12" fill="#4fc3f7"/>
+    <circle cx="820" cy="360" r="16" fill="#4fc3f7"/>
+    <circle cx="960" cy="420" r="14" fill="#1a73e8"/>
+    <circle cx="1000" cy="480" r="12" fill="#4fc3f7"/>
+    <circle cx="1080" cy="380" r="16" fill="#1a73e8"/>
+    <circle cx="1140" cy="320" r="10" fill="#4fc3f7"/>
+    
+    <circle cx="920" cy="260" r="28" fill="none" stroke="#1a73e8" stroke-width="1" opacity="0.15"/>
+    <circle cx="820" cy="360" r="24" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.15"/>
+    <circle cx="1000" cy="480" r="22" fill="none" stroke="#1a73e8" stroke-width="1" opacity="0.15"/>
+    <circle cx="1080" cy="380" r="26" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.15"/>
+    
+    <circle cx="780" cy="180" r="20" fill="none" stroke="#1a73e8" stroke-width="1" opacity="0.1"/>
+    <circle cx="1140" cy="320" r="16" fill="none" stroke="#4fc3f7" stroke-width="1" opacity="0.1"/>
+  </g>
+  
+  <g id="page-info">
+    <text x="1180" y="680" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#9ca3af" text-anchor="end">05 / 21</text>
+  </g>
+</svg>

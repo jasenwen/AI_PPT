@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <rect width="1280" height="720" fill="#F8FAFC"/>
+  <rect x="80" y="100" width="48" height="4" fill="#3B82F6" rx="2"/>
+  <text x="80" y="80" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="bold" fill="#0F172A">经典案例与开源项目</text>
+
+  <g id="card-google">
+    <rect x="80" y="130" width="540" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="150" width="32" height="32" rx="16" fill="#3B82F6"/>
+    <text x="116" y="171" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="145" y="175" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#0F172A">Google Knowledge Graph</text>
+    <text x="145" y="205" font-family="system-ui, sans-serif" font-size="15" fill="#64748B">搜索引擎的智能引擎，实现语义搜索与实体关联</text>
+  </g>
+
+  <g id="card-wikidata">
+    <rect x="660" y="130" width="540" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="680" y="150" width="32" height="32" rx="16" fill="#10B981"/>
+    <text x="696" y="171" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="725" y="175" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#0F172A">Wikidata</text>
+    <text x="725" y="205" font-family="system-ui, sans-serif" font-size="15" fill="#64748B">全球最大的协作知识图谱，支持多语言开放数据</text>
+  </g>
+
+  <g id="card-dbpedia">
+    <rect x="80" y="320" width="540" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="340" width="32" height="32" rx="16" fill="#8B5CF6"/>
+    <text x="116" y="361" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="145" y="365" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#0F172A">DBpedia</text>
+    <text x="145" y="395" font-family="system-ui, sans-serif" font-size="15" fill="#64748B">从 Wikipedia 中结构化抽取，构建 RDF 知识网络</text>
+  </g>
+
+  <g id="card-cn-dbpedia">
+    <rect x="660" y="320" width="540" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="680" y="340" width="32" height="32" rx="16" fill="#F59E0B"/>
+    <text x="696" y="361" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="725" y="365" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#0F172A">CN-DBpedia / 知网</text>
+    <text x="725" y="395" font-family="system-ui, sans-serif" font-size="15" fill="#64748B">中文知识图谱代表，聚焦本土化实体与关系抽取</text>
+  </g>
+
+  <g id="card-tools">
+    <rect x="80" y="520" width="1120" height="140" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="100" y="540" width="32" height="32" rx="16" fill="#EF4444"/>
+    <text x="116" y="561" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+    <text x="145" y="565" font-family="system-ui, sans-serif" font-size="20" font-weight="600" fill="#0F172A">开源工具生态</text>
+    <text x="145" y="600" font-family="system-ui, sans-serif" font-size="15" fill="#64748B">Neo4j · Protégé · Apache Jena · DeepKE</text>
+    <rect x="145" y="615" width="80" height="24" rx="12" fill="#F1F5F9"/>
+    <text x="185" y="632" font-family="system-ui, sans-serif" font-size="12" fill="#475569" text-anchor="middle">图数据库</text>
+    <rect x="235" y="615" width="80" height="24" rx="12" fill="#F1F5F9"/>
+    <text x="275" y="632" font-family="system-ui, sans-serif" font-size="12" fill="#475569" text-anchor="middle">本体编辑</text>
+    <rect x="325" y="615" width="80" height="24" rx="12" fill="#F1F5F9"/>
+    <text x="365" y="632" font-family="system-ui, sans-serif" font-size="12" fill="#475569" text-anchor="middle">RDF框架</text>
+    <rect x="415" y="615" width="80" height="24" rx="12" fill="#F1F5F9"/>
+    <text x="455" y="632" font-family="system-ui, sans-serif" font-size="12" fill="#475569" text-anchor="middle">深度学习</text>
+  </g>
+
+  <text x="1200" y="690" font-family="system-ui, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">8 / 12</text>
+</svg>

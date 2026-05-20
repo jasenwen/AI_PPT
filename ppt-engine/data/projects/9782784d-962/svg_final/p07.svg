@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  
+  <rect width="1280" height="720" fill="#FFF8F0" />
+  <rect x="0" y="0" width="1280" height="12" fill="#FF6B35" />
+  <circle cx="1150" cy="180" r="220" fill="#FF6B35" opacity="0.06" />
+  <circle cx="80" cy="620" r="260" fill="#FFA500" opacity="0.05" />
+  <path d="M 0 420 Q 350 380 700 480 T 1280 350" fill="none" stroke="#FF8C42" stroke-width="3" opacity="0.25" />
+  <path d="M 100 100 Q 400 150 600 80" fill="none" stroke="#FF6B35" stroke-width="2" opacity="0.15" />
+
+  
+  <g id="title-area">
+    <text x="100" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#FF6B35">FDE 的职业发展路径</text>
+    <text x="100" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#2D3436">前线实战 · 多维跃迁 · 长期主义</text>
+    <path fill="#FFA500" d="M102,155 H158 A2,2 0 0 1 160,157 V157 A2,2 0 0 1 158,159 H102 A2,2 0 0 1 100,157 V157 A2,2 0 0 1 102,155 Z" />
+  </g>
+
+  
+  <g id="vertical-path">
+    <path d="M 200 220 L 200 550" stroke="#FF6B35" stroke-width="6" stroke-linecap="round" stroke-dasharray="10,8" opacity="0.5" />
+    
+    <g id="node-junior">
+      <circle cx="200" cy="220" r="44" fill="#FFA500" />
+      <text x="200" y="228" font-family="Arial" font-size="26" fill="#FFFFFF" text-anchor="middle">🚀</text>
+      <text x="265" y="226" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="bold" fill="#2D3436">初级 FDE</text>
+    </g>
+    
+    <g id="node-senior">
+      <circle cx="200" cy="320" r="44" fill="#FF8C42" />
+      <text x="200" y="328" font-family="Arial" font-size="26" fill="#FFFFFF" text-anchor="middle">⚡</text>
+      <text x="265" y="326" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="bold" fill="#2D3436">高级 FDE</text>
+    </g>
+    
+    <g id="node-techlead">
+      <circle cx="200" cy="420" r="44" fill="#FF6B35" />
+      <text x="200" y="428" font-family="Arial" font-size="26" fill="#FFFFFF" text-anchor="middle">🔥</text>
+      <text x="265" y="426" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="bold" fill="#2D3436">Tech Lead</text>
+    </g>
+    
+    <g id="node-director">
+      <circle cx="200" cy="520" r="44" fill="#2D3436" />
+      <text x="200" y="528" font-family="Arial" font-size="26" fill="#FFFFFF" text-anchor="middle">👑</text>
+      <text x="265" y="526" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="bold" fill="#2D3436">架构师 / 总监</text>
+    </g>
+  </g>
+
+  
+  <g id="horizontal-pivots">
+    <path d="M 244 320 Q 400 320 512 320" fill="none" stroke="#FFA500" stroke-width="4" stroke-linecap="round" />
+    <path d="M 244 420 Q 480 420 706 320" fill="none" stroke="#FF8C42" stroke-width="4" stroke-linecap="round" />
+    <path d="M 244 420 Q 600 420 906 320" fill="none" stroke="#FF6B35" stroke-width="4" stroke-linecap="round" />
+    
+    <g id="pivot-pm">
+      <circle cx="550" cy="320" r="40" fill="#FFA500" />
+      <text x="550" y="328" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">📊</text>
+      <text x="550" y="375" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436" text-anchor="middle">产品经理</text>
+    </g>
+    
+    <g id="pivot-sa">
+      <circle cx="750" cy="320" r="40" fill="#FF8C42" />
+      <text x="750" y="328" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">🛠️</text>
+      <text x="750" y="375" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436" text-anchor="middle">解决方案架构师</text>
+    </g>
+    
+    <g id="pivot-founder">
+      <circle cx="950" cy="320" r="40" fill="#FF6B35" />
+      <text x="950" y="328" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle">🌍</text>
+      <text x="950" y="375" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436" text-anchor="middle">创业者</text>
+    </g>
+  </g>
+
+  
+  <g id="core-accumulation">
+    <circle cx="640" cy="490" r="95" fill="#FFFFFF" stroke="#FF6B35" stroke-width="4" />
+    <circle cx="640" cy="490" r="85" fill="none" stroke="#FFA500" stroke-width="2" stroke-dasharray="6,4" opacity="0.6" />
+    <text x="640" y="465" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#FF6B35" text-anchor="middle" font-weight="bold">核心积累</text>
+    <text x="640" y="495" font-family="'Segoe UI', Arial, sans-serif" font-size="19" fill="#2D3436" text-anchor="middle" font-weight="bold">行业认知 × 客户资源 × 实战经验</text>
+    <text x="640" y="525" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#FF8C42" text-anchor="middle">长期复利效应</text>
+  </g>
+
+  
+  <g id="bottom-statement">
+    <path fill="#FF6B35" d="M172,635 H1108 A32,32 0 0 1 1140,667 V668 A32,32 0 0 1 1108,700 H172 A32,32 0 0 1 140,668 V667 A32,32 0 0 1 172,635 Z" />
+    <text x="640" y="675" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">💡 FDE 是通往 CTO / VP 极有含金量的职业跳板</text>
+  </g>
+</svg>

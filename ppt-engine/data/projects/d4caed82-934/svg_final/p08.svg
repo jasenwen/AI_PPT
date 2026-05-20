@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f5f8fe" />
+  
+  <g id="background-accents">
+    <circle cx="1120" cy="160" r="220" fill="#4fc3f7" opacity="0.08" />
+    <circle cx="1120" cy="160" r="150" fill="#1a73e8" opacity="0.05" />
+    <path d="M 80 580 L 220 580 L 170 700 Z" fill="#1a73e8" opacity="0.04" />
+    <line x1="140" y1="240" x2="140" y2="480" stroke="#4fc3f7" stroke-width="3" stroke-dasharray="8,8" />
+    <line x1="260" y1="395" x2="1020" y2="395" stroke="#1a73e8" stroke-width="1.5" opacity="0.25" />
+    <circle cx="260" cy="395" r="6" fill="#1a73e8" />
+    <circle cx="1020" cy="395" r="6" fill="#4fc3f7" />
+    <rect x="1060" y="610" width="14" height="14" fill="#4fc3f7" opacity="0.25" />
+    <rect x="1085" y="635" width="14" height="14" fill="#1a73e8" opacity="0.15" />
+    <circle cx="200" cy="650" r="4" fill="#4fc3f7" opacity="0.4" />
+    <circle cx="220" cy="650" r="4" fill="#4fc3f7" opacity="0.4" />
+    <circle cx="240" cy="650" r="4" fill="#4fc3f7" opacity="0.4" />
+  </g>
+
+  <g id="chapter-number">
+    <text x="640" y="235" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="bold" fill="#1a73e8" text-anchor="middle" letter-spacing="14">03</text>
+  </g>
+
+  <g id="chapter-title">
+    <text x="640" y="355" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="bold" fill="#1a73e8" text-anchor="middle">什么是 RAG？</text>
+  </g>
+
+  <g id="content-point">
+    <path fill="#ffffff" stroke="#4fc3f7" stroke-width="2" d="M444,420 H836 A34,34 0 0 1 870,454 V454 A34,34 0 0 1 836,488 H444 A34,34 0 0 1 410,454 V454 A34,34 0 0 1 444,420 Z" />
+    <text x="640" y="466" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="bold" fill="#4fc3f7" text-anchor="middle">1. 检索增强生成的范式</text>
+  </g>
+
+  <g id="slide-info">
+    <text x="640" y="680" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#999999" text-anchor="middle">8 / 21</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <g id="background">
+    <rect width="1280" height="720" fill="#0B1120"/>
+  </g>
+  <g id="network-pattern" opacity="0.15">
+    <line x1="120" y1="150" x2="320" y2="280" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="320" y1="280" x2="480" y2="200" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="480" y1="200" x2="550" y2="320" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="1050" y1="180" x2="880" y2="300" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="880" y1="300" x2="720" y2="220" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="720" y1="220" x2="680" y2="340" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="180" y1="580" x2="340" y2="640" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="340" y1="640" x2="500" y2="590" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="1080" y1="520" x2="920" y2="610" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="920" y1="610" x2="760" y2="540" stroke="#3B82F6" stroke-width="2"/>
+    <circle cx="120" cy="150" r="6" fill="#60A5FA"/>
+    <circle cx="320" cy="280" r="8" fill="#60A5FA"/>
+    <circle cx="480" cy="200" r="5" fill="#60A5FA"/>
+    <circle cx="550" cy="320" r="7" fill="#60A5FA"/>
+    <circle cx="1050" cy="180" r="6" fill="#60A5FA"/>
+    <circle cx="880" cy="300" r="9" fill="#60A5FA"/>
+    <circle cx="720" cy="220" r="5" fill="#60A5FA"/>
+    <circle cx="680" cy="340" r="7" fill="#60A5FA"/>
+    <circle cx="180" cy="580" r="6" fill="#60A5FA"/>
+    <circle cx="340" cy="640" r="8" fill="#60A5FA"/>
+    <circle cx="500" cy="590" r="5" fill="#60A5FA"/>
+    <circle cx="1080" cy="520" r="6" fill="#60A5FA"/>
+    <circle cx="920" cy="610" r="9" fill="#60A5FA"/>
+    <circle cx="760" cy="540" r="5" fill="#60A5FA"/>
+  </g>
+  <g id="main-title">
+    <text x="640" y="310" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">知识图谱</text>
+  </g>
+  <g id="subtitle">
+    <text x="640" y="390" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#94A3B8" text-anchor="middle" letter-spacing="2">核心技术架构 · 应用落地场景</text>
+  </g>
+  <g id="divider">
+    <line x1="540" y1="430" x2="740" y2="430" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g id="year-section">
+    <text x="640" y="620" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#0EA5E9" text-anchor="middle" letter-spacing="6">2025</text>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f5f8fe" />
+  
+  <circle cx="1150" cy="120" r="180" fill="#4fc3f7" opacity="0.06" />
+  <circle cx="1200" cy="180" r="120" fill="#1a73e8" opacity="0.04" />
+  
+  <text x="100" y="90" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#1a73e8">RAG 技术栈</text>
+  <path fill="#4fc3f7" d="M102,105 H148 A2,2 0 0 1 150,107 V107 A2,2 0 0 1 148,109 H102 A2,2 0 0 1 100,107 V107 A2,2 0 0 1 102,105 Z" />
+  
+  <g id="card-1">
+    <path fill="#ffffff" stroke="#e8f0fe" stroke-width="1" d="M110,150 H650 A10,10 0 0 1 660,160 V240 A10,10 0 0 1 650,250 H110 A10,10 0 0 1 100,240 V160 A10,10 0 0 1 110,150 Z" />
+    <path fill="#1a73e8" d="M103,150 H103 A3,3 0 0 1 106,153 V247 A3,3 0 0 1 103,250 H103 A3,3 0 0 1 100,247 V153 A3,3 0 0 1 103,150 Z" />
+    <circle cx="140" cy="185" r="16" fill="#1a73e8" />
+    <text x="140" y="190" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="170" y="185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#1a73e8">Embedding 模型</text>
+    <text x="170" y="210" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#555555">text-embedding-3 / BGE / E5</text>
+  </g>
+  
+  <g id="card-2">
+    <path fill="#ffffff" stroke="#e8f0fe" stroke-width="1" d="M110,270 H650 A10,10 0 0 1 660,280 V360 A10,10 0 0 1 650,370 H110 A10,10 0 0 1 100,360 V280 A10,10 0 0 1 110,270 Z" />
+    <path fill="#1a73e8" d="M103,270 H103 A3,3 0 0 1 106,273 V367 A3,3 0 0 1 103,370 H103 A3,3 0 0 1 100,367 V273 A3,3 0 0 1 103,270 Z" />
+    <circle cx="140" cy="305" r="16" fill="#1a73e8" />
+    <text x="140" y="310" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="170" y="305" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#1a73e8">向量数据库</text>
+    <text x="170" y="330" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#555555">Milvus / Pinecone / Qdrant / Chroma</text>
+  </g>
+  
+  <g id="card-3">
+    <path fill="#ffffff" stroke="#e8f0fe" stroke-width="1" d="M110,390 H650 A10,10 0 0 1 660,400 V480 A10,10 0 0 1 650,490 H110 A10,10 0 0 1 100,480 V400 A10,10 0 0 1 110,390 Z" />
+    <path fill="#1a73e8" d="M103,390 H103 A3,3 0 0 1 106,393 V487 A3,3 0 0 1 103,490 H103 A3,3 0 0 1 100,487 V393 A3,3 0 0 1 103,390 Z" />
+    <circle cx="140" cy="425" r="16" fill="#1a73e8" />
+    <text x="140" y="430" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="170" y="425" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#1a73e8">检索策略</text>
+    <text x="170" y="450" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#555555">Dense Retrieval + BM25 混合检索</text>
+  </g>
+  
+  <g id="card-4">
+    <path fill="#ffffff" stroke="#e8f0fe" stroke-width="1" d="M710,270 H1250 A10,10 0 0 1 1260,280 V360 A10,10 0 0 1 1250,370 H710 A10,10 0 0 1 700,360 V280 A10,10 0 0 1 710,270 Z" />
+    <path fill="#4fc3f7" d="M703,270 H703 A3,3 0 0 1 706,273 V367 A3,3 0 0 1 703,370 H703 A3,3 0 0 1 700,367 V273 A3,3 0 0 1 703,270 Z" />
+    <circle cx="740" cy="305" r="16" fill="#4fc3f7" />
+    <text x="740" y="310" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="770" y="305" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#1a73e8">优化技术</text>
+    <text x="770" y="330" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#555555">RAPTOR / HyDE / Self-RAG / CRAG</text>
+  </g>
+  
+  <g id="card-5">
+    <path fill="#ffffff" stroke="#e8f0fe" stroke-width="1" d="M710,390 H1250 A10,10 0 0 1 1260,400 V480 A10,10 0 0 1 1250,490 H710 A10,10 0 0 1 700,480 V400 A10,10 0 0 1 710,390 Z" />
+    <path fill="#4fc3f7" d="M703,390 H703 A3,3 0 0 1 706,393 V487 A3,3 0 0 1 703,490 H703 A3,3 0 0 1 700,487 V393 A3,3 0 0 1 703,390 Z" />
+    <circle cx="740" cy="425" r="16" fill="#4fc3f7" />
+    <text x="740" y="430" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="770" y="425" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#1a73e8">框架</text>
+    <text x="770" y="450" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#555555">LangChain / LlamaIndex / Haystack</text>
+  </g>
+  
+  <line x1="100" y1="680" x2="1180" y2="680" stroke="#e0e7ff" stroke-width="1" />
+  <text x="1180" y="705" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#999999" text-anchor="end">10 / 21</text>
+</svg>
