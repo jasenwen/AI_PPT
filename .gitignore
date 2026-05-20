@@ -23,9 +23,11 @@ my.secrets
 *.pem
 *.cert
 
-# User-requested ignore: docs directories
+# User-requested ignore: docs directories and reference folder
 docs/
 **/docs/
+reference/
+**/reference/
 
 # System / IDE / Editor files
 .DS_Store
